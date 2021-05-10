@@ -1,272 +1,232 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'de' Physical Memory: 16263 MB
+OS: 'Windows 10 Pro; OS build 19041.928; Version 2004; 64bit' Language: 'de' Physical Memory: 16330 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.1.0f1\Editor\Unity.exe
+D:\Unity\2021.1.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Dokumente/HSKL Virtual Design/4. Semester/GAME/github/Viking_Game/viking game
+G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59008
-Successfully changed project path to: D:/Dokumente/HSKL Virtual Design/4. Semester/GAME/github/Viking_Game/viking game
-D:/Dokumente/HSKL Virtual Design/4. Semester/GAME/github/Viking_Game/viking game
+62441
+Successfully changed project path to: G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game
+G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 411.84 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 120.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Dokumente/HSKL Virtual Design/4. Semester/GAME/github/Viking_Game/viking game/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   NVIDIA
-    VRAM:     6052 MB
-    Driver:   27.21.14.5763
+    VRAM:     8010 MB
+    Driver:   27.21.14.6611
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Mono path[0] = 'D:/Unity/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004410 seconds.
+Register platform support module: D:/Unity/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001142 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 250.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 126.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.524 seconds
+- Completed reload, in  1.093 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013795 seconds.
+Registered in 0.003630 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 118.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 128.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.344 seconds
+- Completed reload, in  1.971 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 2.92 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4908 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.8 MB.
-System memory in use after: 203.6 MB.
+Unloading 4910 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.2 MB.
+System memory in use after: 203.0 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5378.
-Total: 7.820500 ms (FindLiveObjects: 1.562400 ms CreateObjectMapping: 0.814200 ms MarkObjects: 4.953700 ms  DeleteObjects: 0.485300 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 5382.
+Total: 3.496300 ms (FindLiveObjects: 0.419600 ms CreateObjectMapping: 0.120400 ms MarkObjects: 2.636400 ms  DeleteObjects: 0.318000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/PreFab/Wasser.fbx
-  artifactKey: Guid(c8a9c295cb1c923429ab6d6102d76dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/Wasser.fbx using Guid(c8a9c295cb1c923429ab6d6102d76dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad82823bf5f500be09850d6a23535509') in 0.455280 seconds 
+  path: Packages/com.verasl.water-system/SeaVisual.prefab
+  artifactKey: Guid(2cac2e60f3f6f2447ad9b550450f60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.verasl.water-system/SeaVisual.prefab using Guid(2cac2e60f3f6f2447ad9b550450f60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.360739 seconds  code(4) message(Build asset version error: packages/com.verasl.water-system/seavisual.prefab in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z')
+  ERROR: Build asset version error: packages/com.verasl.water-system/seavisual.prefab in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/PreFab/Island_test.fbx
-  artifactKey: Guid(ffe1a4ef4d8e1b341a093957ac7191b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/Island_test.fbx using Guid(ffe1a4ef4d8e1b341a093957ac7191b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0680c8bcecdf7baf1723202d775faf') in 0.873767 seconds 
+  Time since last request: 0.000132 seconds.
+  path: Packages/com.verasl.water-system
+  artifactKey: Guid(90ae69ab0b7f45321bbf6086835038d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.verasl.water-system using Guid(90ae69ab0b7f45321bbf6086835038d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95de02f97bff5549734133a49481338') in 0.062495 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.726831 seconds.
-  path: Assets/PreFab
-  artifactKey: Guid(964859b626ce30f46b7fc6a8fd7045cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab using Guid(964859b626ce30f46b7fc6a8fd7045cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dee550d3e19c136b81f252c1295a825') in 0.002143 seconds 
+  Time since last request: 86.131833 seconds.
+  path: Packages/com.verasl.water-system/Shaders
+  artifactKey: Guid(6aab7b5e54a384c2790bfb04db9d7cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.verasl.water-system/Shaders using Guid(6aab7b5e54a384c2790bfb04db9d7cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000477 seconds  code(4) message(Build asset version error: packages/com.verasl.water-system/shaders.meta in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z')
+  ERROR: Build asset version error: packages/com.verasl.water-system/shaders.meta in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.560065 seconds.
+  path: Packages/com.verasl.water-system/Scripts
+  artifactKey: Guid(cfac61b5ac93c4101b40011e6cd637b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.verasl.water-system/Scripts using Guid(cfac61b5ac93c4101b40011e6cd637b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000437 seconds  code(4) message(Build asset version error: packages/com.verasl.water-system/scripts.meta in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z')
+  ERROR: Build asset version error: packages/com.verasl.water-system/scripts.meta in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z'
+========================================================================
+Received Import Request.
+  Time since last request: 8.094357 seconds.
+  path: Packages/com.verasl.water-system/Scripts/BuoyantObject.cs
+  artifactKey: Guid(3d5ac9593b59d4847815e4528b52a6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.verasl.water-system/Scripts/BuoyantObject.cs using Guid(3d5ac9593b59d4847815e4528b52a6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003521 seconds  code(4) message(Build asset version error: packages/com.verasl.water-system/scripts/buoyantobject.cs in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z')
+  ERROR: Build asset version error: packages/com.verasl.water-system/scripts/buoyantobject.cs in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z'
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004804 seconds.
+Registered in 0.003531 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.357 seconds
+- Completed reload, in  1.260 seconds
 Platform modules already initialized, skipping
+Switching render pipeline 19ba41d7c0026c3459d37c2fe90c55a0 -> c57a184794a05b349955e5023bbf7e99
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4773 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.9 MB.
+System memory in use after: 201.7 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5437.
+Total: 4.122000 ms (FindLiveObjects: 0.516500 ms CreateObjectMapping: 0.134900 ms MarkObjects: 3.149000 ms  DeleteObjects: 0.320200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Platform modules already initialized, skipping
+Switching render pipeline 19ba41d7c0026c3459d37c2fe90c55a0 -> c57a184794a05b349955e5023bbf7e99
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4769 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 202.4 MB.
-System memory in use after: 202.5 MB.
+System memory in use before: 201.7 MB.
+System memory in use after: 201.5 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5465.
-Total: 6.031200 ms (FindLiveObjects: 0.883900 ms CreateObjectMapping: 1.168100 ms MarkObjects: 3.726700 ms  DeleteObjects: 0.250600 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5440.
+Total: 4.435000 ms (FindLiveObjects: 0.534600 ms CreateObjectMapping: 0.154600 ms MarkObjects: 3.418500 ms  DeleteObjects: 0.325700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 105.232782 seconds.
-  path: Assets/PreFab/fancy balken.png
-  artifactKey: Guid(205fda70523571b47b1046d3e4b097b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/fancy balken.png using Guid(205fda70523571b47b1046d3e4b097b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1e1a834b2bb7ce5b4b81207b685bda') in 0.069549 seconds 
+  Time since last request: 1204.018647 seconds.
+  path: Packages/com.verasl.water-system/Scripts/Water.cs
+  artifactKey: Guid(b6edb8448c9b94f018953ca2a6fa5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.verasl.water-system/Scripts/Water.cs using Guid(b6edb8448c9b94f018953ca2a6fa5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003948 seconds  code(4) message(Build asset version error: packages/com.verasl.water-system/scripts/water.cs in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z')
+  ERROR: Build asset version error: packages/com.verasl.water-system/scripts/water.cs in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z'
 ========================================================================
 Received Import Request.
-  Time since last request: 47.199410 seconds.
-  path: Assets/Scripts/questcompass.cs
-  artifactKey: Guid(71a3158533b97194ba5038df1dcdd528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/questcompass.cs using Guid(71a3158533b97194ba5038df1dcdd528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690ccc3b72bfdd666a3cd6128865bcb6') in 0.006662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 183.377972 seconds.
-  path: Assets/PreFab/fancy balken 1.png
-  artifactKey: Guid(ddbd3175117259b4caaae127e71709fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/fancy balken 1.png using Guid(ddbd3175117259b4caaae127e71709fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27b7706d904cd08f1b32dbf769a4276') in 0.008447 seconds 
+  Time since last request: 92.791785 seconds.
+  path: Packages/com.verasl.water-system/Scripts/WaterSystem.Runtime.asmdef
+  artifactKey: Guid(eee6090a63a1e48e6857869e0cbe74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.verasl.water-system/Scripts/WaterSystem.Runtime.asmdef using Guid(eee6090a63a1e48e6857869e0cbe74dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002033 seconds  code(4) message(Build asset version error: packages/com.verasl.water-system/scripts/watersystem.runtime.asmdef in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z')
+  ERROR: Build asset version error: packages/com.verasl.water-system/scripts/watersystem.runtime.asmdef in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z'
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005778 seconds.
+Registered in 0.003574 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.265 seconds
+- Completed reload, in  1.201 seconds
 Platform modules already initialized, skipping
+Switching render pipeline 19ba41d7c0026c3459d37c2fe90c55a0 -> c57a184794a05b349955e5023bbf7e99
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4771 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.5 MB.
-System memory in use after: 203.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5503.
-Total: 4.094400 ms (FindLiveObjects: 0.383400 ms CreateObjectMapping: 0.252700 ms MarkObjects: 3.187400 ms  DeleteObjects: 0.270000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 318.432388 seconds.
-  path: Assets/PreFab/questicon.prefab
-  artifactKey: Guid(c7039515b9c98cb4184fdb6d49e62800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/questicon.prefab using Guid(c7039515b9c98cb4184fdb6d49e62800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd71ec257cc2e522a8e91fe6d7a2ee8') in 0.036772 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005309 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.209 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4769 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.5 MB.
-System memory in use after: 203.5 MB.
+System memory in use before: 201.6 MB.
+System memory in use after: 201.5 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5506.
-Total: 4.196900 ms (FindLiveObjects: 0.460000 ms CreateObjectMapping: 0.303400 ms MarkObjects: 3.119200 ms  DeleteObjects: 0.312800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 176.495529 seconds.
-  path: Assets/PreFab/questicon.prefab
-  artifactKey: Guid(c7039515b9c98cb4184fdb6d49e62800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/questicon.prefab using Guid(c7039515b9c98cb4184fdb6d49e62800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cc8a0e7faaddea27eeb735422f9645') in 0.029420 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004567 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.239 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4769 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.6 MB.
-System memory in use after: 203.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5509.
-Total: 4.505400 ms (FindLiveObjects: 0.522200 ms CreateObjectMapping: 0.368200 ms MarkObjects: 3.322100 ms  DeleteObjects: 0.291500 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5443.
+Total: 3.785800 ms (FindLiveObjects: 0.448500 ms CreateObjectMapping: 0.127900 ms MarkObjects: 2.896200 ms  DeleteObjects: 0.312100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.193641 seconds.
-  path: Assets/PreFab/questicon.prefab
-  artifactKey: Guid(c7039515b9c98cb4184fdb6d49e62800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFab/questicon.prefab using Guid(c7039515b9c98cb4184fdb6d49e62800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230f3051a82efd477f579d9f6e8ca862') in 0.028761 seconds 
+  Time since last request: 930.779442 seconds.
+  path: Assets/Data/UniversalRP
+  artifactKey: Guid(b3fb0216844217644b6ada9bfd326ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/UniversalRP using Guid(b3fb0216844217644b6ada9bfd326ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb14e42062dfd6e0b760c4e0ac3e2a9') in 0.065360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.169005 seconds.
+  path: Packages/com.verasl.water-system/Scripts/Rendering
+  artifactKey: Guid(ceb62181994bc49eb8ac45fd7f5c4634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.verasl.water-system/Scripts/Rendering using Guid(ceb62181994bc49eb8ac45fd7f5c4634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000544 seconds  code(4) message(Build asset version error: packages/com.verasl.water-system/scripts/rendering.meta in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z')
+  ERROR: Build asset version error: packages/com.verasl.water-system/scripts/rendering.meta in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z'
+========================================================================
+Received Import Request.
+  Time since last request: 8.916215 seconds.
+  path: Packages/com.verasl.water-system/Scripts/Rendering/PlanarReflections.cs
+  artifactKey: Guid(3971d89a730cd5846a1944ab0228bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.verasl.water-system/Scripts/Rendering/PlanarReflections.cs using Guid(3971d89a730cd5846a1944ab0228bf76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000388 seconds  code(4) message(Build asset version error: packages/com.verasl.water-system/scripts/rendering/planarreflections.cs in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z')
+  ERROR: Build asset version error: packages/com.verasl.water-system/scripts/rendering/planarreflections.cs in SourceAssetDB has modification time of '2021-05-06T15:39:14Z' while content on disk has modification time of '2021-05-10T08:31:14Z'
+========================================================================
+Received Import Request.
+  Time since last request: 67.044453 seconds.
+  path: Assets/Data/UniversalRP/BoatDemoRenderer.asset
+  artifactKey: Guid(fa301df1a78cf4a9ebe2a3139dc8be8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/UniversalRP/BoatDemoRenderer.asset using Guid(fa301df1a78cf4a9ebe2a3139dc8be8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3163d9df7ea3cad6576652f33f2e64f7') in 0.069495 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004504 seconds.
+Registered in 0.003595 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.189 seconds
+- Completed reload, in  1.261 seconds
 Platform modules already initialized, skipping
+Switching render pipeline 19ba41d7c0026c3459d37c2fe90c55a0 -> c57a184794a05b349955e5023bbf7e99
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4769 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.3 MB.
-System memory in use after: 203.3 MB.
+System memory in use before: 201.9 MB.
+System memory in use after: 201.7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5512.
-Total: 3.969000 ms (FindLiveObjects: 0.513800 ms CreateObjectMapping: 0.411800 ms MarkObjects: 2.758300 ms  DeleteObjects: 0.284000 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5447.
+Total: 4.908300 ms (FindLiveObjects: 0.704300 ms CreateObjectMapping: 0.274300 ms MarkObjects: 3.538900 ms  DeleteObjects: 0.388200 ms)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004538 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4769 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.5 MB.
-System memory in use after: 203.5 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5515.
-Total: 3.894500 ms (FindLiveObjects: 0.443400 ms CreateObjectMapping: 0.487200 ms MarkObjects: 2.701600 ms  DeleteObjects: 0.261000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004537 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4769 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.6 MB.
-System memory in use after: 203.6 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5518.
-Total: 4.409000 ms (FindLiveObjects: 0.475500 ms CreateObjectMapping: 0.212000 ms MarkObjects: 3.413200 ms  DeleteObjects: 0.306900 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

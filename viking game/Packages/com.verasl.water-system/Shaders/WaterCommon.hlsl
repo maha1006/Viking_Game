@@ -68,7 +68,16 @@ float2 AdjustedDepth(half2 uvs, half4 additionalData)
 {
 	float rawD = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, sampler_ScreenTextures_linear_clamp, uvs);
 	float d = LinearEyeDepth(rawD, _ZBufferParams);
-	return float2(d * additionalData.x - additionalData.y, (rawD * -_ProjectionParams.x) + (1-UNITY_REVERSED_Z));
+
+	// TODO: Changing the usage of UNITY_REVERSED_Z this way to fix testing, but I'm not sure the original code is correct anyway.
+	// In OpenGL, rawD should already have be remmapped before converting depth to linear eye depth.
+#if UNITY_REVERSED_Z
+	float offset = 0;
+#else
+	float offset = 1;
+#endif
+	
+ 	return float2(d * additionalData.x - additionalData.y, (rawD * -_ProjectionParams.x) + offset);
 }
 
 float WaterTextureDepth(float3 posWS)
@@ -105,7 +114,7 @@ half4 AdditionalData(float3 postionWS, WaveStruct wave)
     float3 viewPos = TransformWorldToView(postionWS);
 	data.x = length(viewPos / viewPos.z);// distance to surface
     data.y = length(GetCameraPositionWS().xyz - postionWS); // local position in camera space
-	data.z = wave.position.y / _MaxWaveHeight; // encode the normalized wave height into additional data
+	data.z = wave.position.y / _MaxWaveHeight * 0.5 + 0.5; // encode the normalized wave height into additional data
 	data.w = wave.position.x + wave.position.z;
 	return data;
 }
@@ -135,7 +144,7 @@ WaterVertexOutput WaveVertexOperations(WaterVertexOutput input)
 	//Gerstner here
 	WaveStruct wave;
 	SampleWaves(input.posWS, saturate((waterDepth * 0.1 + 0.05)), wave);
-	input.normal = wave.normal.xzy;
+	input.normal = wave.normal;
     input.posWS += wave.position;
 
 #ifdef SHADER_API_PS4
@@ -194,36 +203,10 @@ half4 WaterFragment(WaterVertexOutput IN) : SV_Target
 
 	// Depth
 	float3 depth = WaterDepth(IN.posWS, IN.additionalData, screenUV.xy);// TODO - hardcoded shore depth UVs
-	half depthEdge = saturate(depth.y * 20 + 1);
 	//return half4(0, frac(ceil(depth.y) / _MaxDepth), frac(IN.posWS.y), 1);
 	half depthMulti = 1 / _MaxDepth;
 
-	// Lighting
-	half2 jitterUV = screenUV.xy * _ScreenParams.xy * _DitherPattern_TexelSize.xy;
-#ifndef _STATIC_WATER
-    jitterUV += frac(_Time.zw);
-#endif
-	float3 jitterTexture = SAMPLE_TEXTURE2D(_DitherPattern, sampler_DitherPattern, jitterUV).xyz * 2 - 1;
-	float3 lightJitter = IN.posWS + jitterTexture.xzy * 2.5;
-	Light mainLightJittered = GetMainLight(TransformWorldToShadowCoord(lightJitter));
-	Light mainLight = GetMainLight(TransformWorldToShadowCoord(IN.posWS));
-    half shadow = mainLightJittered.shadowAttenuation;
-    half3 GI = SampleSH(IN.normal);
-
-    // SSS
-    half3 sss = 1 * (shadow * mainLight.color + GI);
-
-	// Foam
-	half3 foamMap = SAMPLE_TEXTURE2D(_FoamMap, sampler_FoamMap,  IN.uv.zw).rgb; //r=thick, g=medium, b=light
-	half waveFoam = 0;// saturate(IN.posWS.y + 0.5);
-	half edgeFoam = saturate(1 - depth.x * 0.5 - 0.25) * depthEdge;
-	half foamBlendMask = max(max(waveFoam, edgeFoam), waterFX.r * 2);// + IN.fogFactorNoise.y * 0.1; //max(max((foamMask + shoreMask) - IN.fogFactorNoise.y * 0.25, waterFX.r * 2), shoreWave);
-	half3 foamBlend = SAMPLE_TEXTURE2D(_AbsorptionScatteringRamp, sampler_AbsorptionScatteringRamp, half2(foamBlendMask, 0.66)).rgb;
-	half foamMask = saturate(length(foamMap * foamBlend) * 1.5 - 0.1 + saturate(1 - depth.x * 4) * 0.5);
-	// Foam lighting
-	half3 foam = foamMask.xxx * (mainLight.shadowAttenuation * mainLight.color + GI);
-
-	// Detail waves
+    // Detail waves
 	half2 detailBump1 = SAMPLE_TEXTURE2D(_SurfaceMap, sampler_SurfaceMap, IN.uv.zw).xy * 2 - 1;
 	half2 detailBump2 = SAMPLE_TEXTURE2D(_SurfaceMap, sampler_SurfaceMap, IN.uv.xy).xy * 2 - 1;
 	half2 detailBump = (detailBump1 + detailBump2 * 0.5) * saturate(depth.x * 0.25 + 0.25);
@@ -232,7 +215,7 @@ half4 WaterFragment(WaterVertexOutput IN) : SV_Target
 	IN.normal += half3(1-waterFX.y, 0.5h, 1-waterFX.z) - 0.5;
 	IN.normal = normalize(IN.normal);
 
-	// Distortion
+    // Distortion
 	half2 distortion = DistortionUVs(depth.x, IN.normal);
 	distortion = screenUV.xy + distortion;// * clamp(depth.x, 0, 5);
 	float d = depth.x;
@@ -240,12 +223,35 @@ half4 WaterFragment(WaterVertexOutput IN) : SV_Target
 	distortion = depth.x < 0 ? screenUV.xy : distortion;
 	depth.x = depth.x < 0 ? d : depth.x;
 
-	// Fresnel
+    // Fresnel
 	half fresnelTerm = CalculateFresnelTerm(IN.normal, IN.viewDir.xyz);
 	//return fresnelTerm.xxxx;
 
+	// Lighting
+	Light mainLight = GetMainLight(TransformWorldToShadowCoord(IN.posWS));
+    half shadow = SoftShadows(screenUV, IN.posWS, IN.viewDir.xyz, depth.x);
+    half3 GI = SampleSH(IN.normal);
+
+    // SSS
+    half3 directLighting = dot(mainLight.direction, half3(0, 1, 0)) * mainLight.color;
+    directLighting += saturate(pow(dot(IN.viewDir, -mainLight.direction) * IN.additionalData.z, 3)) * 5 * mainLight.color;
+    half3 sss = directLighting * shadow + GI;
+
+	// Foam
+	half3 foamMap = SAMPLE_TEXTURE2D(_FoamMap, sampler_FoamMap,  IN.uv.zw).rgb; //r=thick, g=medium, b=light
+	half depthEdge = saturate(depth.x * 20);
+	half waveFoam = saturate(IN.additionalData.z - 0.75 * 0.5); // wave tips
+	half depthAdd = saturate(1 - depth.x * 4) * 0.5;
+	half edgeFoam = saturate((1 - min(depth.x, depth.y) * 0.5 - 0.25) + depthAdd) * depthEdge;
+	half foamBlendMask = max(max(waveFoam, edgeFoam), waterFX.r * 2);
+	half3 foamBlend = SAMPLE_TEXTURE2D(_AbsorptionScatteringRamp, sampler_AbsorptionScatteringRamp, half2(foamBlendMask, 0.66)).rgb;
+	half foamMask = saturate(length(foamMap * foamBlend) * 1.5 - 0.1);
+	// Foam lighting
+	half3 foam = foamMask.xxx * (mainLight.shadowAttenuation * mainLight.color + GI);
+
     BRDFData brdfData;
-    InitializeBRDFData(half3(0, 0, 0), 0, half3(1, 1, 1), 0.9, 1, brdfData);
+    half alpha = 1;
+    InitializeBRDFData(half3(0, 0, 0), 0, half3(1, 1, 1), 0.95, alpha, brdfData);
 	half3 spec = DirectBDRF(brdfData, IN.normal, mainLight.direction, IN.viewDir) * shadow * mainLight.color;
 #ifdef _ADDITIONAL_LIGHTS
     uint pixelLightCount = GetAdditionalLightsCount();
@@ -260,28 +266,36 @@ half4 WaterFragment(WaterVertexOutput IN) : SV_Target
     sss *= Scattering(depth.x * depthMulti);
 
 	// Reflections
-	half3 reflection = SampleReflections(IN.normal, IN.viewDir.xyz, screenUV.xy, fresnelTerm, 0.0);
-	reflection = clamp(reflection + spec, 0, 1024) * depthEdge;
+	half3 reflection = SampleReflections(IN.normal, IN.viewDir.xyz, screenUV.xy, 0.0);
 
 	// Refraction
 	half3 refraction = Refraction(distortion, depth.x, depthMulti);
 
-	// Final Colouring
-    half3 diffuse = refraction + sss;
-
 	// Do compositing
-	half3 comp = lerp(reflection + diffuse, foam, foamMask); //lerp(refraction, color + reflection + foam, 1-saturate(1-depth.x * 25));
+	half3 comp = lerp(lerp(refraction, reflection, fresnelTerm) + sss + spec, foam, foamMask); //lerp(refraction, color + reflection + foam, 1-saturate(1-depth.x * 25));
 
 	// Fog
     float fogFactor = IN.fogFactorNoise.x;
     comp = MixFog(comp, fogFactor);
-    //comp = DebugWaterFX(comp, waterFX, screenUV.x);
-	return half4(comp, 1);
-	//return SAMPLE_TEXTURE2D(_PlanarReflectionTexture, sampler_ScreenTextures_linear_clamp, screenUV);
-	//return half4(spec, 1); // debug line
-	//return half4(diffuse, 1); // debug line
-	//return half4( (1 - foamMask).xxx, 1); // debug line
-	//eturn half4(pow(dot(IN.normal,float3(0, 1, 0)), 10).xxx, 1); // debug line
+#if defined(_DEBUG_FOAM)
+    return half4(foamMask.xxx, 1);
+#elif defined(_DEBUG_SSS)
+    return half4(sss, 1);
+#elif defined(_DEBUG_REFRACTION)
+    return half4(refraction, 1);
+#elif defined(_DEBUG_REFLECTION)
+    return half4(reflection, 1);
+#elif defined(_DEBUG_NORMAL)
+    return half4(IN.normal.x * 0.5 + 0.5, 0, IN.normal.z * 0.5 + 0.5, 1);
+#elif defined(_DEBUG_FRESNEL)
+    return half4(fresnelTerm.xxx, 1);
+#elif defined(_DEBUG_WATEREFFECTS)
+    return half4(waterFX);
+#elif defined(_DEBUG_WATERDEPTH)
+    return half4(frac(depth), 1);
+#else
+    return half4(comp, 1);
+#endif
 }
 
 #endif // WATER_COMMON_INCLUDED

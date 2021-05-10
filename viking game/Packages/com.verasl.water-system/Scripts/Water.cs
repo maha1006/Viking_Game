@@ -83,10 +83,13 @@ namespace WaterSystem
             Cleanup();
         }
 
+        private void OnApplicationQuit()
+        {
+            GerstnerWavesJobs.Cleanup();
+        }
+
         void Cleanup()
         {
-            //if(Application.isPlaying)
-                //GerstnerWavesJobs.Cleanup();
             RenderPipelineManager.beginCameraRendering -= BeginCameraRendering;
             if (_depthCam)
             {
@@ -120,7 +123,7 @@ namespace WaterSystem
             newPos.x = quantizeValue * (int) (newPos.x / quantizeValue);
             newPos.z = quantizeValue * (int) (newPos.z / quantizeValue);
 
-            var matrix = Matrix4x4.TRS(newPos + transform.position, Quaternion.identity, Vector3.one); // transform.localToWorldMatrix;
+            var matrix = Matrix4x4.TRS(newPos + transform.position, Quaternion.identity, transform.localScale); // transform.localToWorldMatrix;
 
             foreach (var mesh in resources.defaultWaterMeshes)
             {
@@ -168,7 +171,8 @@ namespace WaterSystem
             {
                 resources = Resources.Load("WaterResources") as WaterResources;
             }
-            Invoke(nameof(CaptureDepthMap), 1.0f);
+            if(Application.platform != RuntimePlatform.WebGLPlayer) // TODO - bug with Opengl depth
+                Invoke(nameof(CaptureDepthMap), 1.0f);
         }
 
         private void LateUpdate()
@@ -234,8 +238,8 @@ namespace WaterSystem
             if (_useComputeBuffer)
             {
                 Shader.EnableKeyword("USE_STRUCTURED_BUFFER");
-                if (waveBuffer == null)
-                    waveBuffer = new ComputeBuffer(10, (sizeof(float) * 6));
+                waveBuffer?.Dispose();
+                waveBuffer = new ComputeBuffer(10, (sizeof(float) * 6));
                 waveBuffer.SetData(_waves);
                 Shader.SetGlobalBuffer(WaveDataBuffer, waveBuffer);
             }
@@ -345,12 +349,10 @@ namespace WaterSystem
                 _depthCam = go.AddComponent<Camera>();
             }
 
-            if (_depthCam.TryGetComponent<UniversalAdditionalCameraData>(out var additionalCamData))
-            {
-                additionalCamData.renderShadows = false;
-                additionalCamData.requiresColorOption = CameraOverrideOption.Off;
-                additionalCamData.requiresDepthOption = CameraOverrideOption.Off;
-            }
+            var additionalCamData = _depthCam.GetUniversalAdditionalCameraData();
+            additionalCamData.renderShadows = false;
+            additionalCamData.requiresColorOption = CameraOverrideOption.Off;
+            additionalCamData.requiresDepthOption = CameraOverrideOption.Off;
 
             var t = _depthCam.transform;
             var depthExtra = 4.0f;

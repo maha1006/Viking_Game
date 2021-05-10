@@ -12,6 +12,7 @@ namespace WaterSystem
         class WaterFxPass : ScriptableRenderPass
         {
             private const string k_RenderWaterFXTag = "Render Water FX";
+            private ProfilingSampler m_WaterFX_Profile = new ProfilingSampler(k_RenderWaterFXTag);
             private readonly ShaderTagId m_WaterFXShaderTag = new ShaderTagId("WaterFX");
             private readonly Color m_ClearColor = new Color(0.0f, 0.5f, 0.5f, 0.5f); //r = foam mask, g = normal.x, b = normal.z, a = displacement
             private FilteringSettings m_FilteringSettings;
@@ -43,8 +44,8 @@ namespace WaterSystem
 
             public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)
             {
-                CommandBuffer cmd = CommandBufferPool.Get(k_RenderWaterFXTag);
-                using (new ProfilingSample(cmd, k_RenderWaterFXTag)) // makes sure we have profiling ability
+                CommandBuffer cmd = CommandBufferPool.Get();
+                using (new ProfilingScope(cmd, m_WaterFX_Profile)) // makes sure we have profiling ability
                 {
                     context.ExecuteCommandBuffer(cmd);
                     cmd.Clear();
@@ -60,7 +61,7 @@ namespace WaterSystem
                 CommandBufferPool.Release(cmd);
             }
 
-            public override void FrameCleanup(CommandBuffer cmd)
+            public override void OnCameraCleanup(CommandBuffer cmd) 
             {
                 // since the texture is used within the single cameras use we need to cleanup the RT afterwards
                 cmd.ReleaseTemporaryRT(m_WaterFX.id);
@@ -74,6 +75,7 @@ namespace WaterSystem
         class WaterCausticsPass : ScriptableRenderPass
         {
             private const string k_RenderWaterCausticsTag = "Render Water Caustics";
+            private ProfilingSampler m_WaterCaustics_Profile = new ProfilingSampler(k_RenderWaterCausticsTag);
             public Material WaterCausticMaterial;
             private static Mesh m_mesh;
 
@@ -84,9 +86,15 @@ namespace WaterSystem
                 if (cam.cameraType == CameraType.Preview || !WaterCausticMaterial)
                     return;
 
-                CommandBuffer cmd = CommandBufferPool.Get(k_RenderWaterCausticsTag);
-                using (new ProfilingSample(cmd, k_RenderWaterCausticsTag))
+                CommandBuffer cmd = CommandBufferPool.Get();
+                using (new ProfilingScope(cmd, m_WaterCaustics_Profile))
                 {
+                    var sunMatrix = RenderSettings.sun != null
+                        ? RenderSettings.sun.transform.localToWorldMatrix
+                        : Matrix4x4.TRS(Vector3.zero, Quaternion.Euler(-45f, 45f, 0f), Vector3.one);
+                    WaterCausticMaterial.SetMatrix("_MainLightDir", sunMatrix);
+                
+                
                     // Create mesh if needed
                     if (!m_mesh)
                         m_mesh = GenerateCausticsMesh(1000f);
@@ -95,7 +103,6 @@ namespace WaterSystem
                     var position = cam.transform.position;
                     position.y = 0; // TODO should read a global 'water height' variable.
                     var matrix = Matrix4x4.TRS(position, Quaternion.identity, Vector3.one);
-
                     // Setup the CommandBuffer and draw the mesh with the caustic material and matrix
                     cmd.DrawMesh(m_mesh, matrix, WaterCausticMaterial, 0, 0);
                 }
@@ -111,14 +118,15 @@ namespace WaterSystem
         WaterCausticsPass m_CausticsPass;
 
         public WaterSystemSettings settings = new WaterSystemSettings();
-        [SerializeField]
-        private Shader causticShader;
+        [HideInInspector][SerializeField] private Shader causticShader;
+        [HideInInspector][SerializeField] private Texture2D causticTexture;
 
         private Material _causticMaterial;
 
         private static readonly int SrcBlend = Shader.PropertyToID("_SrcBlend");
         private static readonly int DstBlend = Shader.PropertyToID("_DstBlend");
         private static readonly int Size = Shader.PropertyToID("_Size");
+        private static readonly int CausticTexture = Shader.PropertyToID("_CausticMap");
 
         public override void Create()
         {
@@ -129,8 +137,23 @@ namespace WaterSystem
             m_CausticsPass = new WaterCausticsPass();
 
             causticShader = causticShader ? causticShader : Shader.Find("Hidden/BoatAttack/Caustics");
-            _causticMaterial = _causticMaterial ? _causticMaterial : new Material(causticShader);
-
+            if (causticShader == null) return;
+            if (_causticMaterial)
+            {
+                DestroyImmediate(_causticMaterial);
+            }
+            _causticMaterial = CoreUtils.CreateEngineMaterial(causticShader);
+            _causticMaterial.SetFloat("_BlendDistance", settings.causticBlendDistance);
+            
+            if (causticTexture == null)
+            {
+                Debug.Log("Caustics Texture missing, attempting to load.");
+#if UNITY_EDITOR
+                causticTexture = UnityEditor.AssetDatabase.LoadAssetAtPath<Texture2D>("Packages/com.verasl.water-system/Textures/WaterSurface_single.tif");
+#endif
+            }
+            _causticMaterial.SetTexture(CausticTexture, causticTexture);
+            
             switch (settings.debug)
             {
                 case WaterSystemSettings.DebugMode.Caustics:
@@ -195,6 +218,8 @@ namespace WaterSystem
         {
             [Header("Caustics Settings")] [Range(0.1f, 1f)]
             public float causticScale = 0.25f;
+
+            public float causticBlendDistance = 3f;
 
             [Header("Advanced Settings")] public DebugMode debug = DebugMode.Disabled;
 
