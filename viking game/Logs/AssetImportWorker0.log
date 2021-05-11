@@ -396,3 +396,837 @@ System memory in use after: 195.7 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5428.
 Total: 3.769800 ms (FindLiveObjects: 0.512000 ms CreateObjectMapping: 0.132900 ms MarkObjects: 2.869000 ms  DeleteObjects: 0.254000 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.319 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.0 MB.
+System memory in use after: 195.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5431.
+Total: 4.924300 ms (FindLiveObjects: 0.633800 ms CreateObjectMapping: 0.303300 ms MarkObjects: 3.691900 ms  DeleteObjects: 0.293400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003809 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.0 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5434.
+Total: 5.779700 ms (FindLiveObjects: 0.823100 ms CreateObjectMapping: 0.166500 ms MarkObjects: 4.477500 ms  DeleteObjects: 0.310000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+HoudiniEngineUnity.HEU_AssetDatabase:AddAlwaysIncludedShader (string) (at Assets/Plugins/HoudiniEngineUnity/Scripts/Core/HEU_AssetDatabase.cs:1323)
+HoudiniEngineUnity.HEU_InputInterfaceTerrain:OnScriptsReloaded () (at Assets/Plugins/HoudiniEngineUnity/Scripts/Utility/HEU_InputInterfaceTerrain.cs:61)
+
+[Assets/Plugins/HoudiniEngineUnity/Scripts/Core/HEU_AssetDatabase.cs line 1323]
+
+Assets queued for import after Refresh completed:
+	ProjectSettings/GraphicsSettings.asset
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+HoudiniEngineUnity.HEU_AssetDatabase:AddAlwaysIncludedShader (string) (at Assets/Plugins/HoudiniEngineUnity/Scripts/Core/HEU_AssetDatabase.cs:1323)
+HoudiniEngineUnity.HEU_InputInterfaceTerrain:OnScriptsReloaded () (at Assets/Plugins/HoudiniEngineUnity/Scripts/Utility/HEU_InputInterfaceTerrain.cs:61)
+
+[Assets/Plugins/HoudiniEngineUnity/Scripts/Core/HEU_AssetDatabase.cs line 1323]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.363 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4771 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5437.
+Total: 5.680100 ms (FindLiveObjects: 0.816000 ms CreateObjectMapping: 0.324500 ms MarkObjects: 4.259500 ms  DeleteObjects: 0.278400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.343 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.0 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5440.
+Total: 5.481800 ms (FindLiveObjects: 0.602700 ms CreateObjectMapping: 0.157600 ms MarkObjects: 4.434800 ms  DeleteObjects: 0.284800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003614 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.8 MB.
+System memory in use after: 195.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5443.
+Total: 5.334700 ms (FindLiveObjects: 0.837600 ms CreateObjectMapping: 0.229300 ms MarkObjects: 3.871100 ms  DeleteObjects: 0.394700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.310 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.0 MB.
+System memory in use after: 195.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5446.
+Total: 4.969800 ms (FindLiveObjects: 0.723600 ms CreateObjectMapping: 0.242400 ms MarkObjects: 3.654500 ms  DeleteObjects: 0.347600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5449.
+Total: 5.950300 ms (FindLiveObjects: 0.897900 ms CreateObjectMapping: 0.423600 ms MarkObjects: 4.277700 ms  DeleteObjects: 0.349400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5452.
+Total: 4.909800 ms (FindLiveObjects: 0.826500 ms CreateObjectMapping: 0.297400 ms MarkObjects: 3.498900 ms  DeleteObjects: 0.284700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.297 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5455.
+Total: 4.381300 ms (FindLiveObjects: 0.544900 ms CreateObjectMapping: 0.150800 ms MarkObjects: 3.382400 ms  DeleteObjects: 0.302000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.0 MB.
+System memory in use after: 196.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5458.
+Total: 4.648700 ms (FindLiveObjects: 0.709400 ms CreateObjectMapping: 0.197700 ms MarkObjects: 3.476100 ms  DeleteObjects: 0.264300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5461.
+Total: 5.089900 ms (FindLiveObjects: 0.923900 ms CreateObjectMapping: 0.626200 ms MarkObjects: 3.198500 ms  DeleteObjects: 0.338700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.293 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5464.
+Total: 4.189900 ms (FindLiveObjects: 0.657900 ms CreateObjectMapping: 0.145400 ms MarkObjects: 3.105400 ms  DeleteObjects: 0.279200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5362.014089 seconds.
+  path: Assets/Scripts/ScoringSystem.cs
+  artifactKey: Guid(486d8e7b824c9d74bab9de3e243db01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoringSystem.cs using Guid(486d8e7b824c9d74bab9de3e243db01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b8a08f88e85f8e23ccb949c74f1aa4') in 0.066320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 175.116870 seconds.
+  path: Assets/Scripts/CollectItem.cs
+  artifactKey: Guid(9e62d399155bf7c4da3a60dbddd0aec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CollectItem.cs using Guid(9e62d399155bf7c4da3a60dbddd0aec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbe65db5466e6b034ae525d78e5cc14') in 0.075171 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005284 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.203 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5467.
+Total: 3.920900 ms (FindLiveObjects: 0.517600 ms CreateObjectMapping: 0.145800 ms MarkObjects: 2.986400 ms  DeleteObjects: 0.269700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 369.625669 seconds.
+  path: Assets/Scripts/ScoringSystem1.cs
+  artifactKey: Guid(2c26c6c5e4b602d4aabc8d1acecd09eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoringSystem1.cs using Guid(2c26c6c5e4b602d4aabc8d1acecd09eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ef5d551dfa96a35eb6538f2593c6f9') in 0.069092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.200759 seconds.
+  path: Assets/Scripts/ScoringSystemIron.cs
+  artifactKey: Guid(2c26c6c5e4b602d4aabc8d1acecd09eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoringSystemIron.cs using Guid(2c26c6c5e4b602d4aabc8d1acecd09eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b10dd72b6710d4491f31f1a4aab0dad') in 0.060427 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003524 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5470.
+Total: 4.085100 ms (FindLiveObjects: 0.519700 ms CreateObjectMapping: 0.173000 ms MarkObjects: 3.098500 ms  DeleteObjects: 0.292600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5473.
+Total: 3.936600 ms (FindLiveObjects: 0.505500 ms CreateObjectMapping: 0.156800 ms MarkObjects: 2.988400 ms  DeleteObjects: 0.284900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.514335 seconds.
+  path: Assets/Scripts/ScoringSystem.cs
+  artifactKey: Guid(486d8e7b824c9d74bab9de3e243db01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoringSystem.cs using Guid(486d8e7b824c9d74bab9de3e243db01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426c7affb39b3bb22f4dbb3cd4ecc97f') in 0.083258 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003636 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5476.
+Total: 3.931900 ms (FindLiveObjects: 0.539800 ms CreateObjectMapping: 0.139600 ms MarkObjects: 2.977700 ms  DeleteObjects: 0.273300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.212 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5479.
+Total: 3.355700 ms (FindLiveObjects: 0.458200 ms CreateObjectMapping: 0.127900 ms MarkObjects: 2.520900 ms  DeleteObjects: 0.247600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 350.333573 seconds.
+  path: Assets/Scripts/ScoringSystem.cs
+  artifactKey: Guid(486d8e7b824c9d74bab9de3e243db01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoringSystem.cs using Guid(486d8e7b824c9d74bab9de3e243db01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38efebfe93a0bc4bafb23605a15a8b59') in 0.060137 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003470 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5482.
+Total: 4.049000 ms (FindLiveObjects: 0.634000 ms CreateObjectMapping: 0.202100 ms MarkObjects: 2.935200 ms  DeleteObjects: 0.276200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.599405 seconds.
+  path: Assets/Scripts/ScoringSystem.cs
+  artifactKey: Guid(486d8e7b824c9d74bab9de3e243db01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoringSystem.cs using Guid(486d8e7b824c9d74bab9de3e243db01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b59b12ed5234b2aa5ffa90c935aeb11') in 0.060958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.726754 seconds.
+  path: Assets/Scripts/ScoringSystem1.cs
+  artifactKey: Guid(2c2a7fa1cbb3e94469545cf9e82cb91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoringSystem1.cs using Guid(2c2a7fa1cbb3e94469545cf9e82cb91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d42b59f9d4a5a0a02a93497bd549cf') in 0.046242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.652208 seconds.
+  path: Assets/Scripts/ScoringSystemIron.cs
+  artifactKey: Guid(2c2a7fa1cbb3e94469545cf9e82cb91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoringSystemIron.cs using Guid(2c2a7fa1cbb3e94469545cf9e82cb91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c925aad6967720e02e65a340c8750f') in 0.055959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.162075 seconds.
+  path: Assets/Scripts/CollectItem1.cs
+  artifactKey: Guid(14d4bfc658834fe48afe965ed016026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CollectItem1.cs using Guid(14d4bfc658834fe48afe965ed016026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eca6e64a3c2e106cc54070fcb0cdab7') in 0.083548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.335923 seconds.
+  path: Assets/Scripts/CollectItemIron.cs
+  artifactKey: Guid(14d4bfc658834fe48afe965ed016026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CollectItemIron.cs using Guid(14d4bfc658834fe48afe965ed016026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2bfada96187f821b5895a44081822d') in 0.055455 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5487.
+Total: 4.323800 ms (FindLiveObjects: 0.757300 ms CreateObjectMapping: 0.308000 ms MarkObjects: 2.991500 ms  DeleteObjects: 0.265200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 324.794963 seconds.
+  path: Assets/Scripts/ScoringSystemIron.cs
+  artifactKey: Guid(2c2a7fa1cbb3e94469545cf9e82cb91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoringSystemIron.cs using Guid(2c2a7fa1cbb3e94469545cf9e82cb91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a64ed0274229ba16a23e0f516dda22') in 0.062772 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003689 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.195 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5490.
+Total: 4.181800 ms (FindLiveObjects: 0.520400 ms CreateObjectMapping: 0.137200 ms MarkObjects: 3.186800 ms  DeleteObjects: 0.335600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003529 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.248 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.4 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5493.
+Total: 3.826700 ms (FindLiveObjects: 0.467200 ms CreateObjectMapping: 0.133000 ms MarkObjects: 2.934700 ms  DeleteObjects: 0.290700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.230 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.4 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5496.
+Total: 4.182400 ms (FindLiveObjects: 0.492500 ms CreateObjectMapping: 0.140200 ms MarkObjects: 3.250100 ms  DeleteObjects: 0.297400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.4 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5499.
+Total: 4.441900 ms (FindLiveObjects: 0.762400 ms CreateObjectMapping: 0.338300 ms MarkObjects: 3.066800 ms  DeleteObjects: 0.272900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007441 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.4 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5502.
+Total: 3.467300 ms (FindLiveObjects: 0.471100 ms CreateObjectMapping: 0.127600 ms MarkObjects: 2.604300 ms  DeleteObjects: 0.263500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.231 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5505.
+Total: 6.784400 ms (FindLiveObjects: 1.019300 ms CreateObjectMapping: 0.688300 ms MarkObjects: 4.737200 ms  DeleteObjects: 0.337800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.212 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.4 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5508.
+Total: 3.847100 ms (FindLiveObjects: 0.486600 ms CreateObjectMapping: 0.237100 ms MarkObjects: 2.876100 ms  DeleteObjects: 0.246000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2937.853497 seconds.
+  path: Assets/Audio/440645__seansecret__opening-door-1.wav
+  artifactKey: Guid(d705e0d0eb50aa74dae60a2fef683bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/440645__seansecret__opening-door-1.wav using Guid(d705e0d0eb50aa74dae60a2fef683bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc63763390a037fb4df8ca55356c2fd9') in 0.238754 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.246 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.3 MB.
+System memory in use after: 200.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5520.
+Total: 4.065900 ms (FindLiveObjects: 0.497300 ms CreateObjectMapping: 0.143000 ms MarkObjects: 3.155600 ms  DeleteObjects: 0.268300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: Object at index 0 is null
+  at (wrapper managed-to-native) UnityEditor.SerializedObject.InternalCreate(UnityEngine.Object[],UnityEngine.Object)
+  at UnityEditor.SerializedObject..ctor (UnityEngine.Object obj) [0x00008] in <0e11587263324259967daac4d577d226>:0 
+  at HoudiniEngineUnity.HEU_AssetDatabase.AddAlwaysIncludedShader (System.String shaderName) [0x0001b] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_AssetDatabase.cs:1302 
+  at HoudiniEngineUnity.HEU_InputInterfaceTerrain.OnScriptsReloaded () [0x0000a] in G:\_Virtual Design\SS 2021\MMG_MED1_IPK1\GIT\Viking_Game\viking game\Assets\Plugins\HoudiniEngineUnity\Scripts\Utility\HEU_InputInterfaceTerrain.cs:61 
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4772 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.3 MB.
+System memory in use after: 200.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 5523.
+Total: 4.290700 ms (FindLiveObjects: 0.726800 ms CreateObjectMapping: 0.242800 ms MarkObjects: 3.048900 ms  DeleteObjects: 0.270900 ms)
+
