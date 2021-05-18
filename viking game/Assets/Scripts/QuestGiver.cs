@@ -12,10 +12,37 @@ public class QuestGiver : MonoBehaviour
     public Text titleText;
     public Text descriptuionText;
 
+       void OnTriggerEnter(Collider other)
+    {
+        OpenQuestWindow();
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        CloseQuestWindow();
+    }
+
+
     public void OpenQuestWindow()
     {
         questWindow.SetActive(true);
         titleText.text = quest.title;
         descriptuionText.text = quest.description;
     }
+    public void CloseQuestWindow()
+    {
+        questWindow.SetActive(false);
+        titleText.text = quest.title;
+        descriptuionText.text = quest.description;
+    }
+
+    public void AcceptQuest()
+    {
+        questWindow.SetActive(false);
+        quest.isActive = true;
+        gameObject.GetComponent<BoxCollider>().enabled = false;
+        player.quest = quest;
+    }
 }
+
+
