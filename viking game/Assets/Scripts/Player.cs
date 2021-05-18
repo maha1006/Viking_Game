@@ -14,5 +14,14 @@ public class Player : MonoBehaviour
         health -= 1;
         experience += 2;
         gold += 5;
+
+        if(quest.isActive)
+        {
+            quest.goal.ItemCollected();
+            if (quest.goal.IsReached())
+            {
+                quest.Complete();
+            }
+        }
     }
 }
