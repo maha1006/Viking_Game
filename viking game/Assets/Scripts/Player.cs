@@ -11,10 +11,6 @@ public class Player : MonoBehaviour
     public Quest quest;
     public void GoBattle ()
     {
-        health -= 1;
-        experience += 2;
-        gold += 5;
-
         if(quest.isActive)
         {
             quest.goal.ItemCollected();

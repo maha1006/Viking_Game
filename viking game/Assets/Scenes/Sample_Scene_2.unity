@@ -2022,6 +2022,10 @@ MonoBehaviour:
     description: Sammle Items um dein Boot upzugraden
     experiencReward: 0
     goldReward: 0
+    goal:
+      goalType: 1
+      requiredAmount: 3
+      currentAmount: 0
   player: {fileID: 1837120935}
   questWindow: {fileID: 491429378}
   titleText: {fileID: 1744193961}
@@ -2175,7 +2179,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 244705180}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 238444220}
+        m_TargetAssemblyTypeName: QuestGiver, Assembly-CSharp
+        m_MethodName: AcceptQuest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &244705180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4543,6 +4559,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 1469909521}
+  quest:
+    isActive: 0
+    title: 
+    description: 
+    experiencReward: 0
+    goldReward: 0
+    goal:
+      goalType: 0
+      requiredAmount: 0
+      currentAmount: 0
+  goBattle: {fileID: 1837120935}
 --- !u!1 &285276458
 GameObject:
   m_ObjectHideFlags: 0
@@ -6037,6 +6064,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 1224106855}
+  quest:
+    isActive: 0
+    title: 
+    description: 
+    experiencReward: 0
+    goldReward: 0
+    goal:
+      goalType: 0
+      requiredAmount: 0
+      currentAmount: 0
+  goBattle: {fileID: 1837120935}
 --- !u!1 &544596468
 GameObject:
   m_ObjectHideFlags: 0
@@ -8277,6 +8315,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 8d7dd250b373ce04a94f936ba8402722, type: 3}
   m_PrefabInstance: {fileID: 1625509331}
   m_PrefabAsset: {fileID: 0}
+--- !u!84 &874958031
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &879806997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15814,6 +15888,10 @@ MonoBehaviour:
     description: 
     experiencReward: 0
     goldReward: 0
+    goal:
+      goalType: 0
+      requiredAmount: 0
+      currentAmount: 0
 --- !u!4 &1837144042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920095753752889119, guid: af2032660a4be6649bcf2fa0469de4d9, type: 3}
@@ -16405,6 +16483,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 1469909521}
+  quest:
+    isActive: 0
+    title: 
+    description: 
+    experiencReward: 0
+    goldReward: 0
+    goal:
+      goalType: 0
+      requiredAmount: 0
+      currentAmount: 0
+  goBattle: {fileID: 1837120935}
 --- !u!114 &1873089202
 MonoBehaviour:
   m_ObjectHideFlags: 0
