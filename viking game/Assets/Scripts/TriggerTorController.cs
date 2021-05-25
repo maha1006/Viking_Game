@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TriggerTorController : MonoBehaviour
 {
+
     [SerializeField] private Animator myDoor = null;
 
     [SerializeField] private bool openTrigger = false;
@@ -12,6 +13,10 @@ public class TriggerTorController : MonoBehaviour
     [SerializeField] private string TorOpen = "TorLinksOpen";
     [SerializeField] private string TorClose = "TorLinksClose";
 
+    public void OpenTor()
+    {
+        gameObject.SetActive(true);    
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

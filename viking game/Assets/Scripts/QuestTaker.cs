@@ -16,18 +16,29 @@ public class QuestTaker : MonoBehaviour
     public Text titleText;
     public Text descriptionText;
 
+    public QuestGiver aq;
+
     void OnTriggerEnter(Collider other)
     {
-        if (quest.goal.IsReached())
+        if (aq.quest.isActive)
         {
-            OpenQuestWindowReached();
-            Debug.Log(" reach");
+            Debug.Log(" active");
+            if (quest.isActive)
+            { 
+                OpenQuestWindowReached();
+                Debug.Log(" reached");
+            }
+            else
+            {
+                OpenQuestWindow();
+                Debug.Log(" not reached");
+            }
         }
 
         else
         { 
-            OpenQuestWindow();
-        Debug.Log(" not reached");
+            OpenQuestWindowReached();
+        Debug.Log(" _reached");
         }
 
     }
