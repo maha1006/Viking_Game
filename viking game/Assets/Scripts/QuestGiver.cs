@@ -9,8 +9,7 @@ public class QuestGiver : MonoBehaviour
     public Player player;
 
     public GameObject questWindow;
-    public Text titleText;
-    public Text descriptionText;
+    
 
        void OnTriggerEnter(Collider other)
     {
@@ -26,14 +25,11 @@ public class QuestGiver : MonoBehaviour
     public void OpenQuestWindow()
     {
         questWindow.SetActive(true);
-        titleText.text = quest.title;
-        descriptionText.text = quest.description;
     }
     public void CloseQuestWindow()
     {
         questWindow.SetActive(false);
-        titleText.text = quest.title;
-        descriptionText.text = quest.description;
+       
     }
 
     public void AcceptQuest()
