@@ -45,11 +45,31 @@ public class QuestTaker : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (quest.goal.IsReached())
-            CloseQuestWindowReached();
+        if (aq.quest.isActive)
+        {
+            Debug.Log(" active");
+            if (quest.isActive)
+            {
+                CloseQuestWindowReached();
+                Debug.Log(" reached");
+            }
+            else
+            {
+                CloseQuestWindow();
+                Debug.Log(" not reached");
+            }
+        }
 
         else
-            CloseQuestWindow();
+        {
+            CloseQuestWindowReached();
+            Debug.Log(" _reached");
+        }
+    }
+
+    public void ActivateQuestTaker()
+    {
+        gameObject.SetActive(true);
     }
 
 
