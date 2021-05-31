@@ -51,6 +51,7 @@ public class QuestTaker : MonoBehaviour
             if (quest.isActive)
             {
                 CloseQuestWindowReached();
+                gameObject.SetActive(false);
                 Debug.Log(" reached");
             }
             else
@@ -63,6 +64,7 @@ public class QuestTaker : MonoBehaviour
         else
         {
             CloseQuestWindowReached();
+            gameObject.SetActive(false);
             Debug.Log(" _reached");
         }
     }
@@ -76,26 +78,19 @@ public class QuestTaker : MonoBehaviour
     public void OpenQuestWindow()
     {
         questWindow.SetActive(true);
-        titleText.text = quest.title;
-        descriptionText.text = quest.description;
     }
     public void CloseQuestWindow()
     {
         questWindow.SetActive(false);
-        titleText.text = quest.title;
-        descriptionText.text = quest.description;
     }
 
     public void OpenQuestWindowReached()
     {
         questWindowReached.SetActive(true);
-        titleText.text = quest.title;
-        descriptionText.text = quest.description;
+     
     }
     public void CloseQuestWindowReached()
     {
         questWindowReached.SetActive(false);
-        titleText.text = quest.title;
-        descriptionText.text = quest.description;
     }
 }

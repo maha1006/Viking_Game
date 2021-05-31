@@ -11,17 +11,12 @@ public class ShipBattleTrigger : MonoBehaviour
     
 
 
-    void OnEnable()
-    {
-        Debug.Log("PrintOnEnable: script was enabled");
-    }
+  
 
     void OnTriggerEnter(Collider other)
     {
         openBattleSystem.gameObject.SetActive(true);
         pathFollow.StopShip();
         boatController.StopPlayer();
-        
-
     }
 }

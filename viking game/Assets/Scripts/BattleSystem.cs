@@ -106,7 +106,7 @@ public class BattleSystem : MonoBehaviour
         Debug.Log("PrintOnDisable: script was disabled");
     }
 
-    void OnEnable()
+    public void OnEnabled()
     {
         Debug.Log("PrintOnEnable: script was enabled");
     }
@@ -117,8 +117,8 @@ public class BattleSystem : MonoBehaviour
         boatController.StartPlayer();
         pathFollower.StartShip();
         Debug.Log("You Lose");
-        enabled = false;
-
+        enabled = true;
+        
 
 
     }
