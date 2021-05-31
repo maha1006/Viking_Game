@@ -20,6 +20,18 @@ public class BoatController : MonoBehaviour
 
     }
 
+    public void StopPlayer()
+    {
+        fwdSpeed = 0;
+        revSpeed = 0;
+        turnSpeed = 0;
+    }
+    public void StartPlayer()
+    {
+        fwdSpeed = 40;
+        revSpeed = 25;
+        turnSpeed = 60;
+    }
     void Update()
     {
 

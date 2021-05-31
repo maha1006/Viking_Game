@@ -25,6 +25,19 @@ namespace PathCreation.Examples
         public void Pause()
         {
            GameIsPaused = true;
+            Debug.Log(" pause");
+        }
+
+        public void StopShip()
+        {
+            speed = 0;
+            Debug.Log(" stop");
+        }
+        
+        public void StartShip()
+        {
+            speed = 5;
+            Debug.Log(" start");
         }
 
         void Update()

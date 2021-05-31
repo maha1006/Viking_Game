@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using PathCreation.Examples;
 using UnityEngine;
 
 public class BattleSystem : MonoBehaviour
@@ -12,6 +13,10 @@ public class BattleSystem : MonoBehaviour
     float weaponTimer;
     float weaponPosition;
     float weaponDestination;
+
+    public BoatController boatController;
+    public PathFollower pathFollower;
+    public GameObject enemyBoat;
 
 
     [SerializeField] float timerMultiplicator = 3f;
@@ -96,14 +101,32 @@ public class BattleSystem : MonoBehaviour
         bowProgress = Mathf.Clamp(bowProgress, 0f, 1f);
     }
 
+    void OnDisable()
+    {
+        Debug.Log("PrintOnDisable: script was disabled");
+    }
+
+    void OnEnable()
+    {
+        Debug.Log("PrintOnEnable: script was enabled");
+    }
+
     private void Lose()
     {
-        pause = true;
+        this.gameObject.SetActive(false);
+        boatController.StartPlayer();
+        pathFollower.StartShip();
         Debug.Log("You Lose");
+        enabled = false;
+
+
+
     }
     private void Win()
     {
-        pause = true;
+        this.gameObject.SetActive(false);
+        boatController.StartPlayer();
+        Destroy(enemyBoat);
         Debug.Log("You Win");
     }
 
