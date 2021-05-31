@@ -46,6 +46,7 @@ public class BattleSystem : MonoBehaviour
     private void Start()
     {
         Resize();
+        //failTimer = 10f;
     }
 
     
@@ -74,8 +75,8 @@ public class BattleSystem : MonoBehaviour
         ls.y = bowProgress;
         progressBarContainer.localScale = ls;
 
-        float min = bowPosition - bowSize / 2;
-        float max = bowPosition + bowSize / 2;
+        float min = bowPosition - bowSize / 2f;
+        float max = bowPosition + bowSize / 2f;
 
         if(min < weaponPosition && weaponPosition < max)
         {
@@ -106,8 +107,9 @@ public class BattleSystem : MonoBehaviour
         Debug.Log("PrintOnDisable: script was disabled");
     }
 
-    public void OnEnabled()
+    private void OnEnable()
     {
+        failTimer = 10f;
         Debug.Log("PrintOnEnable: script was enabled");
     }
 
@@ -117,7 +119,7 @@ public class BattleSystem : MonoBehaviour
         boatController.StartPlayer();
         pathFollower.StartShip();
         Debug.Log("You Lose");
-        enabled = true;
+        //enabled = false;
         
 
 
@@ -128,6 +130,7 @@ public class BattleSystem : MonoBehaviour
         boatController.StartPlayer();
         Destroy(enemyBoat);
         Debug.Log("You Win");
+        
     }
 
         void Bow()
