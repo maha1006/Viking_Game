@@ -14,9 +14,13 @@ public class BattleSystem : MonoBehaviour
     float weaponPosition;
     float weaponDestination;
 
+
     public BoatController boatController;
     public PathFollower pathFollower;
+    public LootDrop lootDrop;
+
     public GameObject enemyBoat;
+
 
 
     [SerializeField] float timerMultiplicator = 3f;
@@ -113,6 +117,7 @@ public class BattleSystem : MonoBehaviour
         Debug.Log("PrintOnEnable: script was enabled");
     }
 
+
     private void Lose()
     {
         this.gameObject.SetActive(false);
@@ -124,11 +129,12 @@ public class BattleSystem : MonoBehaviour
 
 
     }
-    private void Win()
+    public void Win()
     {
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
         Destroy(enemyBoat);
+        lootDrop.DropLoot();
         Debug.Log("You Win");
         
     }
