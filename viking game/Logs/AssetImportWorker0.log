@@ -1,51 +1,153 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.985; Version 2004; 64bit' Language: 'de' Physical Memory: 16330 MB
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'de' Physical Memory: 16303 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\2021.1.0f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.1.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game
+D:/Dokumente/SS_2021/MME_MED1_IPK1/IPK1/GitHub/Viking_Game/viking game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61886
-Successfully changed project path to: G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game
-G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game
+50111
+Successfully changed project path to: D:/Dokumente/SS_2021/MME_MED1_IPK1/IPK1/GitHub/Viking_Game/viking game
+D:/Dokumente/SS_2021/MME_MED1_IPK1/IPK1/GitHub/Viking_Game/viking game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 147.15 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 149.07 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
-[Subsystems] Discovering subsystems at path D:/Unity/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Dokumente/SS_2021/MME_MED1_IPK1/IPK1/GitHub/Viking_Game/viking game/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
     Vendor:   NVIDIA
-    VRAM:     8010 MB
-    Driver:   27.21.14.6647
+    VRAM:     3962 MB
+    Driver:   27.21.14.6140
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'D:/Unity/2021.1.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001166 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001961 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 148.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 141.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.410 seconds
+- Completed reload, in  1.350 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004417 seconds.
+Registered in 0.003426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 144.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.902 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Caustics Texture missing, attempting to load.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WaterSystem.WaterSystemFeature:Create () (at Packages/com.verasl.water-system/Scripts/Rendering/WaterSystemFeature.cs:150)
+UnityEngine.Rendering.Universal.ScriptableRendererFeature:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererFeature.cs:39)
+
+(Filename: Packages/com.verasl.water-system/Scripts/Rendering/WaterSystemFeature.cs Line: 150)
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.2 MB.
+System memory in use after: 219.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5607.
+Total: 4.908900 ms (FindLiveObjects: 0.635400 ms CreateObjectMapping: 0.455400 ms MarkObjects: 3.595700 ms  DeleteObjects: 0.221200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(fa892668cad220647bd24de3cf34d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(fa892668cad220647bd24de3cf34d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2cf6a9e96d8a9b4fc474b68f5dbddd') in 0.037984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.261944 seconds.
+  path: Assets/PolygonPirates/Materials/FX_Materials/RainWater_FX.mat
+  artifactKey: Guid(47be28ae53899c440a4bdc7de32df96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Materials/FX_Materials/RainWater_FX.mat using Guid(47be28ae53899c440a4bdc7de32df96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858dd1a31f36ba441bc3fb51ffc2c474') in 0.257303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.338756 seconds.
+  path: Packages/com.unity.cinemachine/Presets/Noise/6D Shake.asset
+  artifactKey: Guid(69ce8388f6785dd4c8c39915efece2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.cinemachine/Presets/Noise/6D Shake.asset using Guid(69ce8388f6785dd4c8c39915efece2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7517e30791da02e2184141ba7e8322') in 0.011245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 459.983495 seconds.
+  path: Assets/Scripts/AktivateWaterEmitter.cs
+  artifactKey: Guid(15e686e7445809a47abb3a9e41553ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AktivateWaterEmitter.cs using Guid(15e686e7445809a47abb3a9e41553ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924f5ee56d7aca280904697982253d5e') in 0.423303 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 216.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5689.
+Total: 4.214100 ms (FindLiveObjects: 0.424400 ms CreateObjectMapping: 0.313700 ms MarkObjects: 3.275600 ms  DeleteObjects: 0.199800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4966 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 216.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5692.
+Total: 6.541600 ms (FindLiveObjects: 0.648600 ms CreateObjectMapping: 0.422800 ms MarkObjects: 5.205200 ms  DeleteObjects: 0.263900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.365712 seconds.
+  path: Assets/Scripts/AktivateWaterEmitter.cs
+  artifactKey: Guid(15e686e7445809a47abb3a9e41553ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AktivateWaterEmitter.cs using Guid(15e686e7445809a47abb3a9e41553ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0be78d6cd2883fe6a60b0af1f50615') in 0.008591 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -23,7 +23,6 @@ public class AktivateWaterEmitter : MonoBehaviour
         if (Input.GetButton("Vertical"))
         {
                 FX_BoatWater_Large.Play();
-            Debug.Log("Wasser failt komplett");
             if (FX_BoatWater_Large.startSize < maxSpeed)
             {
                 FX_BoatWater_Large.startSize += speedAccelerationPerSecond * Time.deltaTime;
