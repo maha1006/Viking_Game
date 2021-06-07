@@ -16,7 +16,7 @@ MonoBehaviour:
   - m_From: OverviewCam
     m_To: DetailCam
     m_Blend:
-      m_Style: 2
+      m_Style: 1
       m_Time: 1.5
       m_CustomCurve:
         serializedVersion: 2
@@ -27,8 +27,30 @@ MonoBehaviour:
   - m_From: DetailCam
     m_To: OverviewCam
     m_Blend:
-      m_Style: 3
+      m_Style: 1
+      m_Time: 1
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+  - m_From: OverviewCam
+    m_To: IslandCam
+    m_Blend:
+      m_Style: 1
       m_Time: 1.5
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+  - m_From: IslandCam
+    m_To: OverviewCam
+    m_Blend:
+      m_Style: 1
+      m_Time: 1
       m_CustomCurve:
         serializedVersion: 2
         m_Curve: []

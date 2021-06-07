@@ -4,21 +4,15 @@ using UnityEngine;
 
 public class TimingBar : MonoBehaviour
 {
-    public Transform Zeiger;
-    public Transform PosA;
-    public Transform PosB;
-    float initialOffset;
-    float currentPosition;
+    public Transform LookAt;
+    public Transform Trigger;
 
-    void Start()
+    void OnTriggerEnter(Collider other)
     {
-        initialOffset = Random.Range(0f, 1f);
-        Zeiger.localPosition = Vector3.Lerp(PosA.localPosition, PosB.localPosition, initialOffset);
+        LookAt.position = Trigger.position;
     }
 
     void Update()
     {
-        currentPosition = Mathf.PingPong(Time.time + initialOffset, 1f);
-        Zeiger.localPosition = Vector3.Lerp(PosA.localPosition, PosB.localPosition, currentPosition);
     }
 }
