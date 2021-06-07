@@ -16,5 +16,10 @@ public class CollectItem : MonoBehaviour
         Destroy(gameObject);
         
     }
+
+    public void CollectItemScore()
+    {
+        ScoringSystem.theScore += 1;
+    }
 }
 
