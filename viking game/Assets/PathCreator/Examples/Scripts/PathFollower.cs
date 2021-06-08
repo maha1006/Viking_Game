@@ -40,6 +40,12 @@ namespace PathCreation.Examples
             Debug.Log(" start");
         }
 
+        public void StartShipfast()
+        {
+            speed = 8;
+            Debug.Log(" start");
+        }
+
         void Update()
         {
             if (pathCreator != null)

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using PathCreation.Examples;
 using UnityEngine;
 
 public class TriggerTorController : MonoBehaviour
@@ -13,12 +14,15 @@ public class TriggerTorController : MonoBehaviour
     [SerializeField] private string TorOpen = "TorLinksOpen";
     [SerializeField] private string TorClose = "TorLinksClose";
 
+    public PathFollower pathFollow;
+
     public void OpenTor()
     {
         gameObject.SetActive(true);    
     }
     private void OnTriggerEnter(Collider other)
     {
+        pathFollow.StartShipfast();
         if (other.CompareTag("Player"))
         {
             if (openTrigger)
