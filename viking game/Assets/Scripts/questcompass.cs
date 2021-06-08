@@ -19,8 +19,6 @@ public class questcompass : MonoBehaviour
     private void Start()
     {
         compassUnit = compassImage.rectTransform.rect.width / 360f;
-
-        AddQuestMarker(one);
         
     }
     private void Update()
@@ -40,6 +38,12 @@ public class questcompass : MonoBehaviour
         marker.image.sprite = marker.icon;
 
         questMarkers.Add(marker);
+    }
+
+    public void DeleteQuestMarker(questmarker marker)
+    {
+        marker.image.enabled = false;
+        questMarkers.Remove(marker);
     }
 
     Vector2 GetPosOnCompass (questmarker marker)

@@ -9,9 +9,12 @@ public class QuestGiver : MonoBehaviour
     public Player player;
 
     public GameObject questWindow;
-    
 
-       void OnTriggerEnter(Collider other)
+    public questcompass qc;
+    public questmarker qm;
+
+
+    void OnTriggerEnter(Collider other)
     {
         OpenQuestWindow();
     }
@@ -38,6 +41,7 @@ public class QuestGiver : MonoBehaviour
         quest.isActive = true;
         gameObject.GetComponent<BoxCollider>().enabled = false;
         player.quest = quest;
+        qc.AddQuestMarker(qm);
     }
 }
 

@@ -18,6 +18,9 @@ public class QuestTaker : MonoBehaviour
 
     public QuestGiver aq;
 
+    public questcompass qc;
+    public questmarker qm;
+
     void OnTriggerEnter(Collider other)
     {
         if (aq.quest.isActive)
@@ -92,5 +95,11 @@ public class QuestTaker : MonoBehaviour
     public void CloseQuestWindowReached()
     {
         questWindowReached.SetActive(false);
+    }
+
+    public void DeleteMarker()
+    {
+        qc.DeleteQuestMarker(qm);
+        Debug.Log("deleted muhahhar");
     }
 }

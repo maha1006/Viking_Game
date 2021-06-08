@@ -14,6 +14,7 @@ public class Quest
 
     public QuestGoal goal;
 
+
     public void Complete()
     {
         isActive = false;
