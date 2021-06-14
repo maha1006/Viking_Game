@@ -6,15 +6,14 @@ public class CollectItem : MonoBehaviour
 {
     public AudioSource collectSound;
     public Quest quest;
-    public Player goBattle;
+    public Player goItem;
     
     void OnTriggerEnter(Collider other)
     {
         collectSound.Play();
         ScoringSystem.theScore += 1;
-        goBattle.GoBattle();
+        goItem.GoItem();
         Destroy(gameObject);
-        
     }
 
     public void CollectItemScore()

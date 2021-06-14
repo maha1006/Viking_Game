@@ -6,6 +6,8 @@ public class PauseGameOnTrigger : MonoBehaviour
 {
     public GameObject infoWindow;
     public static bool GameIsPaused = false;
+    public Quest quest;
+    public Player player;
 
     void Update()
     {
@@ -33,6 +35,7 @@ public class PauseGameOnTrigger : MonoBehaviour
         GameIsPaused = false;
         infoWindow.SetActive(false);
         gameObject.GetComponent<BoxCollider>().enabled = false;
-    }  
-     
+        quest.isActive = true;
+        player.quest = quest;
+    }
 }

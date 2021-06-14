@@ -20,6 +20,8 @@ public class BattleSystem : MonoBehaviour
     public LootDrop lootDrop;
 
     public GameObject enemyBoat;
+    public QuestGoal questgoal;
+    public Player goBattle;
 
 
 
@@ -136,7 +138,8 @@ public class BattleSystem : MonoBehaviour
         Destroy(enemyBoat);
         lootDrop.DropLoot();
         Debug.Log("You Win");
-        
+        questgoal.EnemyKilled();
+        goBattle.GoBattle();
     }
 
         void Bow()

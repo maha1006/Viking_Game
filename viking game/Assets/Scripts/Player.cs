@@ -11,7 +11,20 @@ public class Player : MonoBehaviour
     public Quest quest;
     public void GoBattle ()
     {
-        if(quest.isActive)
+       
+        if (quest.isActive)
+        {
+            quest.goal.EnemyKilled();
+            if (quest.goal.IsReached())
+            {
+                quest.Complete();
+            }
+        }
+    }
+
+    public void GoItem()
+    {
+        if (quest.isActive)
         {
             quest.goal.ItemCollected();
             if (quest.goal.IsReached())

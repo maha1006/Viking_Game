@@ -1,0 +1,254 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'de' Physical Memory: 16303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Dokumente/SS_2021/MME_MED1_IPK1/IPK1/GitHub/Viking_Game/viking game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60727
+Successfully changed project path to: D:/Dokumente/SS_2021/MME_MED1_IPK1/IPK1/GitHub/Viking_Game/viking game
+D:/Dokumente/SS_2021/MME_MED1_IPK1/IPK1/GitHub/Viking_Game/viking game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 170.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0f1 (61a549675243)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Dokumente/SS_2021/MME_MED1_IPK1/IPK1/GitHub/Viking_Game/viking game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.6140
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001965 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 154.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 154.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.990 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Caustics Texture missing, attempting to load.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WaterSystem.WaterSystemFeature:Create () (at Packages/com.verasl.water-system/Scripts/Rendering/WaterSystemFeature.cs:150)
+UnityEngine.Rendering.Universal.ScriptableRendererFeature:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererFeature.cs:39)
+
+(Filename: Packages/com.verasl.water-system/Scripts/Rendering/WaterSystemFeature.cs Line: 150)
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.8 MB.
+System memory in use after: 220.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5638.
+Total: 3.744500 ms (FindLiveObjects: 0.406600 ms CreateObjectMapping: 0.285900 ms MarkObjects: 2.849400 ms  DeleteObjects: 0.200000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244fc291944e1615f696d1ef00b10ca4') in 0.009598 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003445 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4996 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.1 MB.
+System memory in use after: 211.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5642.
+Total: 4.398900 ms (FindLiveObjects: 0.618700 ms CreateObjectMapping: 0.409800 ms MarkObjects: 3.166900 ms  DeleteObjects: 0.202300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.672136 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/Sitting.fbx
+  artifactKey: Guid(d9b80d4cfce77ee459c0987e5e701605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/Sitting.fbx using Guid(d9b80d4cfce77ee459c0987e5e701605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bc9d2e1cdb02bb5b4d449ef84dc32b') in 0.265438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/Bartending (1).fbx
+  artifactKey: Guid(15509c0ee02820d43912fc75e2a2a8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/Bartending (1).fbx using Guid(15509c0ee02820d43912fc75e2a2a8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63fc74a3cd08994e8e8b0fd9f276699') in 0.072072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/drunk.fbx
+  artifactKey: Guid(3aadf026dba9e474194a75d9ff036c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/drunk.fbx using Guid(3aadf026dba9e474194a75d9ff036c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73608a251f70ed7629933d214a589293') in 0.053967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/Waving.fbx
+  artifactKey: Guid(c767f8bb5e1790a499194e4c9f72ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/Waving.fbx using Guid(c767f8bb5e1790a499194e4c9f72ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7e05802278b3732db49ff400b62356') in 0.053155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/Paddling (4).fbx
+  artifactKey: Guid(c81e5a8235041db4fa2ce3749adff0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/Paddling (4).fbx using Guid(c81e5a8235041db4fa2ce3749adff0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c15f6dba8acff754e820b088a69fc5e') in 0.055435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/Fishing Cast.fbx
+  artifactKey: Guid(f78ea5522e6579a42a068e7ecbd7a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/Fishing Cast.fbx using Guid(f78ea5522e6579a42a068e7ecbd7a2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f105535014ffbdbf98d0bcdf5221e1') in 0.058738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/Paddling.fbx
+  artifactKey: Guid(4987173486edc654884986d1a157447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/Paddling.fbx using Guid(4987173486edc654884986d1a157447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe26d427ed0a7c7e2c4e5b1beea00c2') in 0.057052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/Smith.fbx
+  artifactKey: Guid(ab5f814f11c173b468a5ee36d51837d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/Smith.fbx using Guid(ab5f814f11c173b468a5ee36d51837d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2255e57177e21ae6a022f8e4e4017233') in 0.062662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.953813 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/Paddling.controller
+  artifactKey: Guid(aaeb20c8672588347b982d33e2d7af88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/Paddling.controller using Guid(aaeb20c8672588347b982d33e2d7af88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a047b422ee8bc9613631bf3f0669523') in 0.006021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.172007 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/animationScriptController.cs
+  artifactKey: Guid(251b9801c083a244e89010cb7c1033dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/animationScriptController.cs using Guid(251b9801c083a244e89010cb7c1033dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fffacf7b164b47074782004aef72dff') in 0.043653 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003833 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.379 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4996 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.6 MB.
+System memory in use after: 231.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5728.
+Total: 5.064100 ms (FindLiveObjects: 0.586700 ms CreateObjectMapping: 0.536800 ms MarkObjects: 3.727700 ms  DeleteObjects: 0.211800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003304 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4996 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.7 MB.
+System memory in use after: 231.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5731.
+Total: 5.359600 ms (FindLiveObjects: 0.629600 ms CreateObjectMapping: 0.448000 ms MarkObjects: 4.035900 ms  DeleteObjects: 0.244100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.188009 seconds.
+  path: Assets/Understone/Viking Pack/Models/I_Character/waving.controller
+  artifactKey: Guid(57aea523e7dae2543bee4444e5c0f7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/I_Character/waving.controller using Guid(57aea523e7dae2543bee4444e5c0f7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a740909efdf9a48055a0abf43c9f4582') in 0.022228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 459.638639 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat
+  artifactKey: Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat using Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff703418199eda9d89c09578e1df04a') in 0.269268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab
+  artifactKey: Guid(780611a67e8e941a2b3aa96e5915a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water/Prefabs/WaterProDaytime.prefab using Guid(780611a67e8e941a2b3aa96e5915a793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4600319325d3787d43e10483fad99f4a') in 0.063383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd
+  artifactKey: Guid(ab97f9ab7c2ce724ebc9446060a819a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water/Textures/WaterProDaytimeGradient.psd using Guid(ab97f9ab7c2ce724ebc9446060a819a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8616d9f6556ef13f115ed96303f5c0f1') in 0.029264 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.259 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4997 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 232.2 MB.
+System memory in use after: 232.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5787.
+Total: 5.413100 ms (FindLiveObjects: 0.685900 ms CreateObjectMapping: 0.424700 ms MarkObjects: 4.072900 ms  DeleteObjects: 0.227900 ms)
+
