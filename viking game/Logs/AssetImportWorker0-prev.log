@@ -15,11 +15,11 @@ G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57532
+65015
 Successfully changed project path to: G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game
 G:/_Virtual Design/SS 2021/MMG_MED1_IPK1/GIT/Viking_Game/viking game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 164.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 205.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,25 +36,25 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001094 seconds.
+Registered in 0.001131 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 154.06 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 159.97 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.163 seconds
+- Completed reload, in  1.158 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004426 seconds.
+Registered in 0.056977 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 154.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 157.14 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.074 seconds
+- Completed reload, in  2.112 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -69,1659 +69,208 @@ UnityEngine.Rendering.Universal.ScriptableRendererFeature:OnValidate () (at Libr
 (Filename: Packages/com.verasl.water-system/Scripts/Rendering/WaterSystemFeature.cs Line: 150)
 
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5156 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.9 MB.
-System memory in use after: 219.0 MB.
+System memory in use before: 219.0 MB.
+System memory in use after: 219.1 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 5636.
-Total: 4.444200 ms (FindLiveObjects: 0.632100 ms CreateObjectMapping: 0.167400 ms MarkObjects: 3.291000 ms  DeleteObjects: 0.352300 ms)
+Total: 3.493400 ms (FindLiveObjects: 0.472600 ms CreateObjectMapping: 0.129000 ms MarkObjects: 2.583500 ms  DeleteObjects: 0.307000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/InputSystem.inputsettings.asset
-  artifactKey: Guid(fa892668cad220647bd24de3cf34d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem.inputsettings.asset using Guid(fa892668cad220647bd24de3cf34d16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08f475f871242b25dde82d298ffdd24') in 0.135267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 433.940827 seconds.
-  path: Assets/PolygonPirates/Textures/SimpleSky.png
-  artifactKey: Guid(7bab9ac1487e10c40b9ed77d4c551e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/SimpleSky.png using Guid(7bab9ac1487e10c40b9ed77d4c551e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b51ba9ca1dfaacb3bef93fbd187d22f') in 0.258169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_03_A.png
-  artifactKey: Guid(0bf6bc68211326c4a9a49fa9cefb4a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_03_A.png using Guid(0bf6bc68211326c4a9a49fa9cefb4a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bfedc9d58dc7639bb8dc6b9e08e648') in 0.176195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_01_A.png
-  artifactKey: Guid(6fa6e3a289a54da4387f58e1eb847ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_01_A.png using Guid(6fa6e3a289a54da4387f58e1eb847ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e0eb2b44445eac7cc02bdbed31a101') in 0.093784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_04_B.png
-  artifactKey: Guid(433174d60899cd9448650d4dcd2c4a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_04_B.png using Guid(433174d60899cd9448650d4dcd2c4a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec93ff2dc6cd4c098fec28c81e54c189') in 0.135709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_Emmisive.png
-  artifactKey: Guid(875b8ab58396d1840a08ee9d2bd25f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_Emmisive.png using Guid(875b8ab58396d1840a08ee9d2bd25f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7c1b4a586e9960b032e23ddf5e19f2') in 0.092981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_02_A.png
-  artifactKey: Guid(d0aa688723df2fc449e3997cc5ea5d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_02_A.png using Guid(d0aa688723df2fc449e3997cc5ea5d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7215a7de7c6517239761d71d5f9cdf74') in 0.147946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_04_C.png
-  artifactKey: Guid(d134021f2af051b4496353b8e759f3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_04_C.png using Guid(d134021f2af051b4496353b8e759f3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7c561171e186be757b570629e68780') in 0.120230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_03_B.png
-  artifactKey: Guid(cb5e96fe246190f4b8ded4dc50d75dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_03_B.png using Guid(cb5e96fe246190f4b8ded4dc50d75dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1034b318afc63541dee542b193f2071') in 0.135097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_02_B.png
-  artifactKey: Guid(78af1218c051a244488fa7ef5f8c2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_02_B.png using Guid(78af1218c051a244488fa7ef5f8c2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b708028c03daf1e2d3d2d39527a5a275') in 0.141279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_02_C.png
-  artifactKey: Guid(0fc20db2ef18bf847b0cb336b3e4867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_02_C.png using Guid(0fc20db2ef18bf847b0cb336b3e4867d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51555be6a8b166c992d0e3c6d02cc2fc') in 0.113203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_04_A.png
-  artifactKey: Guid(75fd15308c42fed4fbfa58bad74ddfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_04_A.png using Guid(75fd15308c42fed4fbfa58bad74ddfcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43df942be1edf440b4627b4412aaf59c') in 0.169353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_01_C.png
-  artifactKey: Guid(2946b9233fafde1488dd3bf83cab38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_01_C.png using Guid(2946b9233fafde1488dd3bf83cab38be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b462417f6887f51d876dd1bad90244f7') in 0.140197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_01_B.png
-  artifactKey: Guid(b4c3496630d6c7b4bab216b60b1a7b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_01_B.png using Guid(b4c3496630d6c7b4bab216b60b1a7b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385627c2edf0a73734a98a3e37cd882b') in 0.122450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/PolygonPirates/Textures/Texture_03_C.png
-  artifactKey: Guid(a4e09ba2aa6238f4ea9a2ba7188cce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Texture_03_C.png using Guid(a4e09ba2aa6238f4ea9a2ba7188cce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb79bc5b1af0e867caa6eb31fd3a1d5b') in 0.132232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.470274 seconds.
-  path: Assets/PolygonPirates/Textures
-  artifactKey: Guid(d8dbc6cc96793cd4eafb604705cb3629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures using Guid(d8dbc6cc96793cd4eafb604705cb3629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a0113db573241a1e5768e2d17dd2ed') in 0.058411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.223034 seconds.
-  path: Assets/PolygonPirates/Textures/Felsen.mat
-  artifactKey: Guid(2b67787be6cf27647b53d4e8754f1016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Textures/Felsen.mat using Guid(2b67787be6cf27647b53d4e8754f1016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675d3c6ef1e3c14d1007c2834d2e234f') in 0.267785 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004197 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.313 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5009 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 230.5 MB.
-System memory in use after: 230.6 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5931.
-Total: 4.283800 ms (FindLiveObjects: 0.573600 ms CreateObjectMapping: 0.157400 ms MarkObjects: 3.267000 ms  DeleteObjects: 0.284900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004189 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.253 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4995 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 230.1 MB.
-System memory in use after: 230.3 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5934.
-Total: 4.241200 ms (FindLiveObjects: 0.565700 ms CreateObjectMapping: 0.161400 ms MarkObjects: 3.243600 ms  DeleteObjects: 0.268900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005915 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.344 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4995 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 230.1 MB.
-System memory in use after: 230.3 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5937.
-Total: 3.792400 ms (FindLiveObjects: 0.531600 ms CreateObjectMapping: 0.151700 ms MarkObjects: 2.853200 ms  DeleteObjects: 0.254700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3535.865459 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_A_Tree_A.prefab
-  artifactKey: Guid(93476c2387a59f14a982cfac641c55fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_A_Tree_A.prefab using Guid(93476c2387a59f14a982cfac641c55fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed59fc2cc824add3dac19fe5eab7c87') in 0.332208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_A.prefab
-  artifactKey: Guid(d3d4a03e59538ef4da2dc7d96ef448e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_A.prefab using Guid(d3d4a03e59538ef4da2dc7d96ef448e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0843e1716d14f14399724c3f47ce3a6c') in 0.154334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_TreeTrunk.prefab
-  artifactKey: Guid(c472a81b0c4e28b479ddb36001a8aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_TreeTrunk.prefab using Guid(c472a81b0c4e28b479ddb36001a8aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce904be93665cadb7cd9319811c50496') in 0.152885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_B.prefab
-  artifactKey: Guid(e9d2b67739f614f4ea89a8340ffaac4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_B.prefab using Guid(e9d2b67739f614f4ea89a8340ffaac4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96816c225c0b1717aca1b2b4b90b1b4d') in 0.157643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Bush.prefab
-  artifactKey: Guid(ee87403b7879f204795dce827ba8e402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Bush.prefab using Guid(ee87403b7879f204795dce827ba8e402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740fd0c2c734eea4ffc902d1b276d746') in 0.122803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_E.prefab
-  artifactKey: Guid(0032c9d272a6be946a6cbf2177109120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_E.prefab using Guid(0032c9d272a6be946a6cbf2177109120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca84b92b3abd0ba228b9ef6473d8d22') in 0.117534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_B_Tree_A.prefab
-  artifactKey: Guid(4e117d2e3d16f56499cbeeab1f36d69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_B_Tree_A.prefab using Guid(4e117d2e3d16f56499cbeeab1f36d69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613bb824612141f1a1028c56ff4b141') in 0.129380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_F.prefab
-  artifactKey: Guid(b6541f12f94612543ba342ce7b1f73be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_F.prefab using Guid(b6541f12f94612543ba342ce7b1f73be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8eaf9332c6897313573a853d14be82e') in 0.097208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Grass.prefab
-  artifactKey: Guid(9166f715b2b067a4ba04e34429bd1fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Grass.prefab using Guid(9166f715b2b067a4ba04e34429bd1fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279c3e4469bea7f1171e21616fac66eb') in 0.119443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_C.prefab
-  artifactKey: Guid(b8452cf8266296e4f9fe404159b99ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_C.prefab using Guid(b8452cf8266296e4f9fe404159b99ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b926892d49cdc2d46028dc88bab1f8b4') in 0.110305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_B_Tree_B.prefab
-  artifactKey: Guid(f07c525600727f14294b0576165ce2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_B_Tree_B.prefab using Guid(f07c525600727f14294b0576165ce2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a032695a40f80a0d80275753560331') in 0.096206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_B_Tree_C.prefab
-  artifactKey: Guid(d9ed63e73c93b9144ba757336374be43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_B_Tree_C.prefab using Guid(d9ed63e73c93b9144ba757336374be43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6514ab511a21cab51ec95f3e4f1fc7') in 0.109522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_D.prefab
-  artifactKey: Guid(b5a8a493749593549a6a38a09fd03c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_Stone_D.prefab using Guid(b5a8a493749593549a6a38a09fd03c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed449f8a2564e680ce33d947687c739f') in 0.109686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_A_Tree_B.prefab
-  artifactKey: Guid(38b2c71151b72264895a7a9c4626e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/H_Enviroment/H_A_Tree_B.prefab using Guid(38b2c71151b72264895a7a9c4626e650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d43fcf740243d1ea68eceb43311711') in 0.110987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.246181 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_B_Chest.prefab
-  artifactKey: Guid(137265145c01d784b9a1b2759098f7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_B_Chest.prefab using Guid(137265145c01d784b9a1b2759098f7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd92e85d24af1d805d7bfdece52a765') in 0.143818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Tent_Green.prefab
-  artifactKey: Guid(bcbffd32444332b4985757510ffaeade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Tent_Green.prefab using Guid(bcbffd32444332b4985757510ffaeade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309f3689eb6dbfdced9116a78a7e34aa') in 0.111163 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_WoodStand.prefab
-  artifactKey: Guid(287567c8a5e69dd409cb497bdfd66a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_WoodStand.prefab using Guid(287567c8a5e69dd409cb497bdfd66a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34eabbeb362e993035729d4500e62ef') in 0.125274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Flag_Blue.prefab
-  artifactKey: Guid(5724ee22d6ab456489f983f40c928bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Flag_Blue.prefab using Guid(5724ee22d6ab456489f983f40c928bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6c81fe1a080a4d89717bb1920e4560') in 0.156909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Barricade.prefab
-  artifactKey: Guid(f6f1b0b70c93235478b12305289a12be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Barricade.prefab using Guid(f6f1b0b70c93235478b12305289a12be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145e2f997d81b0fddd715d51c9ddbcd0') in 0.119715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Bear.prefab
-  artifactKey: Guid(ad95d641b131a1a40896ca22d3058df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Bear.prefab using Guid(ad95d641b131a1a40896ca22d3058df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf495390c12b570701bb71d1eec80e4') in 0.128304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Boatyard.prefab
-  artifactKey: Guid(3ff05229cab17564aa9bb1d305ddc7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Boatyard.prefab using Guid(3ff05229cab17564aa9bb1d305ddc7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14adcd46e8b474f47798fdca27325f5') in 0.156772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Oven.prefab
-  artifactKey: Guid(219717e67a2aee7499b872758a954ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Oven.prefab using Guid(219717e67a2aee7499b872758a954ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81edd9e7de77e8df77e415a0515abe0') in 0.164213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Tent_Red.prefab
-  artifactKey: Guid(11821c7dcdec0534883bec7aceb7ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Tent_Red.prefab using Guid(11821c7dcdec0534883bec7aceb7ba36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8910619a4c195b936015b0fd38899acf') in 0.171027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Flag_Green.prefab
-  artifactKey: Guid(e9a43bed69ee40841922f6030745fb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Flag_Green.prefab using Guid(e9a43bed69ee40841922f6030745fb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b4cc5217801fb8145bcc89bdb63732') in 0.147381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Flag_Red.prefab
-  artifactKey: Guid(a9539cc58f355aa4f9e298737d1f3f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Flag_Red.prefab using Guid(a9539cc58f355aa4f9e298737d1f3f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcb598205b4ab10fe3ad078b5106b89') in 0.135736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Tent_Blue.prefab
-  artifactKey: Guid(6cd3b5fe9c16791429c2e334458a5385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/G_Decoration/G_Tent_Blue.prefab using Guid(6cd3b5fe9c16791429c2e334458a5385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120852bae49176b071519c181de94487') in 0.100226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.998387 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Axe.prefab
-  artifactKey: Guid(bea2a0611d0fc4a4497218655fb95cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Axe.prefab using Guid(bea2a0611d0fc4a4497218655fb95cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581f30a4076ec523e68c2d45d63d7415') in 0.126682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Campfire.prefab
-  artifactKey: Guid(af25c72a21a2a504abfd879967ea9308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Campfire.prefab using Guid(af25c72a21a2a504abfd879967ea9308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199e1bef6eaf97dc1c17a1a7dfea3024') in 0.138938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Hatchet_B.prefab
-  artifactKey: Guid(019de9733f2755d4bacc4c116c00ed5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Hatchet_B.prefab using Guid(019de9733f2755d4bacc4c116c00ed5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad670c1b64af4e2fdce4e617521a02b') in 0.106479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Horn_Red.prefab
-  artifactKey: Guid(c553e5087ffc9fa40a053ff299135767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Horn_Red.prefab using Guid(c553e5087ffc9fa40a053ff299135767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5b3cc0e64b8110e539827d759f8bb1') in 0.139755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_A_Green.prefab
-  artifactKey: Guid(72109940612b02c47bcc99d6c575df02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_A_Green.prefab using Guid(72109940612b02c47bcc99d6c575df02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500b0ecd04081d166105ec12c549aa8f') in 0.132786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Sickle.prefab
-  artifactKey: Guid(21f67af232c4895458c02937f272d3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Sickle.prefab using Guid(21f67af232c4895458c02937f272d3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b59deb721ab4a60f4ccbf4cca27d5d5') in 0.096068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Horn_Green.prefab
-  artifactKey: Guid(fc82c08804fe820468fd068cd1a82b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Horn_Green.prefab using Guid(fc82c08804fe820468fd068cd1a82b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf5951f84d4a95db3ec166f3584cc84') in 0.113068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Lamp_B.prefab
-  artifactKey: Guid(ba8c05fa80b2ad348a7fa7e045fd6337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Lamp_B.prefab using Guid(ba8c05fa80b2ad348a7fa7e045fd6337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f811bf14b46e0d65addccd7ef566dc') in 0.108027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Sword_B.prefab
-  artifactKey: Guid(103f221552e44d041b6ff163e0cf07bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Sword_B.prefab using Guid(103f221552e44d041b6ff163e0cf07bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab51fed55c1af38a7d2fa1e484812f5') in 0.167127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_B_Blue.prefab
-  artifactKey: Guid(215a17ba3c211db4f92667f0d0018df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_B_Blue.prefab using Guid(215a17ba3c211db4f92667f0d0018df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfad5116e4ab3d7ca6cdae30cc22a1b5') in 0.118339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_FishingRod.prefab
-  artifactKey: Guid(780ca3e053259b5479866196fbcdf1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_FishingRod.prefab using Guid(780ca3e053259b5479866196fbcdf1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6a4084f2364eb5deb2c9d16cd14a1e') in 0.117630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Hammer_B.prefab
-  artifactKey: Guid(f52f080f5094f6e429f7207825dd1e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Hammer_B.prefab using Guid(f52f080f5094f6e429f7207825dd1e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3efc8e884880ea2d47669df8ad4ead') in 0.120998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_B_Red.prefab
-  artifactKey: Guid(62e18699e5c0a60429ad6e291d06a21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_B_Red.prefab using Guid(62e18699e5c0a60429ad6e291d06a21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd721dcaa283efca1f0b195c9be25d59a') in 0.169603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Oar_A.prefab
-  artifactKey: Guid(70a42ea12570dda42bd8a8717644e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Oar_A.prefab using Guid(70a42ea12570dda42bd8a8717644e9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fcf7ded4540c52f539e115a73d9d66') in 0.101348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Spear_A.prefab
-  artifactKey: Guid(8e7514bfdbb76ef42b61e0a719ba7635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Spear_A.prefab using Guid(8e7514bfdbb76ef42b61e0a719ba7635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0b46d772b5674efcd764443f684f73') in 0.117003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_LongAxe.prefab
-  artifactKey: Guid(e63bce5423e837c4690fc6a5edeb9ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_LongAxe.prefab using Guid(e63bce5423e837c4690fc6a5edeb9ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8eb5538344a504868f459f8302d25a') in 0.095557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Lamp_A.prefab
-  artifactKey: Guid(54435e6459bc1d049b025b05d526574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Lamp_A.prefab using Guid(54435e6459bc1d049b025b05d526574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0816c904e881674453905939d4510646') in 0.111509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Pickaxe.prefab
-  artifactKey: Guid(651c27d7e5ce84d41b2a7bdf8f224eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Pickaxe.prefab using Guid(651c27d7e5ce84d41b2a7bdf8f224eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afa9ecfd32a635fcceb6163d5ee98ce') in 0.200516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Fish_B.prefab
-  artifactKey: Guid(5c90582bdfe7bfa46b315c30ab793495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Fish_B.prefab using Guid(5c90582bdfe7bfa46b315c30ab793495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32323f7a457b7e8d6fb364ab5283654f') in 0.116902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_C_Wood.prefab
-  artifactKey: Guid(f367019dbb80905448a6d20a2999bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_C_Wood.prefab using Guid(f367019dbb80905448a6d20a2999bc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eecd2e0e257e3c40f60717b23bb17b9') in 0.115060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Bucket.prefab
-  artifactKey: Guid(ffd78b2d918074942b76da356d3ca5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Bucket.prefab using Guid(ffd78b2d918074942b76da356d3ca5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2e5a8fa6ed0c27c702c5808dc525b9') in 0.107747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Hatchet_A.prefab
-  artifactKey: Guid(bcc03ac13dbda38438a41729981929eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Hatchet_A.prefab using Guid(bcc03ac13dbda38438a41729981929eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c7dc5a065f24c6964fb16905feca11') in 0.104081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Spear_B.prefab
-  artifactKey: Guid(cf39cef34785ca34cb87abba71d51970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Spear_B.prefab using Guid(cf39cef34785ca34cb87abba71d51970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6734baca3b6b0be67858c33fea7e4885') in 0.105936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_A_Wood.prefab
-  artifactKey: Guid(96fb990dd188c87449c2e172153299b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_A_Wood.prefab using Guid(96fb990dd188c87449c2e172153299b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd24c409be7f27368e014e7f17ebd62') in 0.101769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Sword_A.prefab
-  artifactKey: Guid(24034653af685744fb1fd4242c3d9b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Sword_A.prefab using Guid(24034653af685744fb1fd4242c3d9b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5517bcdfae72d5fc1ee8571b4175e694') in 0.102674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_C_Red.prefab
-  artifactKey: Guid(526e1d1b94a39864e9453c79604004fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_C_Red.prefab using Guid(526e1d1b94a39864e9453c79604004fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec892c8567dacf0d297c76f15f6fd3e') in 0.096876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Mace.prefab
-  artifactKey: Guid(3f253808fb2f63547882a7e8318234e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Mace.prefab using Guid(3f253808fb2f63547882a7e8318234e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772827ab99319509bcc9caa1d3842e8c') in 0.103755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_FishSpear.prefab
-  artifactKey: Guid(ba6b94764a605b343b6376bb3a36e3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_FishSpear.prefab using Guid(ba6b94764a605b343b6376bb3a36e3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6faf43bc5f77006a318d6b923cfd3ca1') in 0.188520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_FishingNet.prefab
-  artifactKey: Guid(5d07088b334124d46bd3bced3e9f174b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_FishingNet.prefab using Guid(5d07088b334124d46bd3bced3e9f174b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e455788dd350548e80a74da42d185a8a') in 0.115040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_B_Wood.prefab
-  artifactKey: Guid(1611932772862b8438373bfbedf7802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_B_Wood.prefab using Guid(1611932772862b8438373bfbedf7802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc5bde86d5117abcd3668f5bd447647') in 0.103985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Bone_B.prefab
-  artifactKey: Guid(01eef38425309584381d5b4d9d8956eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Bone_B.prefab using Guid(01eef38425309584381d5b4d9d8956eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f300aa9d18fb950b2e6d752a1144353e') in 0.097902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_BeerMug.prefab
-  artifactKey: Guid(57c2ebfe86a19bb49ad233279b4c33b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_BeerMug.prefab using Guid(57c2ebfe86a19bb49ad233279b4c33b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de6cda88a1310c64d21cfce4ec3cb00') in 0.097738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_B_Green.prefab
-  artifactKey: Guid(04d1ffec8277a424cad0fc62ddf30504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_B_Green.prefab using Guid(04d1ffec8277a424cad0fc62ddf30504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8608b725d2c214c83af8d5d6c6adaf') in 0.100940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_A_Entrance.prefab
-  artifactKey: Guid(89090d62a4596884f954b97732f2f5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_A_Entrance.prefab using Guid(89090d62a4596884f954b97732f2f5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b8390587e3c142ea130366ef5aa62d') in 0.131487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceA.prefab
-  artifactKey: Guid(6fcdf4779e243264fa015ee62e929d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceA.prefab using Guid(6fcdf4779e243264fa015ee62e929d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6719c3a26b137113ee73692b33843be0') in 0.113723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_C_Base.prefab
-  artifactKey: Guid(98773dc8a97c625419fa70731e1dcd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_C_Base.prefab using Guid(98773dc8a97c625419fa70731e1dcd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54db342db00dabf43c2733d12ebfb869') in 0.117903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceE.prefab
-  artifactKey: Guid(4a20f6c4107503c4a9660b9283452f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceE.prefab using Guid(4a20f6c4107503c4a9660b9283452f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b1b18caacb53f8c8c57f4462f96704') in 0.115704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_Entrance.prefab
-  artifactKey: Guid(02b79eb20c54e8944aff172971f67a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_Entrance.prefab using Guid(02b79eb20c54e8944aff172971f67a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104222a98d659d6beec45a0acf21b162') in 0.106768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_Jetty.prefab
-  artifactKey: Guid(864590434ff8ef4498e6479ab7e7ca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_Jetty.prefab using Guid(864590434ff8ef4498e6479ab7e7ca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c113f3adb59b75814a9718b50b92aa76') in 0.116502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_A_FenceB.prefab
-  artifactKey: Guid(5a16b50230ad57240a660503fe1d26cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_A_FenceB.prefab using Guid(5a16b50230ad57240a660503fe1d26cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39fb29a3b841683cfc801bd84ff5a47') in 0.095021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_A_FenceA.prefab
-  artifactKey: Guid(786e664dc49800642903ea0ee2686974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_A_FenceA.prefab using Guid(786e664dc49800642903ea0ee2686974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7667a3a5d9e23cbf7241cd5f4b6329') in 0.104378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceD.prefab
-  artifactKey: Guid(b8e88f234a3244a40b79cfc1e79a5436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceD.prefab using Guid(b8e88f234a3244a40b79cfc1e79a5436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f717d219a8053018b9d7dbd904dfecc') in 0.100751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceC.prefab
-  artifactKey: Guid(cf4008c6e46fc114aa5389e080ef2bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceC.prefab using Guid(cf4008c6e46fc114aa5389e080ef2bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25705bd367100e5f89597f46c8d5443') in 0.094456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_C_Blue.prefab
-  artifactKey: Guid(ccab41dbff2a20e479f16d0708bbf4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_C_Blue.prefab using Guid(ccab41dbff2a20e479f16d0708bbf4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9499d3903c30802140c419aafac0f5') in 0.096044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Bone_A.prefab
-  artifactKey: Guid(34b31159b33b292418a5b474a204c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Bone_A.prefab using Guid(34b31159b33b292418a5b474a204c1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a35698bd368e1909c07106dd61a0630') in 0.109500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Barrel.prefab
-  artifactKey: Guid(fc0ec87bba3b211429f8115daf586a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Barrel.prefab using Guid(fc0ec87bba3b211429f8115daf586a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235c50db67b949820b4ac8b254f0d69d') in 0.095810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Fish_C.prefab
-  artifactKey: Guid(5035312eedf521f44bd34c6278dfa2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Fish_C.prefab using Guid(5035312eedf521f44bd34c6278dfa2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad06eee04ba32678359da84fa19a88b') in 0.096927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Hammer_A.prefab
-  artifactKey: Guid(38e0173f47d693244bde6ec8d7ef4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Hammer_A.prefab using Guid(38e0173f47d693244bde6ec8d7ef4e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1f53b35e1cfe5acec27efc4ad77061') in 0.114766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Lamp_C.prefab
-  artifactKey: Guid(60db19a19ccb3b24b93a6a286322a73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Lamp_C.prefab using Guid(60db19a19ccb3b24b93a6a286322a73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4546c0a653340a4bfabcea479413a4f3') in 0.096819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Saw.prefab
-  artifactKey: Guid(18fffca78ba79c94a9f2c67672fa4e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Saw.prefab using Guid(18fffca78ba79c94a9f2c67672fa4e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454c28ada867a78d334c805d86590042') in 0.099457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_C_Green.prefab
-  artifactKey: Guid(c7b141e3a4a777b42ac5fe9bc4f0a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_C_Green.prefab using Guid(c7b141e3a4a777b42ac5fe9bc4f0a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27781e9e12adc222198bdc22f78c17e5') in 0.096449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shovel.prefab
-  artifactKey: Guid(c57a87839c445b545a1ace167d03f025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shovel.prefab using Guid(c57a87839c445b545a1ace167d03f025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5579781ff34180ab285fd2dba7ffe34b') in 0.097887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceF.prefab
-  artifactKey: Guid(03a75a16a147ff64dbd3d7a40f59bad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceF.prefab using Guid(03a75a16a147ff64dbd3d7a40f59bad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471a99bf5912d7ca2267e7bc9c65bfd6') in 0.113290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Oar_B.prefab
-  artifactKey: Guid(a169c404a2ebe6f49a10a0d6d10c8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Oar_B.prefab using Guid(a169c404a2ebe6f49a10a0d6d10c8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ebd6ea90e5267d32a87e106ea06ec0') in 0.103915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_Base.prefab
-  artifactKey: Guid(f92c8a4aa98e41a4e890dad24a6eb921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_Base.prefab using Guid(f92c8a4aa98e41a4e890dad24a6eb921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19abfb19b21992e27ea9ab20b0455a45') in 0.104608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_LongHammer.prefab
-  artifactKey: Guid(21b37481863f1ec4b9da5700ef6b0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_LongHammer.prefab using Guid(21b37481863f1ec4b9da5700ef6b0411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edd7ff87e6d05187a127c4ce6c7bef5') in 0.094515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Horn_Blue.prefab
-  artifactKey: Guid(0a10b647558dea54c9a6e950cd39acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Horn_Blue.prefab using Guid(0a10b647558dea54c9a6e950cd39acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f614223a8280a9f21124f6c5d61a5ce7') in 0.096185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_A_Red.prefab
-  artifactKey: Guid(8c68f750475b1414593b52f590276a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/F_Tool/F_Shield_A_Red.prefab using Guid(8c68f750475b1414593b52f590276a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8285db445c2c96b7800edf3bc597f0eb') in 0.110949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceB.prefab
-  artifactKey: Guid(068b09e3d9834f145b6790fb0c88725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_B_FenceB.prefab using Guid(068b09e3d9834f145b6790fb0c88725c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492c4fc40cac20fb55309c737d851c8b') in 0.155439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_Ladder.prefab
-  artifactKey: Guid(f177ac27ece3ec2458392076228c6b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/E_WoodConstruction/E_Ladder.prefab using Guid(f177ac27ece3ec2458392076228c6b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9dcff00f20ee91158ce60bec7e8a80') in 0.095467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.189522 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_A_Tree_A.fbx
-  artifactKey: Guid(bc6b175d81b81c64aae1d3427c81bcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_A_Tree_A.fbx using Guid(bc6b175d81b81c64aae1d3427c81bcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71fb07f09b7f949518c8b7c89cb5152') in 0.178300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_Stone_D.fbx
-  artifactKey: Guid(d8ebce7539928fe49b881dfffce4b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_Stone_D.fbx using Guid(d8ebce7539928fe49b881dfffce4b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a66d506fec095499ea1601e9d6c3101') in 0.100819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_B_Tree_A.fbx
-  artifactKey: Guid(f2b48a57e0cb4a6409bb80587ede9eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_B_Tree_A.fbx using Guid(f2b48a57e0cb4a6409bb80587ede9eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7ac7a74131ed686875f376ac5d182c') in 0.088650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_A_Tree_C.fbx
-  artifactKey: Guid(1c1deffbb5dfbc448854736e569b4caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_A_Tree_C.fbx using Guid(1c1deffbb5dfbc448854736e569b4caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9904f2e476758c5ad62efe92c53968c2') in 0.140802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_Stone_E.fbx
-  artifactKey: Guid(271f581d3164a1b45aab53a03fe08c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_Stone_E.fbx using Guid(271f581d3164a1b45aab53a03fe08c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b2d14221b69764789862736fc0636e') in 0.090191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_TreeTrunk.fbx
-  artifactKey: Guid(8b4c3647a73ca354fa8e99fcebf6ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_TreeTrunk.fbx using Guid(8b4c3647a73ca354fa8e99fcebf6ed52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a0a92d64d02d9136d0db045245ff7d') in 0.088534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_A_Tree_B.fbx
-  artifactKey: Guid(280af5b2930241e41b596a8eac8b1c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_A_Tree_B.fbx using Guid(280af5b2930241e41b596a8eac8b1c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2866cf449c57c73886b21dd471e0f404') in 0.088540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_Bush.fbx
-  artifactKey: Guid(4e6f5b30b3c2d7542a9e597a6e3c090a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_Bush.fbx using Guid(4e6f5b30b3c2d7542a9e597a6e3c090a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307fe31c9a96f892158d9e81e1304ccc') in 0.089105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_Stone_B.fbx
-  artifactKey: Guid(dfca96f81d5a1ed4483d8d514f90d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_Stone_B.fbx using Guid(dfca96f81d5a1ed4483d8d514f90d074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e4a5138691998f68e0baf1f1c28ebb') in 0.087673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_B_Tree_C.fbx
-  artifactKey: Guid(5667a025437649549867245d8de4ef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_B_Tree_C.fbx using Guid(5667a025437649549867245d8de4ef97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7edd8d2ca215b8b7e6dfbd637c18fdb') in 0.086917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_Grass.fbx
-  artifactKey: Guid(105294d869d520c4db620e310e093160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_Grass.fbx using Guid(105294d869d520c4db620e310e093160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112258fdef246a9a3980abaa4380805d') in 0.114127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_Stone_A.fbx
-  artifactKey: Guid(047b6f27d75723f4baa1d14f79ba20b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_Stone_A.fbx using Guid(047b6f27d75723f4baa1d14f79ba20b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4606de9e7a70e5db423285d0fa445ea') in 0.093684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Understone/Viking Pack/Models/H_Environment/H_Stone_C.fbx
-  artifactKey: Guid(7284f9f9af3c5794b843021aaecec37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Models/H_Environment/H_Stone_C.fbx using Guid(7284f9f9af3c5794b843021aaecec37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99428b96b37373d51e7aeb7fd7e67b99') in 0.090728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.189204 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_1_Blue.prefab
-  artifactKey: Guid(3d47bceb65b30b947958b3793a308fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_1_Blue.prefab using Guid(3d47bceb65b30b947958b3793a308fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e155902655d1c50358b86ad11c0a96b') in 0.228573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_3_Green.prefab
-  artifactKey: Guid(f81550fd18657e04584f8472c598be72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_3_Green.prefab using Guid(f81550fd18657e04584f8472c598be72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a608859e8c17de72cc31589d0e2364') in 0.165737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_1_Brown.prefab
-  artifactKey: Guid(2059881829f0a9f42a7adce1e2a6c6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_1_Brown.prefab using Guid(2059881829f0a9f42a7adce1e2a6c6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9453eb8cc21ea6552578364ab7197488') in 0.132807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_2_Blue.prefab
-  artifactKey: Guid(bb0ef068e78df7c4f84e060b4663a14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_2_Blue.prefab using Guid(bb0ef068e78df7c4f84e060b4663a14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd628c7be2256fca229181ed0879fc508') in 0.155736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_2_Green.prefab
-  artifactKey: Guid(dc9991ada2e9cec48ba1f6d9b36ac307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_2_Green.prefab using Guid(dc9991ada2e9cec48ba1f6d9b36ac307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996c2425d7f1bdedd2daaf1d270995cf') in 0.153385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_3_Blue.prefab
-  artifactKey: Guid(eb21bbfa8c7f65748b514577bce36250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_3_Blue.prefab using Guid(eb21bbfa8c7f65748b514577bce36250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416b1dcea3c71df7109995b79dd4fe98') in 0.171652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_2_Brown.prefab
-  artifactKey: Guid(b480f2f45cac42c4bbedb63a99e2b066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_2_Brown.prefab using Guid(b480f2f45cac42c4bbedb63a99e2b066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af83b3163618bb1afee92d466950d23a') in 0.152035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_1_Green.prefab
-  artifactKey: Guid(8d13064a4ecb7d34195ccb9fdee2c73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_1_Green.prefab using Guid(8d13064a4ecb7d34195ccb9fdee2c73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b610521569d922d50558fc7fb2afcf8a') in 0.144324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_3_Red.prefab
-  artifactKey: Guid(176f151b3667a294cafc9539ec7aae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_3_Red.prefab using Guid(176f151b3667a294cafc9539ec7aae5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c7583ea4cce5ba9433d1437d85ff1e') in 0.142352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_2_Red.prefab
-  artifactKey: Guid(e020542b24e3a1c43be57ed649489fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_2_Red.prefab using Guid(e020542b24e3a1c43be57ed649489fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517ed3df0d00bf91756187962284f0e5') in 0.131608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_3_Brown.prefab
-  artifactKey: Guid(5e1f9519c3af8304a8db80a4e740b0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_3_Brown.prefab using Guid(5e1f9519c3af8304a8db80a4e740b0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de33bd20985094d877914b479235d4a') in 0.140751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Understone/Viking Pack/Prefabs/I_Character/I_1_Red.prefab
-  artifactKey: Guid(c2deb4aa0331cb049a75e219f2398948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Understone/Viking Pack/Prefabs/I_Character/I_1_Red.prefab using Guid(c2deb4aa0331cb049a75e219f2398948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2737dc3e12f41150ec70f836326aa5') in 0.137494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.910324 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals
-  artifactKey: Guid(73169176982833e43a929a7398cb4b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals using Guid(73169176982833e43a929a7398cb4b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8b9ea1d474dc87248f515886c32454') in 0.057618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.942309 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Terrains
-  artifactKey: Guid(2815f171505f2408c8d7f96429f4e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Terrains using Guid(2815f171505f2408c8d7f96429f4e276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0b7dedeb6acd76bfeb3f4d97da2af2') in 0.058805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - spider.asset
-  artifactKey: Guid(96754bd6a7a964dcb81cbd78e1f94a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - spider.asset using Guid(96754bd6a7a964dcb81cbd78e1f94a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61b2f4feaf1a28434cbca5fd571a6d2') in 0.259833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - garden.asset
-  artifactKey: Guid(03ff12bad09b543d6a748d86935eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - garden.asset using Guid(03ff12bad09b543d6a748d86935eefb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2a4b85ff86c5c8d745cb09954dfd56') in 0.195833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - swamp.asset
-  artifactKey: Guid(5a882ce9a4ac3442e9cd75a780881cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - swamp.asset using Guid(5a882ce9a4ac3442e9cd75a780881cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b107f3ad747318177224920d60a9e4') in 0.179513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - jungle.asset
-  artifactKey: Guid(cd43673cc2dff4cec9c7a58f7569c48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - jungle.asset using Guid(cd43673cc2dff4cec9c7a58f7569c48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e796d2b61e5208d7a17f134f52bd0dc2') in 0.169799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - field.asset
-  artifactKey: Guid(dc97e6dc201a44bf297ffacc0c728a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - field.asset using Guid(dc97e6dc201a44bf297ffacc0c728a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce11b2f1e0ddee3d63c5d50df7d03d5f') in 0.177441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - africa.asset
-  artifactKey: Guid(cc88a0362013344d1b764ff5c9c02d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - africa.asset using Guid(cc88a0362013344d1b764ff5c9c02d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45a5549d8b41f9f3e809f0669508595') in 0.189137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - wildwest.asset
-  artifactKey: Guid(fbb57c1c26cc14ada91221eb1ff49caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - wildwest.asset using Guid(fbb57c1c26cc14ada91221eb1ff49caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767535ddfc147515638598b88467bd4d') in 0.163979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Terrains/New Terrain.asset
-  artifactKey: Guid(0f6b4344a78fb41ee99977d87954edb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Terrains/New Terrain.asset using Guid(0f6b4344a78fb41ee99977d87954edb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2209ea2c9afb43555ca36b162bca2e27') in 0.265255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - forest.asset
-  artifactKey: Guid(2a98c4fba5b6444f08baeb5ee80845c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Terrains/Terrain - forest.asset using Guid(2a98c4fba5b6444f08baeb5ee80845c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed9768cc7ddf7f91be107870628c0c2') in 0.230766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.775069 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs
-  artifactKey: Guid(0b6656709dc09e2498aa204f3608f034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs using Guid(0b6656709dc09e2498aa204f3608f034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b158e16178c07df8b8167665b9f38fb9') in 0.058337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.929499 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature
-  artifactKey: Guid(bf57536cc7a3a4ff4b788cfb7fc34246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature using Guid(bf57536cc7a3a4ff4b788cfb7fc34246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcecddd01128d105ced9e85bba660d70') in 0.057587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/bamboo-leaves.prefab
-  artifactKey: Guid(62fd7e46f2d0940749fb66c9443ff3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/bamboo-leaves.prefab using Guid(62fd7e46f2d0940749fb66c9443ff3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd833158095217afbad69b8ac8233be4e') in 0.371777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cat-ball.prefab
-  artifactKey: Guid(087f36ebde1fa4eaf8cd0af1ffdccff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cat-ball.prefab using Guid(087f36ebde1fa4eaf8cd0af1ffdccff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5640580361cbc8bcefcb9ec05f7614d') in 0.138484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/stone-flat.prefab
-  artifactKey: Guid(0f6c3c2b59a164fdaa30536d7278dc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/stone-flat.prefab using Guid(0f6c3c2b59a164fdaa30536d7278dc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e426254a41a33d8d2c0805505a2c190') in 0.117027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-baobab.prefab
-  artifactKey: Guid(0adbe808ddb421445b8fc6fafbbad7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-baobab.prefab using Guid(0adbe808ddb421445b8fc6fafbbad7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f8c33a758feb9f281c178783caee2c') in 0.145314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-trunk.prefab
-  artifactKey: Guid(1ab418e4a3c7c4e7cb30ea72dcaadb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-trunk.prefab using Guid(1ab418e4a3c7c4e7cb30ea72dcaadb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe752f94d568ab0f1c091a3f01dc76a') in 0.120470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-dead.prefab
-  artifactKey: Guid(dc5363e4f96074139a5af2e1df6a8928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-dead.prefab using Guid(dc5363e4f96074139a5af2e1df6a8928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771473e784cf47009c61e4fc782d5665') in 0.114620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cloud-long.prefab
-  artifactKey: Guid(733d22330513541ecaf4fc75aa46e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cloud-long.prefab using Guid(733d22330513541ecaf4fc75aa46e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ff16f38636127dd1a736f9c346eeda') in 0.100032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/floe.prefab
-  artifactKey: Guid(b5423645bcfb34c0e97178ade782aae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/floe.prefab using Guid(b5423645bcfb34c0e97178ade782aae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b166dc31858511656b6a2939cd455e') in 0.096239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-maple-simple.prefab
-  artifactKey: Guid(85adf5b7ef98e4c928db93ceffd73a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-maple-simple.prefab using Guid(85adf5b7ef98e4c928db93ceffd73a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220cabb73971d8a8c02995c221ef6895') in 0.100922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cloud-big.prefab
-  artifactKey: Guid(c1d54e9c4dea54e57a7688718a976b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cloud-big.prefab using Guid(c1d54e9c4dea54e57a7688718a976b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaea970d54d69f4c60bab29efeadfc40') in 0.127654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-simple.prefab
-  artifactKey: Guid(03a40e9b821914692bc0768af6fcf047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-simple.prefab using Guid(03a40e9b821914692bc0768af6fcf047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefe0c8ab3183104946353cc1656f6d1') in 0.119153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/mushroom-toadstool.prefab
-  artifactKey: Guid(7cb53249603bf4885aaa12c74d647840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/mushroom-toadstool.prefab using Guid(7cb53249603bf4885aaa12c74d647840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb1bbb0b2f3fb883b8eee57e7864d58') in 0.104607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-forest.prefab
-  artifactKey: Guid(81bce50924cffc644ae62c5a3c5c4192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/tree-forest.prefab using Guid(81bce50924cffc644ae62c5a3c5c4192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ed533264a5e82e0abd1078635bee42') in 0.111882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/carrot.prefab
-  artifactKey: Guid(9d4d39397bb3e4df98ac838ef29e39a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/carrot.prefab using Guid(9d4d39397bb3e4df98ac838ef29e39a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12578e9b9ea3eb086f74470933288f9c') in 0.113050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-plane.prefab
-  artifactKey: Guid(7514b26b8c678431d8f9a9491a5abdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/leaf-plane.prefab using Guid(7514b26b8c678431d8f9a9491a5abdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00cedea035ae17d2e0c84e3c532ff68') in 0.110448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/ground-cracked.prefab
-  artifactKey: Guid(5c5dc77a75a234354a770cd9149a9166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/ground-cracked.prefab using Guid(5c5dc77a75a234354a770cd9149a9166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4df55566156c4f73d2f1cb4e85b0cd') in 0.100600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/skull-human.prefab
-  artifactKey: Guid(bcb99a89be7cb4861b8b9cc63086322f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/skull-human.prefab using Guid(bcb99a89be7cb4861b8b9cc63086322f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb052ca59fd58908012bfd45b66d9aa') in 0.101218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cactus-big.prefab
-  artifactKey: Guid(8951f907d878f44288d2ea37b5a0f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cactus-big.prefab using Guid(8951f907d878f44288d2ea37b5a0f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc97689f67c97f48f35fcd5797077452') in 0.103176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/coral_yellow.prefab
-  artifactKey: Guid(15b8649ecf421464586d535eba312f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/coral_yellow.prefab using Guid(15b8649ecf421464586d535eba312f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e4a00b760a2763a4bfab78450da932') in 0.097690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/coral-small_orange.prefab
-  artifactKey: Guid(6d1248d6de7824b1892a9b1a1dd493f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/coral-small_orange.prefab using Guid(6d1248d6de7824b1892a9b1a1dd493f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967ec9b15d37e1dd7f460d333721d309') in 0.117020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.264021 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Props
-  artifactKey: Guid(46e791cf325e44ac0932227d402021c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Props using Guid(46e791cf325e44ac0932227d402021c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6148af83c7d755cd5cf3430322229f6a') in 0.059275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Props/fence-classic.prefab
-  artifactKey: Guid(5b5ea93c44ed4437781305935ec54576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Props/fence-classic.prefab using Guid(5b5ea93c44ed4437781305935ec54576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e02334768676e99172f63b39b728a1e') in 0.096740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.438686 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/UI
-  artifactKey: Guid(2bbf352b872d71e48aa32ad6ec1e4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/UI using Guid(2bbf352b872d71e48aa32ad6ec1e4061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1276b569ac6a1ae88710c598e5e21a90') in 0.059881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/UI/button.prefab
-  artifactKey: Guid(5389548e06b86a043b3649e0edce3590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/UI/button.prefab using Guid(5389548e06b86a043b3649e0edce3590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c578bf374873715cbaf49d150f773a') in 0.144774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.777030 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals
-  artifactKey: Guid(567be5e4cc10a484a9f59dc36070883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals using Guid(567be5e4cc10a484a9f59dc36070883d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b068210bade3fdd75b86208c9c816f') in 0.059554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat Orange.prefab
-  artifactKey: Guid(7efd45947c60593499aa27f27b2fc943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat Orange.prefab using Guid(7efd45947c60593499aa27f27b2fc943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4be78ec60d228d69a23b4bf3c9a7d6') in 2.396153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Black-White.prefab
-  artifactKey: Guid(8deda24c4237fd94db95aa127822ba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Black-White.prefab using Guid(8deda24c4237fd94db95aa127822ba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53be5a2ae72baa002c5802a9df93b2e') in 0.577006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GreatDane Black.prefab
-  artifactKey: Guid(2724ea9d48f53a64299a8e5616a496c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GreatDane Black.prefab using Guid(2724ea9d48f53a64299a8e5616a496c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2bb086f96eee384bf65f3911dc5b36') in 0.376616 seconds 
+  path: Assets/polyperfect/Low Poly Animated Animals/- Sounds/piano-sad.ogg
+  artifactKey: Guid(afe1307d1dfad40a58ab23d367de9859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Sounds/piano-sad.ogg using Guid(afe1307d1dfad40a58ab23d367de9859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e5d1bfc66561def1bc41a4283ee9d6') in 0.233116 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000271 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Grey.prefab
-  artifactKey: Guid(3d5455030e8b8484c959b12ec1ec124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Grey.prefab using Guid(3d5455030e8b8484c959b12ec1ec124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed72b8679f7ad3ef1dd40fd9088eeef') in 0.505927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Snake Red.prefab
-  artifactKey: Guid(b18f11080da58d0449ec9da835a6123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Snake Red.prefab using Guid(b18f11080da58d0449ec9da835a6123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f943fb91429e11b15ab1c6496f3888') in 1.314193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rabbit Brown.prefab
-  artifactKey: Guid(829a5f61d90ac4c42b217bbfc1b3cea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rabbit Brown.prefab using Guid(829a5f61d90ac4c42b217bbfc1b3cea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807b2d0fd924610bf19404843501943e') in 0.793266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Yellow.prefab
-  artifactKey: Guid(2ef322c53a036124bad12637f603d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Yellow.prefab using Guid(2ef322c53a036124bad12637f603d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b57b8f7fa44514e80b6ad1180ab8734') in 0.477470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Brown.prefab
-  artifactKey: Guid(166de651131410845bbf9789550f6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Brown.prefab using Guid(166de651131410845bbf9789550f6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f920f2d2a273c84e420ad1ddb10b5b') in 0.701486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GreatDane.prefab
-  artifactKey: Guid(3530aa07ed1fa41bd899b6d9780d97ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GreatDane.prefab using Guid(3530aa07ed1fa41bd899b6d9780d97ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1009e06476def797ca7d05cb8d6a770') in 0.181996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Green.prefab
-  artifactKey: Guid(c4fa44d6ad133e0409f10009615a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Green.prefab using Guid(c4fa44d6ad133e0409f10009615a9247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ffaacb856206ae33f3908616987042') in 0.207766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Black.prefab
-  artifactKey: Guid(c495d8b43fce1e94f8716eb35080cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Black.prefab using Guid(c495d8b43fce1e94f8716eb35080cb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e221b5835a5b1869ecf1bf87f976ddcc') in 0.222186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Crocodile.prefab
-  artifactKey: Guid(e0e6ac992a860c4468d220dfdd803cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Crocodile.prefab using Guid(e0e6ac992a860c4468d220dfdd803cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab259c7ff264be9ddd8b567d36c759b4') in 0.454662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish White.prefab
-  artifactKey: Guid(d3619d6268c1bec4d97ce2d4e8ceaec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish White.prefab using Guid(d3619d6268c1bec4d97ce2d4e8ceaec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4c053e6bf68c413b2472b8ee5ec0de') in 0.290641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rabbit White.prefab
-  artifactKey: Guid(69b122cc19161bc47908c71cd75dc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Rabbit White.prefab using Guid(69b122cc19161bc47908c71cd75dc515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820491fc38531346b1a5051b902e93d3') in 0.287559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse White.prefab
-  artifactKey: Guid(c6a433e6f4854b345bc0e8a730197a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse White.prefab using Guid(c6a433e6f4854b345bc0e8a730197a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca965afe8e982d745710416a7abd601f') in 0.234238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Seagul.prefab
-  artifactKey: Guid(70d97733042ab774ab2df5cd87b89efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Seagul.prefab using Guid(70d97733042ab774ab2df5cd87b89efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba95951a262dd938436be796392e0ba') in 0.264121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Bear.prefab
-  artifactKey: Guid(fc3da0b1b2ade5f4b862ae549728831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Bear.prefab using Guid(fc3da0b1b2ade5f4b862ae549728831f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6c0073fa09913acb25e9fcfa765156') in 0.604768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat.prefab
-  artifactKey: Guid(9aa610f370cd8454a90934998b7440ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat.prefab using Guid(9aa610f370cd8454a90934998b7440ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de20e25a5880e8618076f1e2bf59c489') in 0.344368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Red.prefab
-  artifactKey: Guid(fc9ece646c03b5d4f8c2d3adfb6ffa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Spider Red.prefab using Guid(fc9ece646c03b5d4f8c2d3adfb6ffa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca67b19dce26bd497374dbb25b7e743') in 0.175893 seconds 
+  path: Assets/polyperfect/Low Poly Animated Animals/- Materials/Colors/49 PINK-DARKEST.mat
+  artifactKey: Guid(29a84e950ada74848bd4591f0b64bf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Materials/Colors/49 PINK-DARKEST.mat using Guid(29a84e950ada74848bd4591f0b64bf4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ea9129bd1e21ebc43ab97f097b1282') in 0.222114 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000243 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Wolf Grey.prefab
-  artifactKey: Guid(1159fbfcf2d66ee4b896abb3e41d47c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Wolf Grey.prefab using Guid(1159fbfcf2d66ee4b896abb3e41d47c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df236519799ff4df8dc9d3c14fe1c54') in 0.742573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Starfish.prefab
-  artifactKey: Guid(3f5c613256bb8481cbafc1d34aa1184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Starfish.prefab using Guid(3f5c613256bb8481cbafc1d34aa1184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea8b5aa36999759b3039bc7675cb2f2') in 0.269502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Shark White.prefab
-  artifactKey: Guid(8f52d003b4269954485d3d0b9ed4139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Shark White.prefab using Guid(8f52d003b4269954485d3d0b9ed4139f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5501eace1e54868d1e0aada1bdd0216') in 0.270139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Silver.prefab
-  artifactKey: Guid(343956e15ca614042b6c7eae1aceb95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Silver.prefab using Guid(343956e15ca614042b6c7eae1aceb95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee900d450969c0429f0c139bbe346b2') in 0.252898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Deer.prefab
-  artifactKey: Guid(3a9b422ae305e3b49aadf8ece0bfa915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Deer.prefab using Guid(3a9b422ae305e3b49aadf8ece0bfa915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f28f46fe28ab97b0f255b74c1d941a4') in 0.759524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Deer Gray.prefab
-  artifactKey: Guid(ed4615b93521e4b46a0973aa03b94732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Deer Gray.prefab using Guid(ed4615b93521e4b46a0973aa03b94732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbe08d0a79989599856f5f3afadd1c0') in 0.304766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Penguin.prefab
-  artifactKey: Guid(6817fd3c5809228498530e5ebe58f46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Penguin.prefab using Guid(6817fd3c5809228498530e5ebe58f46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aca2b989610be48eec714cdd709fe41') in 0.396515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-Chihuahua Black.prefab
-  artifactKey: Guid(6ed651d2201001a41b3a948ea0165f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-Chihuahua Black.prefab using Guid(6ed651d2201001a41b3a948ea0165f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1009bb4762900e3c7f331f5ed4124c39') in 0.270846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish Blue.prefab
-  artifactKey: Guid(1bc86ea021341ae4db28b1681bf8bc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish Blue.prefab using Guid(1bc86ea021341ae4db28b1681bf8bc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a20bad09956b281128ef8e533afc652') in 0.182140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish Orange.prefab
-  artifactKey: Guid(60ba3272028897a42aa9c0e2eb37a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/JellyFish Orange.prefab using Guid(60ba3272028897a42aa9c0e2eb37a568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d70d737abed181ac4afe421fd123ac') in 0.170158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Black.prefab
-  artifactKey: Guid(82432984c7cfb7f40af9d8caaf71f926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Black.prefab using Guid(82432984c7cfb7f40af9d8caaf71f926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2658fbc8c4d0709e21592902e0e68dff') in 0.244418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Brown.prefab
-  artifactKey: Guid(3e862f40cc8ad65468baa9837635c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Horse Brown.prefab using Guid(3e862f40cc8ad65468baa9837635c9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0df073eda9f76292d93399eef2541c') in 0.258833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GoldenRetriever.prefab
-  artifactKey: Guid(16e5f48d612f744039dbecb3e834b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-GoldenRetriever.prefab using Guid(16e5f48d612f744039dbecb3e834b94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894f6a9ba5fc0437e42a160408369df1') in 0.361514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Brown.prefab
-  artifactKey: Guid(28f32469152e3f64c95c5bc66ae60278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cow Brown.prefab using Guid(28f32469152e3f64c95c5bc66ae60278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76453aa9f864fb95028462b66ca1595') in 0.242857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Fish.prefab
-  artifactKey: Guid(a61d0b4c41dabf548be1eb07e22d847a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Fish.prefab using Guid(a61d0b4c41dabf548be1eb07e22d847a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664ceeee0a41c94b1d73834ae6430fa7') in 0.202770 seconds 
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/piece.asset
+  artifactKey: Guid(99126abe533633a4bbd8b6772ab38550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/piece.asset using Guid(99126abe533633a4bbd8b6772ab38550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d1bd79403662287925e71dc77f78ce') in 0.127354 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000231 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Black.prefab
-  artifactKey: Guid(57a429f4b3b3c754e975b792ed61d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Gorilla Black.prefab using Guid(57a429f4b3b3c754e975b792ed61d63a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3c4f2ce6d36c627b946ccd39e9171c') in 0.323983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Elephant.prefab
-  artifactKey: Guid(d19dd43872ee43b4896d75d23e9db9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Elephant.prefab using Guid(d19dd43872ee43b4896d75d23e9db9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41e6831b04c26bfcd2da7a6b57e33bd') in 0.746611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Giraffe.prefab
-  artifactKey: Guid(0d9eb53229fd4e4428e17f457310aada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Giraffe.prefab using Guid(0d9eb53229fd4e4428e17f457310aada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe554a1d653b2da7b6402990a34f35b1') in 0.332888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat Black.prefab
-  artifactKey: Guid(0ca7c81f5e8d6c64792a13aef1f23bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Cat Black.prefab using Guid(0ca7c81f5e8d6c64792a13aef1f23bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27bbfe53c8f10194be09a5e17d7e0b0') in 0.353678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Orca.prefab
-  artifactKey: Guid(83e5f758f79d148b898ca89e7d3207ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Orca.prefab using Guid(83e5f758f79d148b898ca89e7d3207ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c8dc66688068824967f67fa5e43d6e') in 0.289515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Shark Black.prefab
-  artifactKey: Guid(60f0387c246cf014aad3931e71e20959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Shark Black.prefab using Guid(60f0387c246cf014aad3931e71e20959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a927853f0e621c194f7ed41176a6d4') in 0.190865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-Chihuahua.prefab
-  artifactKey: Guid(7d00f2b1ff01045718e9dbb76d481352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Dog-Chihuahua.prefab using Guid(7d00f2b1ff01045718e9dbb76d481352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a395762861830cc42ddeaf0714fa06') in 0.188804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Snake Yellow.prefab
-  artifactKey: Guid(d1b394efe4dbeb14f8a20e2e04bf1d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Snake Yellow.prefab using Guid(d1b394efe4dbeb14f8a20e2e04bf1d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a84b543ac1913ace93a3b789ff7b7b') in 0.612643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Wolf Black.prefab
-  artifactKey: Guid(54f08473df2a94348a95272458da3885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Animals/Wolf Black.prefab using Guid(54f08473df2a94348a95272458da3885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5503e61929d0405da531d52a8267d7f7') in 0.297415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1301.269472 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items
-  artifactKey: Guid(b0fc3b55b5fddf44eb854cff2b6a0976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items using Guid(b0fc3b55b5fddf44eb854cff2b6a0976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1171c75253e9093a6ef9410454ed8ae7') in 0.059116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bag_01.prefab
-  artifactKey: Guid(b620df130404a9944af5b799b9b4750b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bag_01.prefab using Guid(b620df130404a9944af5b799b9b4750b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23fe78cca5aea078407010e09bd5b9e') in 0.156740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bag_Attachment_01.prefab
-  artifactKey: Guid(afc17d1011405d44ea312707f1e84c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bag_Attachment_01.prefab using Guid(afc17d1011405d44ea312707f1e84c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d07da67bc96d52562064be1d42de85') in 0.108726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_03.prefab
-  artifactKey: Guid(eb2834de9304430498a4187bc75d9c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_03.prefab using Guid(eb2834de9304430498a4187bc75d9c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeba403e439b6bc62b2d83d7570523e5') in 0.135203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Gem_03.prefab
-  artifactKey: Guid(e1dfdc62d151cdd4b9beddbbf0034d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Gem_03.prefab using Guid(e1dfdc62d151cdd4b9beddbbf0034d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0419586a4811171c3be87c181dfd3a3d') in 0.109956 seconds 
+  path: Assets/Standard Assets/Prototyping/Materials/PinkSmooth.mat
+  artifactKey: Guid(fed4e78bda2b3de45954637fee164b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Materials/PinkSmooth.mat using Guid(fed4e78bda2b3de45954637fee164b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1efd4221f5d696cae7c40c9c18d4e28') in 0.139646 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000234 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Rope_Attachment_01.prefab
-  artifactKey: Guid(c505f925a497e604bab785ecef02f4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Rope_Attachment_01.prefab using Guid(c505f925a497e604bab785ecef02f4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c14ccb262f1b464aaa8153a6a90e57') in 0.125116 seconds 
+  path: Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype02x08x02.prefab
+  artifactKey: Guid(44884af1ac1d64d42902da40268ba120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype02x08x02.prefab using Guid(44884af1ac1d64d42902da40268ba120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e97115a136d09bc6d172c24e20e077c') in 0.247469 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Plate_01.prefab
-  artifactKey: Guid(91bde8b915a49fc409b940457bf19e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Plate_01.prefab using Guid(91bde8b915a49fc409b940457bf19e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0252f590437eec6585daf4331d6553a2') in 0.109922 seconds 
+  Time since last request: 0.000315 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Materials/Colors/50 PINK-DARK.mat
+  artifactKey: Guid(be11bb95eeb9f45e2a4ab7d03f51b6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Materials/Colors/50 PINK-DARK.mat using Guid(be11bb95eeb9f45e2a4ab7d03f51b6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2ecf71c52eefbc8825a9a8485214b0') in 0.107279 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Pouch_Attachment_02.prefab
-  artifactKey: Guid(b0ed25d7857b4cc4fbdac59550b6e436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Pouch_Attachment_02.prefab using Guid(b0ed25d7857b4cc4fbdac59550b6e436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6846f9fcbbdff3867791a18091ba0984') in 0.103267 seconds 
+  Time since last request: 0.000236 seconds.
+  path: Assets/Standard Assets/Prototyping/Prefabs/PickupPrototype.prefab
+  artifactKey: Guid(c02747e7134ef1948a039c94a8f33c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Prefabs/PickupPrototype.prefab using Guid(c02747e7134ef1948a039c94a8f33c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c62028537fb06c29f3af616844f8035') in 0.109411 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Spyglass_02.prefab
-  artifactKey: Guid(c55650a6a5fdc224b92f63f1948ac19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Spyglass_02.prefab using Guid(c55650a6a5fdc224b92f63f1948ac19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef22bc96d7b371b3a709f85b5504555') in 0.098992 seconds 
+  Time since last request: 0.000271 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/piece.prefab
+  artifactKey: Guid(782d52d115c7ce84ab933bf328e854b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/piece.prefab using Guid(782d52d115c7ce84ab933bf328e854b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91a249612d1494c6477f96ee1c10f98') in 0.250318 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Map_03.prefab
-  artifactKey: Guid(e169b392add7d31438bf603312df9b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Map_03.prefab using Guid(e169b392add7d31438bf603312df9b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ebdfe7932eb72715c6e85ef2878ae7') in 0.096920 seconds 
+  Time since last request: 0.000227 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Materials/Colors/52 PINK.mat
+  artifactKey: Guid(c44501de50bef411e8f88b70fe39490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Materials/Colors/52 PINK.mat using Guid(c44501de50bef411e8f88b70fe39490e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bec5f22a9dfa56f89338f388a241ff') in 0.095726 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Flask_01.prefab
-  artifactKey: Guid(d7d03568cdf14ed4fa3cea675f76b366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Flask_01.prefab using Guid(d7d03568cdf14ed4fa3cea675f76b366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e861ae881f10380266ee0337f2e7e88') in 0.109283 seconds 
+  Time since last request: 0.000169 seconds.
+  path: Assets/SampleScenes/Models/Pickup.fbx
+  artifactKey: Guid(959be6347b65b7a4c9baa6bc323541fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Pickup.fbx using Guid(959be6347b65b7a4c9baa6bc323541fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83668014081b8575ccc46fb0a631f24') in 0.138066 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Map_Attachment_01.prefab
-  artifactKey: Guid(0c45483e24d322143a7a00a5963dd20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Map_Attachment_01.prefab using Guid(0c45483e24d322143a7a00a5963dd20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2b46c9a7fe204a15c92a58c0025ff6') in 0.102673 seconds 
+  Time since last request: 0.000187 seconds.
+  path: Assets/SampleScenes/Prefabs/Pillar.prefab
+  artifactKey: Guid(d23a205aa0ed1234ba0a327f1232ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Pillar.prefab using Guid(d23a205aa0ed1234ba0a327f1232ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab916a52f6a30a8d7dec17eebcfb2a6c') in 0.105519 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_01.prefab
-  artifactKey: Guid(64ddb092e43004748953d504e21df76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_01.prefab using Guid(64ddb092e43004748953d504e21df76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3357d3fcb086ce6ec53b5ba8f8c392d5') in 0.101716 seconds 
+  Time since last request: 0.000203 seconds.
+  path: Assets/Data/UniversalRP/PipelineAsset_Low.asset
+  artifactKey: Guid(ce78242d6aae64de6a072ef584b7cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/UniversalRP/PipelineAsset_Low.asset using Guid(ce78242d6aae64de6a072ef584b7cb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5c4d3827b9bc66f2c3e54db655a835') in 0.049204 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bag_02.prefab
-  artifactKey: Guid(a1ac5073ee5d2f446b6450a7324ec0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bag_02.prefab using Guid(a1ac5073ee5d2f446b6450a7324ec0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfc099fe32892c79a8dfa829fa16f3b') in 0.104402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Map_02.prefab
-  artifactKey: Guid(65050b5e8d57ef9489b31d45cd793531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Map_02.prefab using Guid(65050b5e8d57ef9489b31d45cd793531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607b3e4f353f7e1a3bd608e489192a2c') in 0.104243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bomb_01.prefab
-  artifactKey: Guid(0c74bb863bb2ece4193dd15ae219eb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bomb_01.prefab using Guid(0c74bb863bb2ece4193dd15ae219eb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d3931575c375bb90d4f615475cd92a') in 0.105450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Skull_01.prefab
-  artifactKey: Guid(bddd1f0c0f88b2347a315edd5b2ebccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Skull_01.prefab using Guid(bddd1f0c0f88b2347a315edd5b2ebccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479b28695e2d84075306407660ab186d') in 0.109182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_Attachment_01.prefab
-  artifactKey: Guid(4318f89cf0c834647a6b517d0203fe4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_Attachment_01.prefab using Guid(4318f89cf0c834647a6b517d0203fe4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f67df2b946899f14822235639b1f17') in 0.101518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bag_Attachment_02.prefab
-  artifactKey: Guid(eedf28ace7a1d8c478fdcdce90692ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bag_Attachment_02.prefab using Guid(eedf28ace7a1d8c478fdcdce90692ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a362c6cf788fa877bb39f36eb68a94') in 0.104680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Candle_01.prefab
-  artifactKey: Guid(3b7fea9a60142b441881a77769d1523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Candle_01.prefab using Guid(3b7fea9a60142b441881a77769d1523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b99a092bb083f511d839fb2fceec5b3') in 0.116927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_SkullCandle_01.prefab
-  artifactKey: Guid(87082542f9b886d4db8546d0e4de6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_SkullCandle_01.prefab using Guid(87082542f9b886d4db8546d0e4de6a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dabd80894698588a959d012c37f878') in 0.107799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_04.prefab
-  artifactKey: Guid(ace0bec95f69ee4408881b94beec4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_04.prefab using Guid(ace0bec95f69ee4408881b94beec4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff59053a1570f3671809be9decb417dc') in 0.100798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Cup_01.prefab
-  artifactKey: Guid(ac9952c4a8943d34bb7b7d6bf3d6b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Cup_01.prefab using Guid(ac9952c4a8943d34bb7b7d6bf3d6b2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1f9a5d3cc451a2d482d5a259277081') in 0.102019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Coins_03.prefab
-  artifactKey: Guid(c960a66b5f663364288638fca09ac5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Coins_03.prefab using Guid(c960a66b5f663364288638fca09ac5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09146f18951f712570db0e6c03ad9786') in 0.096207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Coins_02.prefab
-  artifactKey: Guid(69af1ce6715b80744a7ffab71c4a40a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Coins_02.prefab using Guid(69af1ce6715b80744a7ffab71c4a40a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c609284db9d2e64222f1112a953255') in 0.098175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Skull_Attachment_01.prefab
-  artifactKey: Guid(14f031a897e93a2469423fd43652037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Skull_Attachment_01.prefab using Guid(14f031a897e93a2469423fd43652037f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61b6b603db6c113424d3fc085b7916e') in 0.112285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_02.prefab
-  artifactKey: Guid(b0af57c3e75b4d4409f5e6c75d13179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_02.prefab using Guid(b0af57c3e75b4d4409f5e6c75d13179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a199a3ffd83296316fc51164f425aa') in 0.098928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_Candle_02.prefab
-  artifactKey: Guid(cfdf9904baa544d47bbc141a59d04908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_Candle_02.prefab using Guid(cfdf9904baa544d47bbc141a59d04908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8587ee78e33b66b16dc513884d066085') in 0.096438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Candelabra_02.prefab
-  artifactKey: Guid(7a6603adbe6b7ad4b86a0be00ed3973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Candelabra_02.prefab using Guid(7a6603adbe6b7ad4b86a0be00ed3973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b8d37cf3bdf9fa83eb8d9efd1546a9') in 0.110412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Candelabra_01.prefab
-  artifactKey: Guid(69a1e128858f35f439089bf0602936cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Candelabra_01.prefab using Guid(69a1e128858f35f439089bf0602936cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e74497474996e67e74b434fe58d68f') in 0.099054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Coins_01.prefab
-  artifactKey: Guid(250e937cad8b9074b8464dd802b6dfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Coins_01.prefab using Guid(250e937cad8b9074b8464dd802b6dfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a2a374202be00ec7148c0b875ee84b') in 0.109611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Map_01.prefab
-  artifactKey: Guid(4245ee44b4d498d4ebed377c5bd18962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Map_01.prefab using Guid(4245ee44b4d498d4ebed377c5bd18962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8886f1b06000ce56b5255fe4ff5863b3') in 0.163821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Spyglass_01.prefab
-  artifactKey: Guid(bc4e7899a3ac03046a3077e0e6fee6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Spyglass_01.prefab using Guid(bc4e7899a3ac03046a3077e0e6fee6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b15087e5a46ed36d384c27196741492') in 0.128664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Coins_04.prefab
-  artifactKey: Guid(b3bb07980d0cc224dac14439a9d0e47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Coins_04.prefab using Guid(b3bb07980d0cc224dac14439a9d0e47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d2a339d4f11e5e518cc413d95243ab') in 0.100176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Compass_01.prefab
-  artifactKey: Guid(6d6269edd55ce0e48ba037de57852c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Compass_01.prefab using Guid(6d6269edd55ce0e48ba037de57852c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6f35ce4fa541f2224d3dbabc034e3e') in 0.096915 seconds 
+  Time since last request: 0.000215 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Audio/pickup.wav
+  artifactKey: Guid(72166633b9a33df49b1c7dd46a212eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Audio/pickup.wav using Guid(72166633b9a33df49b1c7dd46a212eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afad07d10d3286a01f5dcfb4d6a49bd') in 0.098815 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000235 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Roll_Attachment_01.prefab
-  artifactKey: Guid(4373a57f43eac8e47b0b02decec2e83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Roll_Attachment_01.prefab using Guid(4373a57f43eac8e47b0b02decec2e83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bf320113afa2db44a2d925abe0f4fe') in 0.097911 seconds 
+  path: Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx
+  artifactKey: Guid(00718395eefb6084bb25555f962f25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/PickupPrototype01x01x01.fbx using Guid(00718395eefb6084bb25555f962f25c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c098ff99e38f2579c6d0b4384f79ad3') in 0.113112 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bomb_Attachment_01.prefab
-  artifactKey: Guid(9efc28a4164868a45b28c1e4e208e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bomb_Attachment_01.prefab using Guid(9efc28a4164868a45b28c1e4e208e10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723b42dbd4ab3f8ea4ec59da6def67fa') in 0.095455 seconds 
+  Time since last request: 0.000188 seconds.
+  path: Assets/Understone/Viking Pack/Models/F_Tool/F_Pickaxe.fbx
+  artifactKey: Guid(e38454732fcb1bd45816dca798b69b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Viking Pack/Models/F_Tool/F_Pickaxe.fbx using Guid(e38454732fcb1bd45816dca798b69b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9da773110e7c40e20b58341e437cd27') in 0.089470 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Gem_01.prefab
-  artifactKey: Guid(0aea9b6869c732d46923204c8dfa7251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Gem_01.prefab using Guid(0aea9b6869c732d46923204c8dfa7251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d35c2430078815a6b3144c8b88c913') in 0.095074 seconds 
+  Time since last request: 0.000190 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Materials/Colors/53 PINK-LIGHT.mat
+  artifactKey: Guid(cc039e4bd41a440f793d0b9f704387d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Materials/Colors/53 PINK-LIGHT.mat using Guid(cc039e4bd41a440f793d0b9f704387d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93ba72b09bbff34cbf86cda36a727b8') in 0.097502 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Gem_02.prefab
-  artifactKey: Guid(7b9f58d7739c50349b986bd1b40cb3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Gem_02.prefab using Guid(7b9f58d7739c50349b986bd1b40cb3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632f48732e144eed895ad5b3f15eabe8') in 0.101353 seconds 
+  Time since last request: 0.000263 seconds.
+  path: Assets/Standard Assets/2D/Sprites/CratePinkGridSprite.png
+  artifactKey: Guid(12ef7cbdfe0e143fa858a324456c8979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/2D/Sprites/CratePinkGridSprite.png using Guid(12ef7cbdfe0e143fa858a324456c8979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de09cf51bc1fe8eeeff11a3acd5d1df') in 0.129953 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_Candle_01.prefab
-  artifactKey: Guid(20f2557ed4f8d9b4393e2dac74eead8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Bottle_Candle_01.prefab using Guid(20f2557ed4f8d9b4393e2dac74eead8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1862a22b1b1ee567de96cc405ec24e9d') in 0.095735 seconds 
+  Time since last request: 0.000225 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx
+  artifactKey: Guid(25712b9d3dd0eb4439390fb8fea8043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx using Guid(25712b9d3dd0eb4439390fb8fea8043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f677830238d41e42673dba6a179adbb9') in 0.139481 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/PolygonPirates/Prefabs/Items/SM_Item_Chalice_01.prefab
-  artifactKey: Guid(923afa08ed2436a419e257b207d87351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonPirates/Prefabs/Items/SM_Item_Chalice_01.prefab using Guid(923afa08ed2436a419e257b207d87351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738d6bc8a177dfd680e7937d611ae2ae') in 0.121141 seconds 
+  Time since last request: 0.000221 seconds.
+  path: Assets/Standard Assets/Prototyping/Models/PillarPrototype02x08x02.fbx
+  artifactKey: Guid(66a13889798137c498eae4b3acdafe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Models/PillarPrototype02x08x02.fbx using Guid(66a13889798137c498eae4b3acdafe19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86af0cd24e0eeae66b3b22ec26fb6f6f') in 0.088835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/SampleScenes/Models/Pillar.fbx
+  artifactKey: Guid(2f1a6a1aa4c4ac74096a01849d901a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Models/Pillar.fbx using Guid(2f1a6a1aa4c4ac74096a01849d901a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223dbdafdfcb995d6c666d17e08bef8f') in 0.132004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/PreFab/haus beispiel.png
+  artifactKey: Guid(b6f9b18f92a381546a41ab331f6868bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFab/haus beispiel.png using Guid(b6f9b18f92a381546a41ab331f6868bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951b6bbb93b99abba8528004c8cc03f3') in 0.093641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Data/UniversalRP/PipelineAsset_Medium.asset
+  artifactKey: Guid(4b951d17ab0514e2aa290cc17b9fffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/UniversalRP/PipelineAsset_Medium.asset using Guid(4b951d17ab0514e2aa290cc17b9fffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b379cb8ac65476a3c5e8873bbfb6f4a') in 0.048836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Materials/Colors/51 PINK-MEDIUM.mat
+  artifactKey: Guid(52410f6a55176644687c0eddd00feddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Materials/Colors/51 PINK-MEDIUM.mat using Guid(52410f6a55176644687c0eddd00feddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fea20bae9ece22b03e8bbdb3231defb') in 0.097063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/SampleScenes/Prefabs/Pickup.prefab
+  artifactKey: Guid(2ed830309d1c9f640a65bf22d9060af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Prefabs/Pickup.prefab using Guid(2ed830309d1c9f640a65bf22d9060af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807848aedfa36687ad9b8806d94e01cc') in 0.085204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/SampleScenes/Materials/PinkSmooth.mat
+  artifactKey: Guid(9335c65f42a781d4c881b93bec5412b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScenes/Materials/PinkSmooth.mat using Guid(9335c65f42a781d4c881b93bec5412b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e86f1d968fd95b6d8ddbec7fa1d5f6f') in 0.127831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Data/UniversalRP/PipelineAsset_High.asset
+  artifactKey: Guid(c57a184794a05b349955e5023bbf7e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Data/UniversalRP/PipelineAsset_High.asset using Guid(c57a184794a05b349955e5023bbf7e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5733d836f9c9b104f09dde8744f596') in 0.049881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype01x02x01.prefab
+  artifactKey: Guid(88b5bfec6f1bd17439b2f4339902dca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Prefabs/PillarPrototype01x02x01.prefab using Guid(88b5bfec6f1bd17439b2f4339902dca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbed844343d6b1d917f036cce748c5d4') in 0.084225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Standard Assets/Prototyping/Materials/PinkGrid.mat
+  artifactKey: Guid(8c19a618a0bd9844583b91dca0875a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Materials/PinkGrid.mat using Guid(8c19a618a0bd9844583b91dca0875a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4156b16697ac1b619df5fbfc29f14362') in 0.121333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1049.253368 seconds.
+  path: Assets/PolygonPirates/Textures/Felsen.mat
+  artifactKey: Guid(2b67787be6cf27647b53d4e8754f1016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Textures/Felsen.mat using Guid(2b67787be6cf27647b53d4e8754f1016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f56ba1ae2d7a038209ae4426d65e0d4') in 0.119272 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004206 seconds.
+Registered in 0.004644 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.505 seconds
+- Completed reload, in  1.584 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 1.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4996 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 249.1 MB.
-System memory in use after: 249.3 MB.
+Unloading 4999 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.3 MB.
+System memory in use after: 217.4 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 5997.
-Total: 3.687700 ms (FindLiveObjects: 0.499400 ms CreateObjectMapping: 0.129700 ms MarkObjects: 2.788300 ms  DeleteObjects: 0.268800 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5757.
+Total: 4.050400 ms (FindLiveObjects: 0.551700 ms CreateObjectMapping: 0.137100 ms MarkObjects: 2.851900 ms  DeleteObjects: 0.508100 ms)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004224 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.544 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4995 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 249.0 MB.
-System memory in use after: 249.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 6000.
-Total: 4.427700 ms (FindLiveObjects: 0.641000 ms CreateObjectMapping: 0.154300 ms MarkObjects: 3.300600 ms  DeleteObjects: 0.329800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004435 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.504 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4995 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 249.1 MB.
-System memory in use after: 249.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 6003.
-Total: 4.412100 ms (FindLiveObjects: 0.541400 ms CreateObjectMapping: 0.362200 ms MarkObjects: 3.226900 ms  DeleteObjects: 0.280400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004886 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.565 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4995 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 249.1 MB.
-System memory in use after: 249.2 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 6006.
-Total: 4.802600 ms (FindLiveObjects: 0.589200 ms CreateObjectMapping: 0.156900 ms MarkObjects: 3.735100 ms  DeleteObjects: 0.319500 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
