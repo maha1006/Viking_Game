@@ -11,7 +11,7 @@ public class ScoringSystem : MonoBehaviour
 
     void Update()
     {
-        Wood_Score.GetComponent<Text>().text = "Wood: " + theScore;
+        Wood_Score.GetComponent<Text>().text = " " + theScore;
     }
 
 }
