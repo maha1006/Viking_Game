@@ -9,7 +9,7 @@ public class QuestGoal
 
     public int requiredAmount;
     public int currentAmount;
-
+    public int currentAmountKill;
     public bool IsReached()
     {
         return (currentAmount >= requiredAmount);
@@ -18,14 +18,13 @@ public class QuestGoal
     public void EnemyKilled()
     {
         if (goalType == GoalType.Kill)
-            currentAmount++;
+        currentAmountKill++;
     }
 
     public void ItemCollected()
     {
-        if (goalType == GoalType.Gathering)
-            currentAmount++;
-   }
+        currentAmount = ScoringSystem.theScore;
+    }
 }
 
    

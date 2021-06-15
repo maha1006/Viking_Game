@@ -7,8 +7,10 @@ public class Player : MonoBehaviour
     public int health = 5;
     public int experience = 40;
     public int gold = 1000;
-
+    public int currentAmount;
     public Quest quest;
+    
+
     public void GoBattle ()
     {
        
@@ -33,4 +35,5 @@ public class Player : MonoBehaviour
             }
         }
     }
+
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using PathCreation.Examples;
 using UnityEngine;
 
-public class BattleSystem : MonoBehaviour
+public class BattleSystem1 : MonoBehaviour
 {
     [SerializeField] Transform topPivot;
     [SerializeField] Transform bottomPivot;
