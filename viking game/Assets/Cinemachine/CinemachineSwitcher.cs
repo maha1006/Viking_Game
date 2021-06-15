@@ -62,7 +62,7 @@ public class CinemachineSwitcher : MonoBehaviour
 
         OverviewCam = !OverviewCam;
     }
-    private void SwitchPriority2()
+    public void SwitchPriority2()
     {
         if (OverviewCam)
         {

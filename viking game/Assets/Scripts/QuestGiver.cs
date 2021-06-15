@@ -12,6 +12,7 @@ public class QuestGiver : MonoBehaviour
 
     public questcompass qc;
     public questmarker qm;
+    public PauseGameOnTrigger pause;
 
 
     void OnTriggerEnter(Collider other)
@@ -42,6 +43,12 @@ public class QuestGiver : MonoBehaviour
         gameObject.GetComponent<BoxCollider>().enabled = false;
         player.quest = quest;
         qc.AddQuestMarker(qm);
+        pause.Resume();
+    }
+    public void DeleteMarker()
+    {
+        qc.DeleteQuestMarker(qm);
+        Debug.Log("deleted muhahhar");
     }
 }
 

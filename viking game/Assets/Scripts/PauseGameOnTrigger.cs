@@ -16,11 +16,6 @@ public class PauseGameOnTrigger : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Pause();
-        OpenInfoWindow();
-    }
-    public void OpenInfoWindow()
-    {
-        infoWindow.SetActive(true);
     }
 
     void Pause()
@@ -33,9 +28,6 @@ public class PauseGameOnTrigger : MonoBehaviour
     {
         Time.timeScale = 1f;
         GameIsPaused = false;
-        infoWindow.SetActive(false);
         gameObject.GetComponent<BoxCollider>().enabled = false;
-        quest.isActive = true;
-        player.quest = quest;
     }
 }
