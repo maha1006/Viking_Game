@@ -10,11 +10,7 @@ public class UpgradeBoatBrecher : MonoBehaviour
     
 
     public QuestTaker1 questTaker;
-    void Start()
-    {
-
-        Brecher.gameObject.SetActive(false);
-    }
+    
     public void Upgrade()
     {
         Brecher.gameObject.SetActive(true);
