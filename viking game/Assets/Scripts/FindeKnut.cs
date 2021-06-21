@@ -12,13 +12,14 @@ public class FindeKnut : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.CompareTag("Player"))
         infoWindow.SetActive(true);
     }
 
     public void CloseInfoWindow()
     {
         infoWindow.SetActive(false);
-        gameObject.GetComponent<BoxCollider>().enabled = false;
+        gameObject.GetComponent<CapsuleCollider>().enabled = false;
         this.gameObject.SetActive(false);
     }
 
@@ -29,6 +30,11 @@ public class FindeKnut : MonoBehaviour
     public void DeleteMarker()
     {
         questcompass.DeleteQuestMarker(questmarker);
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        CloseInfoWindow();
     }
 
 }

@@ -6,8 +6,6 @@ public class LootGiver : MonoBehaviour
 {
     public CollectItem collectItem;
 
-    public CollectItemIron collectIron;
-
     public Quest quest;
 
     public Player player;
@@ -15,7 +13,6 @@ public class LootGiver : MonoBehaviour
     public GameObject lootWindow;
 
     public int woodCount;
-    public int ironCount;
 
 
     void OnTriggerEnter(Collider other)
@@ -43,9 +40,7 @@ public class LootGiver : MonoBehaviour
     {
         lootWindow.SetActive(false);
         gameObject.GetComponent<BoxCollider>().enabled = false;
-        player.quest = quest;
         ScoringSystem.theScore += woodCount;
-        ScoringSystemIron.theScore += ironCount;
-       
+        player.GoItem();
     }
 }
