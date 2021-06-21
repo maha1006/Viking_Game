@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class RemoveRessources1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void RemoveRessources()
     {
-        
+        ScoringSystem.theScore -= 3;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void RemoveRessources2()
     {
-        
+        ScoringSystem.theScore -= 15;
     }
+
 }
