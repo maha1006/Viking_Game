@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using PathCreation.Examples;
 using UnityEngine;
 
-public class ShipBattleTrigger_2 : MonoBehaviour
+public class ShipBattleTrigger_1 : MonoBehaviour
 {
-    public BattleSystem2 openBattleSystem;
+    public BattleSystem1 openBattleSystem;
     public BoatController boatController;
 
 

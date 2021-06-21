@@ -11,4 +11,8 @@ public class AddMarker : MonoBehaviour
     {
      questcompass.AddQuestMarker(questmarker);
     }
+    public void DeleteMarker()
+    {
+        questcompass.DeleteQuestMarker(questmarker);
+    }
 }

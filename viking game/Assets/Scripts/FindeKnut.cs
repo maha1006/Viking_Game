@@ -26,6 +26,9 @@ public class FindeKnut : MonoBehaviour
     {
         questcompass.AddQuestMarker(questmarker);
     }
-
+    public void DeleteMarker()
+    {
+        questcompass.DeleteQuestMarker(questmarker);
+    }
 
 }

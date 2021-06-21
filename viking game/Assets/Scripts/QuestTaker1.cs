@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class QuestTaker : MonoBehaviour
+public class QuestTaker1 : MonoBehaviour
 {
     public Quest quest;
 
@@ -16,7 +16,7 @@ public class QuestTaker : MonoBehaviour
     public Text titleText;
     public Text descriptionText;
 
-    public QuestGiver aq;
+    public QuestGiver2 aq;
 
     public questcompass qc;
     public questmarker qm;

@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-public class QuestGiver2 : MonoBehaviour
+
+public class QuestGiverStop : MonoBehaviour
 {
+  
     public Quest quest;
 
     public Player player;
 
     public GameObject questWindow;
 
-    public GameObject Trigger;
+    public questcompass qc;
+    public questmarker qm;
+    public PauseGameOnTrigger pause;
 
 
     void OnTriggerEnter(Collider other)
@@ -31,17 +34,28 @@ public class QuestGiver2 : MonoBehaviour
     public void CloseQuestWindow()
     {
         questWindow.SetActive(false);
-       
+        pause.Resume();
+
     }
 
     public void AcceptQuest()
     {
         questWindow.SetActive(false);
-        this.gameObject.SetActive(false);
-        Trigger.SetActive(false);
         quest.isActive = true;
-        Trigger.GetComponent<CapsuleCollider>().enabled = false;
+        gameObject.GetComponent<BoxCollider>().enabled = false;
         player.quest = quest;
+       
+        
+    }
+
+    public void AddMarker()
+    {
+        qc.AddQuestMarker(qm);
+    }
+    public void DeleteMarker()
+    {
+        qc.DeleteQuestMarker(qm);
+        Debug.Log("deleted muhahhar");
     }
 }
 
