@@ -8,12 +8,15 @@ public class FindeKnut : MonoBehaviour
     public GameObject infoWindow;
     public questcompass questcompass;
     public questmarker questmarker;
+    public StartWeather startWeather;
 
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         infoWindow.SetActive(true);
+        startWeather.StartWeatherSystem();
+
     }
 
     public void CloseInfoWindow()
