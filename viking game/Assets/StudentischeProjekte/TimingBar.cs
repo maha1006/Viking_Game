@@ -9,7 +9,8 @@ public class TimingBar : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        LookAt.position = Trigger.position;
+        if (other.gameObject.CompareTag("Player"))
+            LookAt.position = Trigger.position;
     }
 
     void Update()

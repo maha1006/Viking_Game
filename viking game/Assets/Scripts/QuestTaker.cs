@@ -23,7 +23,8 @@ public class QuestTaker : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (aq.quest.isActive)
+        if (other.gameObject.CompareTag("Player"))
+            if (aq.quest.isActive)
         {
             Debug.Log(" active");
             if (quest.isActive)

@@ -18,7 +18,16 @@ public class FindeKnut : MonoBehaviour
         startWeather.StartWeatherSystem();
 
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        CloseWindow();
+    }
 
+    public void CloseWindow()
+    {
+        infoWindow.SetActive(false);
+    }
     public void CloseInfoWindow()
     {
         infoWindow.SetActive(false);
@@ -35,9 +44,5 @@ public class FindeKnut : MonoBehaviour
         questcompass.DeleteQuestMarker(questmarker);
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        CloseInfoWindow();
-    }
 
 }

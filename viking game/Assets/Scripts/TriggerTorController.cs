@@ -22,7 +22,8 @@ public class TriggerTorController : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        pathFollow.StartShipfast();
+        if (other.gameObject.CompareTag("Player"))
+            pathFollow.StartShipfast();
         if (other.CompareTag("Player"))
         {
             if (openTrigger)

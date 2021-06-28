@@ -16,12 +16,14 @@ public class QuestGiver : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        OpenQuestWindow();
+        if (other.gameObject.CompareTag("Player"))
+            OpenQuestWindow();
     }
 
     void OnTriggerExit(Collider other)
     {
-        CloseQuestWindow();
+        if (other.gameObject.CompareTag("Player"))
+            CloseQuestWindow();
     }
 
 

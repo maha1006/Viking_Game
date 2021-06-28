@@ -11,6 +11,7 @@ public class QuestTaker1 : MonoBehaviour
 
     public QuestGoal qg;
 
+    //public GameObject TriggerQuestTaker;
     public GameObject questWindow;
     public GameObject questWindowReached;
     public Text titleText;
@@ -23,7 +24,8 @@ public class QuestTaker1 : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (aq.quest.isActive)
+        if (other.gameObject.CompareTag("Player"))
+            if (aq.quest.isActive)
         {
             Debug.Log(" active");
             if (quest.isActive)
@@ -48,7 +50,8 @@ public class QuestTaker1 : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (aq.quest.isActive)
+        if (other.gameObject.CompareTag("Player"))
+            if (aq.quest.isActive)
         {
             Debug.Log(" active");
             if (quest.isActive)
@@ -77,6 +80,8 @@ public class QuestTaker1 : MonoBehaviour
     public void ActivateQuestTaker()
     {
         gameObject.SetActive(true);
+        Debug.Log("ActivateQuestTaker");
+
     }
 
 

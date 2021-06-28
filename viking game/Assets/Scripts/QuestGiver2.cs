@@ -8,6 +8,8 @@ public class QuestGiver2 : MonoBehaviour
 
     public Player player;
 
+    public BoatController boatController;
+
     public GameObject questWindow;
 
     public GameObject Trigger;
@@ -15,14 +17,21 @@ public class QuestGiver2 : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        OpenQuestWindow();
+        if (other.gameObject.CompareTag("Player"))
+            OpenQuestWindow();
+        boatController.StopPlayer();
     }
 
     void OnTriggerExit(Collider other)
     {
-        CloseQuestWindow();
+        if (other.gameObject.CompareTag("Player"))
+            CloseQuestWindow();
     }
 
+    public void StartPlayer()
+    {
+        boatController.StartPlayer();
+    }
 
     public void OpenQuestWindow()
     {

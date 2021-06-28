@@ -17,7 +17,8 @@ public class LootGiver : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        OpenLootWindow();
+        if (other.gameObject.CompareTag("Player"))
+            OpenLootWindow();
     }
 
     void OnTriggerExit(Collider other)
