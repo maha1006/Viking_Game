@@ -5,16 +5,17 @@ using UnityEngine;
 public class MoveKnut : MonoBehaviour
 {
     public Transform Knut;
+    public Transform KnutLocation;
     
     public void MoveAway()
     {
-       Knut.position = new Vector3(113, -1429, 336);
+        Knut.position = KnutLocation.position;
         
         Debug.Log("move2");
     }
     public void MoveAwayKnut()
     {
-        Invoke("MoveAway", 2);
+        Invoke("MoveAway", 15);
         Debug.Log("move");
     }
     void Update()
