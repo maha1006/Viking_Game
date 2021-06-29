@@ -14,6 +14,8 @@ public class BattleSystem1 : MonoBehaviour
     float weaponPosition;
     float weaponDestination;
 
+    public Destructible destructible;
+
 
     public BoatController boatController;
     public PathFollower pathFollower;
@@ -133,7 +135,7 @@ public class BattleSystem1 : MonoBehaviour
     {
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
-        Destroy(enemyBoat);
+        destructible.DestroyBoat();
         lootDrop.DropLoot();
         Debug.Log("You Win");
         questgoal.EnemyKilled();

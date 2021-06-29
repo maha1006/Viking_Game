@@ -3590,6 +3590,7 @@ MonoBehaviour:
   topPivot: {fileID: 2089161440}
   bottomPivot: {fileID: 437019378}
   weapon: {fileID: 704175988}
+  destructible: {fileID: 690451015}
   boatController: {fileID: 17666774}
   pathFollower: {fileID: 0}
   lootDrop: {fileID: 486076123}
@@ -6424,8 +6425,8 @@ Transform:
   - {fileID: 452463668}
   - {fileID: 333456399}
   - {fileID: 527071403}
-  - {fileID: 264405023}
   - {fileID: 1282845119}
+  - {fileID: 264405023}
   - {fileID: 1157070585}
   - {fileID: 1523887021}
   - {fileID: 987028330}
@@ -18139,6 +18140,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ae11fd94d7641b42a28d2b996c3d2c1, type: 3}
+--- !u!84 &522177221
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterDepthMap
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 3
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 2
+  m_ColorFormat: 142
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1001 &522748858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23783,6 +23820,7 @@ MonoBehaviour:
   topPivot: {fileID: 1384150105}
   bottomPivot: {fileID: 1553415506}
   weapon: {fileID: 1132419058}
+  destructible: {fileID: 1907284125}
   boatController: {fileID: 17666774}
   pathFollower: {fileID: 0}
   lootDrop: {fileID: 940396433}
@@ -24774,6 +24812,24 @@ Transform:
   m_Father: {fileID: 1839606315}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &690451014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 611173347450393689, guid: 2b5af1cc28554aa40a8084e06c15011e, type: 3}
+  m_PrefabInstance: {fileID: 684707118}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &690451015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690451014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7164328272f439b4091f0e2ef8d27981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedVersion: {fileID: 3872895044812971779, guid: c436b590952c41748976b4bf50b78807, type: 3}
 --- !u!1001 &695597832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47769,7 +47825,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089712189}
-  m_LocalRotation: {x: 0.669703, y: -0.035928935, z: 0.21964744, w: 0.7084928}
+  m_LocalRotation: {x: 0.669703, y: -0.035928994, z: 0.21964741, w: 0.7084929}
   m_LocalPosition: {x: -5.51987, y: 82.20719, z: -33.48191}
   m_LocalScale: {x: 1.424765, y: 1.4247651, z: 1.4247649}
   m_Children:
@@ -48413,42 +48469,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!84 &1115042278
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterDepthMap
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
-  m_Width: 1024
-  m_Height: 1024
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 2
-  m_ColorFormat: 142
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &1115827785 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 180414, guid: 6f70602d588bb43499d85285982d9223, type: 3}
@@ -53726,7 +53746,7 @@ Transform:
   - {fileID: 1821001010}
   - {fileID: 2041679430}
   m_Father: {fileID: 212195600}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1284190027 stripped
 GameObject:
@@ -53885,6 +53905,24 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2b67787be6cf27647b53d4e8754f1016, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1bf9afec41e2b3488bfa7af8b1d1e38, type: 3}
+--- !u!1 &1285674652 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 611173347450393689, guid: 2b5af1cc28554aa40a8084e06c15011e, type: 3}
+  m_PrefabInstance: {fileID: 1065887603}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1285674653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285674652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7164328272f439b4091f0e2ef8d27981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedVersion: {fileID: 3872895044812971779, guid: c436b590952c41748976b4bf50b78807, type: 3}
 --- !u!1 &1286444744
 GameObject:
   m_ObjectHideFlags: 3
@@ -64758,6 +64796,24 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 8.2
   m_Center: {x: 0, y: 1.8432779, z: -0.0000019073485}
+--- !u!1 &1467409193 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 611173347450393689, guid: 2b5af1cc28554aa40a8084e06c15011e, type: 3}
+  m_PrefabInstance: {fileID: 1998764334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1467409194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467409193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7164328272f439b4091f0e2ef8d27981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedVersion: {fileID: 3872895044812971779, guid: c436b590952c41748976b4bf50b78807, type: 3}
 --- !u!1 &1467691945
 GameObject:
   m_ObjectHideFlags: 0
@@ -66070,6 +66126,7 @@ MonoBehaviour:
   topPivot: {fileID: 346307102}
   bottomPivot: {fileID: 1314931901}
   weapon: {fileID: 1990064403}
+  destructible: {fileID: 1285674653}
   boatController: {fileID: 17666774}
   pathFollower: {fileID: 1426169853}
   lootDrop: {fileID: 1426169854}
@@ -67805,6 +67862,7 @@ MonoBehaviour:
   topPivot: {fileID: 810047012}
   bottomPivot: {fileID: 2058204669}
   weapon: {fileID: 1351409496}
+  destructible: {fileID: 1467409194}
   boatController: {fileID: 17666774}
   pathFollower: {fileID: 0}
   lootDrop: {fileID: 1141665907}
@@ -86008,6 +86066,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0704de4aad0f42247b81d5bef55a63c2, type: 3}
+--- !u!1 &1907284124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 611173347450393689, guid: 2b5af1cc28554aa40a8084e06c15011e, type: 3}
+  m_PrefabInstance: {fileID: 549670725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1907284125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907284124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7164328272f439b4091f0e2ef8d27981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedVersion: {fileID: 3872895044812971779, guid: c436b590952c41748976b4bf50b78807, type: 3}
 --- !u!1001 &1907693617
 PrefabInstance:
   m_ObjectHideFlags: 0
