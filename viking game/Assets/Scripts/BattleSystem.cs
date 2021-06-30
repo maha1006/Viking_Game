@@ -134,6 +134,7 @@ public class BattleSystem : MonoBehaviour
 
     public void Win()
     {
+        
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
         destructible.DestroyBoat();

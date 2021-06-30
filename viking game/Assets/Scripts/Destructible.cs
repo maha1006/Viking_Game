@@ -13,8 +13,5 @@ public class Destructible : MonoBehaviour
 
     }
    
-   public void DestroyedBoatOff()
-    {
-        destroyedVersion.SetActive(false);
-    }
+   
 }

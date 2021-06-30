@@ -80,12 +80,14 @@ public class CinemachineSwitcher : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SwitchPriority();
+        if (other.gameObject.CompareTag("Player"))
+            SwitchPriority();
     }
 
     private void OnTriggerExit(Collider other)
     {
-        SwitchPriority2();
+        if (other.gameObject.CompareTag("Player"))
+            SwitchPriority2();
     }
 
 }

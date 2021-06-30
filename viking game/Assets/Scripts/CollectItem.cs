@@ -10,10 +10,13 @@ public class CollectItem : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        collectSound.Play();
-        ScoringSystem.theScore += 1;
-        goItem.GoItem();
-        Destroy(gameObject);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            collectSound.Play();
+            ScoringSystem.theScore += 1;
+            goItem.GoItem();
+            Destroy(gameObject);
+        }
     }
 
     public void CollectItemScore()
