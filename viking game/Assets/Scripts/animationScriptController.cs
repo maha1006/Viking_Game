@@ -16,7 +16,11 @@ public class animationScriptController : MonoBehaviour
     void Update()
     {
         bool isWalking = animator.GetBool("IsPaddling");
+        bool isWalkingbackwards = animator.GetBool("IsPaddlingbackwards");
+
         bool forwardPress = Input.GetKey("w");
+        bool backwardPress = Input.GetKey("s");
+
         if (!isWalking && forwardPress)
         {
             animator.SetBool("IsPaddling", true);
@@ -24,6 +28,16 @@ public class animationScriptController : MonoBehaviour
         if (isWalking && !forwardPress)
         {
             animator.SetBool("IsPaddling", false);
+        }
+
+
+        if (!isWalkingbackwards && backwardPress)
+        {
+            animator.SetBool("IsPaddlingbackwards", true);
+        }
+        if (isWalkingbackwards && !backwardPress)
+        {
+            animator.SetBool("IsPaddlingbackwards", false);
         }
     }
 }
