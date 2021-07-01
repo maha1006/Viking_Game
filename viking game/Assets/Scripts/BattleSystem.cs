@@ -139,6 +139,7 @@ public class BattleSystem : MonoBehaviour
         boatController.StartPlayer();
         destructible.DestroyBoat();
         lootDrop.DropLoot();
+        Destroy(enemyBoat);
         Debug.Log("You Win");
         questgoal.EnemyKilled();
         goBattle.GoBattle();

@@ -8,8 +8,8 @@ public class Destructible : MonoBehaviour
     public void DestroyBoat()
     {
         Instantiate(destroyedVersion, transform.position, transform.rotation);
-        Destroy(gameObject);
-        Invoke("DestroyedBoatOff", 5);
+        //Destroy(gameObject);
+        //Invoke("DestroyedBoatOff", 5);
 
     }
    
