@@ -15,7 +15,7 @@ public class MoveKnut : MonoBehaviour
     }
     public void MoveAwayKnut()
     {
-        Invoke("MoveAway", 15);
+        Invoke("MoveAway", 12);
         Debug.Log("move");
     }
     void Update()

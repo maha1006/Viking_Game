@@ -24,6 +24,7 @@ public class QuestTaker : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
+        { 
             if (aq.quest.isActive)
         {
             Debug.Log(" active");
@@ -43,6 +44,7 @@ public class QuestTaker : MonoBehaviour
         { 
             OpenQuestWindowReached();
         Debug.Log(" _reached");
+        }
         }
 
     }

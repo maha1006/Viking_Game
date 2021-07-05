@@ -18,8 +18,11 @@ public class ShipBattleTrigger_6 : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        openBattleSystem.gameObject.SetActive(true);
-        pathFollow.StopShip();
-        boatController.StopPlayer();
+        if (other.gameObject.CompareTag("Player"))
+        {
+            openBattleSystem.gameObject.SetActive(true);
+            pathFollow.StopShip();
+            boatController.StopPlayer();
+        }
     }
 }
