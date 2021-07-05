@@ -20,7 +20,7 @@ public class ShipBattleTrigger_2 : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             openBattleSystem.gameObject.SetActive(true);
-            boatController.StopPlayer();
+            //boatController.StopPlayer();
         }
     }
 }

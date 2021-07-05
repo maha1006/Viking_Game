@@ -9,15 +9,22 @@ public class IslandBanner : MonoBehaviour
     public GameObject banner;
     public GameObject nameText;
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-        banner.SetActive(true);
-        nameText.SetActive(true);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            banner.SetActive(true);
+            nameText.SetActive(true);
+        }
+           
     }
 
-    void OnTriggerExit()
+    void OnTriggerExit(Collider other)
     {
-        banner.SetActive(false);
-        nameText.SetActive(false);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            banner.SetActive(false);
+            nameText.SetActive(false);
+        }
     }
 }

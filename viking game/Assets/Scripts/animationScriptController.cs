@@ -17,9 +17,13 @@ public class animationScriptController : MonoBehaviour
     {
         bool isWalking = animator.GetBool("IsPaddling");
         bool isWalkingbackwards = animator.GetBool("IsPaddlingbackwards");
+        bool isWalkingleft = animator.GetBool("isLeft");
+        bool isWalkingright = animator.GetBool("isRight");
 
         bool forwardPress = Input.GetKey("w");
         bool backwardPress = Input.GetKey("s");
+        bool leftPress = Input.GetKey("a");
+        bool rightPress = Input.GetKey("d");
 
         if (!isWalking && forwardPress)
         {
@@ -38,6 +42,24 @@ public class animationScriptController : MonoBehaviour
         if (isWalkingbackwards && !backwardPress)
         {
             animator.SetBool("IsPaddlingbackwards", false);
+        }
+
+        if (!isWalkingleft && leftPress)
+        {
+            animator.SetBool("isLeft", true);
+        }
+        if (isWalkingleft && !leftPress)
+        {
+            animator.SetBool("isLeft", false);
+        }
+
+        if (!isWalkingright && rightPress)
+        {
+            animator.SetBool("isRight", true);
+        }
+        if (isWalkingright && !rightPress)
+        {
+            animator.SetBool("isRight", false);
         }
     }
 }

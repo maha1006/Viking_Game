@@ -18,8 +18,10 @@ public class QuestGiver2 : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
+        {
             OpenQuestWindow();
-        boatController.StopPlayer();
+            boatController.StopPlayer();
+        }
     }
 
     void OnTriggerExit(Collider other)
