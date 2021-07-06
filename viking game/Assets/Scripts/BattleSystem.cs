@@ -52,10 +52,13 @@ public class BattleSystem : MonoBehaviour
 
     [SerializeField] float failTimer = 10f;
 
-    private void Start()
+    public AudioSource audioSource;
+
+    public void Start()
     {
         Resize();
         //failTimer = 10f;
+        audioSource.Stop();
     }
 
     
@@ -134,7 +137,7 @@ public class BattleSystem : MonoBehaviour
 
     public void Win()
     {
-        
+        audioSource.Play();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
         destructible.DestroyBoat();
@@ -143,6 +146,7 @@ public class BattleSystem : MonoBehaviour
         Debug.Log("You Win");
         questgoal.EnemyKilled();
         goBattle.GoBattle();
+        
     }
 
         void Bow()
