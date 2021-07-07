@@ -34,12 +34,14 @@ public class BoatController : MonoBehaviour
             fwdSpeed = 65;
             revSpeed = 40;
             turnSpeed = 80;
+            Debug.Log("reset upgrade speed");
         }
         else
         {
             fwdSpeed = 50;
             revSpeed = 30;
             turnSpeed = 60;
+            Debug.Log("reset default speed");
         }
         
 
