@@ -42,7 +42,7 @@ namespace PathCreation.Examples
 
         public void StartShipfast()
         {
-            speed = 9;
+            speed = 11;
             Debug.Log(" start");
         }
 

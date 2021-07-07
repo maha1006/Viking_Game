@@ -5,11 +5,16 @@ using UnityEngine;
 public class AudioSwap : MonoBehaviour
 {
     public AudioClip newTrack;
+    public UpgradeBoatBrecher upgradeBoatBrecher;
     private void OnTriggerEnter(Collider other)
     {
        if(other.CompareTag("Player"))
         {
-            SwapTrack();
+            if (upgradeBoatBrecher.UpgradeActive == false)
+            {
+                SwapTrack();
+            }
+            
         }
     }
     public void SwapTrack()

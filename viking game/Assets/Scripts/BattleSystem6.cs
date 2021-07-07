@@ -15,6 +15,8 @@ public class BattleSystem6 : MonoBehaviour
     float weaponDestination;
 
     public Destructible destructible;
+    public AudioSwap audioSwap;
+    public UpgradeBoatBrecher upgradeBoatBrecher;
 
 
     public BoatController boatController;
@@ -136,6 +138,10 @@ public class BattleSystem6 : MonoBehaviour
 
     public void Win()
     {
+        if(upgradeBoatBrecher.UpgradeActive == false)
+        {
+            audioSwap.ReturnToDefault();
+        }
         audioSource.Play();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();

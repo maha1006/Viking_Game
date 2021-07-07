@@ -15,6 +15,7 @@ public class BattleSystem4 : MonoBehaviour
     float weaponDestination;
 
     public Destructible destructible;
+    //public AudioSwap audioSwap;
 
 
     public BoatController boatController;
@@ -136,6 +137,7 @@ public class BattleSystem4 : MonoBehaviour
 
     public void Win()
     {
+        //audioSwap.ReturnToDefault();
         audioSource.Play();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
