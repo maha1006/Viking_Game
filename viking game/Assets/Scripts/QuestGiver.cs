@@ -44,6 +44,7 @@ public class QuestGiver : MonoBehaviour
         gameObject.GetComponent<BoxCollider>().enabled = false;
         player.quest = quest;
         qc.AddQuestMarker(qm);
+        player.GoItem();
     }
     public void DeleteMarker()
     {

@@ -53,6 +53,7 @@ public class QuestGiver2 : MonoBehaviour
         quest.isActive = true;
         Trigger.GetComponent<CapsuleCollider>().enabled = false;
         player.quest = quest;
+        player.GoItem();
     }
 }
 
