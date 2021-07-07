@@ -12,6 +12,7 @@ public class BoatController : MonoBehaviour
     public float turnSpeed;
 
     public Rigidbody sphereRB;
+    public UpgradeBoatBrecher upgradeBoatBrecher;
 
 
     void Start()
@@ -28,9 +29,21 @@ public class BoatController : MonoBehaviour
     }
     public void StartPlayer()
     {
-        fwdSpeed = 50;
-        revSpeed = 30;
-        turnSpeed = 60;
+        if (upgradeBoatBrecher.UpgradeSegel == true)
+        {
+            fwdSpeed = 65;
+            revSpeed = 40;
+            turnSpeed = 80;
+        }
+        else
+        {
+            fwdSpeed = 50;
+            revSpeed = 30;
+            turnSpeed = 60;
+        }
+        
+
+       
     }
     void Update()
     {
