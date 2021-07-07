@@ -11,7 +11,7 @@ public class RemoveRessources1 : MonoBehaviour
 
     public void RemoveRessources2()
     {
-        ScoringSystem.theScore -= 20;
+        ScoringSystem.theScore -= 25;
     }
 
     public void RemoveRessources3()
