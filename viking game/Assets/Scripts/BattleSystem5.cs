@@ -122,7 +122,7 @@ public class BattleSystem5 : MonoBehaviour
 
     private void OnEnable()
     {
-        failTimer = 10f;
+        failTimer = 6f;
         Debug.Log("PrintOnEnable: script was enabled");
     }
 

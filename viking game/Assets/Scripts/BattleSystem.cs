@@ -58,7 +58,7 @@ public class BattleSystem : MonoBehaviour
     public void Start()
     {
         Resize();
-        //failTimer = 10f;
+        
         audioSource.Stop();
     }
 
