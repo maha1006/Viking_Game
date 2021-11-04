@@ -8,10 +8,14 @@ public class ShipBattleTrigger : MonoBehaviour
     public BattleSystem openBattleSystem;
     public PathFollower pathFollow;
     public BoatController boatController;
+    public GameObject impact;
     
 
 
-  
+    public void start()
+    {
+        impact.SetActive(false);
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -20,6 +24,13 @@ public class ShipBattleTrigger : MonoBehaviour
             openBattleSystem.gameObject.SetActive(true);
             pathFollow.StopShip();
             boatController.StopPlayer();
+            impact.SetActive(true);
         }
+    }
+
+
+    public void toggleOffImpact()
+    {
+        impact.SetActive(false);
     }
 }

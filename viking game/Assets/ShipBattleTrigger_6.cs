@@ -6,15 +6,16 @@ using UnityEngine;
 public class ShipBattleTrigger_6 : MonoBehaviour
 {
     public BattleSystem6 openBattleSystem;
-    public BoatController boatController;
     public PathFollower pathFollow;
+    public BoatController boatController;
+    public GameObject impact;
 
 
-    public void Destroy()
+
+    public void start()
     {
-        Destroy(this.gameObject);
+        impact.SetActive(false);
     }
-
 
     void OnTriggerEnter(Collider other)
     {
@@ -23,6 +24,13 @@ public class ShipBattleTrigger_6 : MonoBehaviour
             openBattleSystem.gameObject.SetActive(true);
             pathFollow.StopShip();
             boatController.StopPlayer();
+            impact.SetActive(true);
         }
+    }
+
+
+    public void toggleOffImpact()
+    {
+        impact.SetActive(false);
     }
 }

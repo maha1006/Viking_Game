@@ -22,6 +22,7 @@ public class BattleSystem6 : MonoBehaviour
     public BoatController boatController;
     public PathFollower pathFollower;
     public LootDrop lootDrop;
+    public ShipBattleTrigger_6 sbt;
 
     public GameObject enemyBoat;
     public QuestGoal questgoal;
@@ -133,6 +134,7 @@ public class BattleSystem6 : MonoBehaviour
         boatController.StartPlayer();
         pathFollower.StartShip();
         Debug.Log("You Lose");
+        sbt.toggleOffImpact();
         //enabled = false;
     }
 
@@ -151,6 +153,7 @@ public class BattleSystem6 : MonoBehaviour
         Debug.Log("You Win");
         questgoal.EnemyKilled();
         goBattle.GoBattle();
+        sbt.toggleOffImpact();
     }
 
         void Bow()

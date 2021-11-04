@@ -8,7 +8,12 @@ public class ShipBattleTrigger_4 : MonoBehaviour
     public BattleSystem4 openBattleSystem;
     public BoatController boatController;
     public PathFollower pathFollow;
+    public GameObject impact;
 
+    public void start()
+    {
+        impact.SetActive(false);
+    }
 
     public void Destroy()
     {
@@ -23,6 +28,14 @@ public class ShipBattleTrigger_4 : MonoBehaviour
             openBattleSystem.gameObject.SetActive(true);
             pathFollow.StopShip();
             boatController.StopPlayer();
+            impact.SetActive(true);
         }
     }
+
+
+    public void toggleOffImpact()
+    {
+        impact.SetActive(false);
+    }
 }
+
