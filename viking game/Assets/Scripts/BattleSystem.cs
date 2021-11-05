@@ -18,6 +18,8 @@ public class BattleSystem : MonoBehaviour
     public AudioSwap audioSwap;
     public ShipBattleTrigger sbt;
 
+    public GameObject LoseWindow;
+
 
 
     public BoatController boatController;
@@ -131,15 +133,29 @@ public class BattleSystem : MonoBehaviour
 
     private void Lose()
     {
+        //audioSwap.ReturnToDefault();
+        sbt.toggleOffImpact();
+        this.gameObject.SetActive(false);
+        //impact.setEnabled(false); 
+        //boatController.StartPlayer();
+        //pathFollower.StartShip();
+        LoseWindow.SetActive(true);
+        Debug.Log("You Lose");
+        //enabled = false;
+        
+    }
+
+    public void getaway()
+    {
+        LoseWindow.SetActive(false);
+        audioSwap.ReturnToDefault();
         sbt.toggleOffImpact();
         this.gameObject.SetActive(false);
         //impact.setEnabled(false); 
         boatController.StartPlayer();
         pathFollower.StartShip();
-        
+
         Debug.Log("You Lose");
-        //enabled = false;
-        
     }
 
     public void Win()
