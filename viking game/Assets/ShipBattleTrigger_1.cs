@@ -8,7 +8,6 @@ public class ShipBattleTrigger_1 : MonoBehaviour
     public BattleSystem1 openBattleSystem;
     public BoatController boatController;
     public GameObject impact;
-    public GameObject LoseWindow;
 
 
 
@@ -25,19 +24,6 @@ public class ShipBattleTrigger_1 : MonoBehaviour
             boatController.StopPlayer();
             impact.SetActive(true);
         }
-    }
-
-    public void tryagain()
-    {
-        LoseWindow.SetActive(false);
-        openBattleSystem.gameObject.SetActive(true);
-        boatController.StopPlayer();
-        impact.SetActive(true);
-    }
-
-    public void getaway()
-    {
-        openBattleSystem.getaway();
     }
 
 
