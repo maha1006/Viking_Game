@@ -11,8 +11,11 @@ public class BoatController : MonoBehaviour
     public float revSpeed;
     public float turnSpeed;
 
+    public TimerScript timerScript;
+
     public Rigidbody sphereRB;
     public UpgradeBoatBrecher upgradeBoatBrecher;
+
 
 
     void Start()
@@ -26,6 +29,7 @@ public class BoatController : MonoBehaviour
         fwdSpeed = 0;
         revSpeed = 0;
         turnSpeed = 0;
+        Debug.Log("stop player");
     }
     public void StartPlayer()
     {
@@ -60,6 +64,55 @@ public class BoatController : MonoBehaviour
 
         float newRotation = turnInput * turnSpeed * Time.deltaTime * Input.GetAxisRaw("Vertical");
         transform.Rotate(0, newRotation, 0, Space.World);
+
+        
+
+        if (Input.GetButton("Fire3"))
+        {
+            if (timerScript.timerBar.fillAmount > 0.9f)
+            {
+                if (timerScript.timerBar.fillAmount < 1f)
+                {
+                    fwdSpeed = 200;
+                    print("now");
+                }
+            }
+        }
+        else
+        {
+            if (upgradeBoatBrecher.UpgradeSegel == true)
+            {
+                fwdSpeed = 65;
+                revSpeed = 40;
+                turnSpeed = 80;
+                //Debug.Log("reset upgrade speed");
+            }
+            else
+            {
+                fwdSpeed = 50;
+                revSpeed = 30;
+                turnSpeed = 60;
+                //Debug.Log("reset default speed");
+            }
+        }
+
+        if (timerScript.timerBar.fillAmount < 0.05f)
+        {
+            if (upgradeBoatBrecher.UpgradeSegel == true)
+            {
+                fwdSpeed = 65;
+                revSpeed = 40;
+                turnSpeed = 80;
+                //Debug.Log("reset upgrade speed");
+            }
+            else
+            {
+                fwdSpeed = 50;
+                revSpeed = 30;
+                turnSpeed = 60;
+                //Debug.Log("reset default speed");
+            }
+        }
     }
 
     private void FixedUpdate()

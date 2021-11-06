@@ -15,6 +15,9 @@ public class BattleSystem7 : MonoBehaviour
     float weaponDestination;
 
     public AudioSwap audioSwap;
+    public ShipBattleTrigger_7 sbt;
+
+    public GameObject LoseWindow;
 
 
 
@@ -23,6 +26,7 @@ public class BattleSystem7 : MonoBehaviour
     public GameObject enemyBoat;
     public QuestGoal questgoal;
     public Player goBattle;
+    public GameObject collider;
 
 
 
@@ -126,26 +130,39 @@ public class BattleSystem7 : MonoBehaviour
 
     private void Lose()
     {
+        
+        LoseWindow.SetActive(true);
+        sbt.toggleOffImpact();
+        this.gameObject.SetActive(false);
+        Debug.Log("You Lose");
+    }
+
+    public void getaway()
+    {
+        audioSwap.ReturnToDefault();
+        sbt.toggleOffImpact();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
-        Debug.Log("You Lose");
-        //enabled = false;
     }
 
     public void Win()
     {
+        collider.SetActive(false);
         audioSource.Play();
         audioSwap.ReturnToDefault();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
+        //destructible.DestroyBoat();
+        sbt.toggleOffImpact();
         //Destroy(enemyBoat);
-        lol.enablegravity();
-        lol.Death();
         Debug.Log("You Win");
         questgoal.EnemyKilled();
         goBattle.GoBattle();
-        
+        lol.enablegravity();
+        lol.Death();
+
     }
+   
 
         void Bow()
     {

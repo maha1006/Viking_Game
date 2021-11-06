@@ -16,6 +16,8 @@ public class BattleSystem2 : MonoBehaviour
 
     public Destructible destructible;
 
+    public GameObject LoseWindow;
+
 
     public BoatController boatController;
     //public PathFollower pathFollower;
@@ -128,12 +130,17 @@ public class BattleSystem2 : MonoBehaviour
 
     private void Lose()
     {
+        LoseWindow.SetActive(true);
+        sbt.toggleOffImpact();
+        this.gameObject.SetActive(false);
+        Debug.Log("You Lose");
+    }
+
+    public void getaway()
+    {
+        sbt.toggleOffImpact();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
-        //pathFollower.StartShip();
-        Debug.Log("You Lose");
-        sbt.toggleOffImpact();
-        //enabled = false;
     }
 
     public void Win()
@@ -143,14 +150,15 @@ public class BattleSystem2 : MonoBehaviour
         boatController.StartPlayer();
         destructible.DestroyBoat();
         lootDrop.DropLoot();
+        sbt.toggleOffImpact();
         Destroy(enemyBoat);
         Debug.Log("You Win");
         questgoal.EnemyKilled();
         goBattle.GoBattle();
-        sbt.toggleOffImpact();
+
     }
 
-        void Bow()
+    void Bow()
     {
         if (Input.GetMouseButton(0))
         {

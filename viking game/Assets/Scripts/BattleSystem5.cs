@@ -18,6 +18,8 @@ public class BattleSystem5 : MonoBehaviour
     public AudioSwap audioSwap;
     public UpgradeBoatBrecher upgradeBoatBrecher;
 
+    public GameObject LoseWindow;
+
 
     public BoatController boatController;
     public PathFollower pathFollower;
@@ -130,35 +132,39 @@ public class BattleSystem5 : MonoBehaviour
 
     private void Lose()
     {
+        
+        LoseWindow.SetActive(true);
+        sbt.toggleOffImpact();
+        this.gameObject.SetActive(false);
+        Debug.Log("You Lose");
+    }
 
+    public void getaway()
+    {
+        audioSwap.ReturnToDefault();
+        sbt.toggleOffImpact();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
         pathFollower.StartShip();
-        Debug.Log("You Lose");
-        sbt.toggleOffImpact();
-        //enabled = false;
     }
 
     public void Win()
     {
-
-        if (upgradeBoatBrecher.UpgradeActive == false)
-        {
-            audioSwap.ReturnToDefault();
-        }
         audioSource.Play();
+        audioSwap.ReturnToDefault();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
         destructible.DestroyBoat();
         lootDrop.DropLoot();
+        sbt.toggleOffImpact();
         Destroy(enemyBoat);
         Debug.Log("You Win");
         questgoal.EnemyKilled();
-        sbt.toggleOffImpact();
         goBattle.GoBattle();
+
     }
 
-        void Bow()
+    void Bow()
     {
         if (Input.GetMouseButton(0))
         {

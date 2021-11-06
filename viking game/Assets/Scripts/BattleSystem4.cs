@@ -15,7 +15,9 @@ public class BattleSystem4 : MonoBehaviour
     float weaponDestination;
 
     public Destructible destructible;
-    //public AudioSwap audioSwap;
+    public AudioSwap audioSwap;
+
+    public GameObject LoseWindow;
 
 
     public BoatController boatController;
@@ -129,30 +131,39 @@ public class BattleSystem4 : MonoBehaviour
 
     private void Lose()
     {
+        
+        LoseWindow.SetActive(true);
+        sbt.toggleOffImpact();
+        this.gameObject.SetActive(false);
+        Debug.Log("You Lose");
+    }
+
+    public void getaway()
+    {
+        audioSwap.ReturnToDefault();
+        sbt.toggleOffImpact();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
         pathFollower.StartShip();
-        Debug.Log("You Lose");
-        //enabled = false;
-        sbt.toggleOffImpact();
     }
 
     public void Win()
     {
-        //audioSwap.ReturnToDefault();
         audioSource.Play();
+        audioSwap.ReturnToDefault();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
         destructible.DestroyBoat();
         lootDrop.DropLoot();
+        sbt.toggleOffImpact();
         Destroy(enemyBoat);
         Debug.Log("You Win");
         questgoal.EnemyKilled();
-        sbt.toggleOffImpact();
         goBattle.GoBattle();
+
     }
 
-        void Bow()
+    void Bow()
     {
         if (Input.GetMouseButton(0))
         {

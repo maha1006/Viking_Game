@@ -9,6 +9,8 @@ public class ShipBattleTrigger_5 : MonoBehaviour
     public PathFollower pathFollow;
     public BoatController boatController;
     public GameObject impact;
+    public GameObject LoseWindow;
+
 
 
 
@@ -28,9 +30,32 @@ public class ShipBattleTrigger_5 : MonoBehaviour
         }
     }
 
+    public void tryagain()
+    {
+        LoseWindow.SetActive(false);
+        openBattleSystem.gameObject.SetActive(true);
+        pathFollow.StopShip();
+        boatController.StopPlayer();
+        impact.SetActive(true);
+    }
+
+    public void getaway()
+    {
+        LoseWindow.SetActive(false);
+        openBattleSystem.getaway();
+    }
 
     public void toggleOffImpact()
     {
         impact.SetActive(false);
+    }
+
+    public void Update()
+    {
+        if (openBattleSystem.gameObject.activeInHierarchy == true)
+        {
+            boatController.StopPlayer();
+
+        }
     }
 }
