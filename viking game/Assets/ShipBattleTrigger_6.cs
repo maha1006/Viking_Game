@@ -49,4 +49,13 @@ public class ShipBattleTrigger_6 : MonoBehaviour
     {
         impact.SetActive(false);
     }
+
+    public void Update()
+    {
+        if (openBattleSystem.gameObject.activeInHierarchy == true)
+        {
+            boatController.StopPlayer();
+
+        }
+    }
 }
