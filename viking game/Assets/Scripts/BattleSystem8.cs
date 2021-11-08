@@ -19,7 +19,7 @@ public class BattleSystem8 : MonoBehaviour
 
     public GameObject LoseWindow;
 
-
+    public QuestGiverIceMain questGiverMain;
 
     public Leviathan leviathan;
     public BoatController boatController;
@@ -147,6 +147,7 @@ public class BattleSystem8 : MonoBehaviour
 
     public void Win()
     {
+        questGiverMain.DeleteMarkerLeviathan();
         collider.SetActive(false);
         audioSource.Play();
         audioSwap.ReturnToDefault();

@@ -19,6 +19,8 @@ public class BattleSystem7 : MonoBehaviour
 
     public GameObject LoseWindow;
 
+    public QuestGiverIceMain questGiverMain;
+
 
 
     public Kraken lol;
@@ -147,6 +149,7 @@ public class BattleSystem7 : MonoBehaviour
 
     public void Win()
     {
+        questGiverMain.DeleteMarkerKraken();
         collider.SetActive(false);
         audioSource.Play();
         audioSwap.ReturnToDefault();
