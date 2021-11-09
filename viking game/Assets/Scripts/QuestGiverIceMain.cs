@@ -9,6 +9,10 @@ public class QuestGiverIceMain : MonoBehaviour
     public Player player;
 
     public GameObject questWindow;
+    public GameObject questWindowNext;
+    public GameObject questWindowNext2;
+    public GameObject QuestWindowNotReached;
+    public GameObject QuestWindowNotReached2;
 
     public questcompass qc;
 
@@ -37,12 +41,14 @@ public class QuestGiverIceMain : MonoBehaviour
     public void CloseQuestWindow()
     {
         questWindow.SetActive(false);
-       
+
     }
 
     public void AcceptQuest()
     {
         questWindow.SetActive(false);
+        questWindowNext.SetActive(false);
+        questWindowNext2.SetActive(false);
         quest.isActive = true;
         gameObject.GetComponent<BoxCollider>().enabled = false;
         player.quest = quest;
@@ -54,8 +60,32 @@ public class QuestGiverIceMain : MonoBehaviour
     public void DeleteMarkerKraken()
     {
         qc.DeleteQuestMarker(qm_kraken);
-        
+
         Debug.Log("deleted muhahhar");
+    }
+
+    public void thankYou()
+    {
+        questWindow.SetActive(false);
+        questWindowNext.SetActive(true);
+    }
+    public void thankYou2()
+    {
+        questWindowNext.SetActive(false);
+        questWindowNext2.SetActive(true);
+    }
+
+    public void tellMeMore()
+    {
+        QuestWindowNotReached.SetActive(false);
+        QuestWindowNotReached2.SetActive(true);
+    }
+
+    public void addQuestMarker()
+    {
+        qc.AddQuestMarker(qm_kraken);
+        qc.AddQuestMarker(qm_wal);
+        qc.AddQuestMarker(qm_leviathan);
     }
 
     public void DeleteMarkerWal()
