@@ -160,7 +160,7 @@ public class BattleSystem7 : MonoBehaviour
         //Destroy(enemyBoat);
         Debug.Log("You Win");
         questgoal.EnemyKilled();
-        goBattle.GoBattle();
+        //goBattle.GoBattle();
         lol.enablegravity();
         lol.Death();
 

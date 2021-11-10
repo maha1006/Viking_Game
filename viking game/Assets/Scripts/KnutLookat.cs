@@ -16,5 +16,6 @@ public class KnutLookat : MonoBehaviour
     void Update()
     {
         transform.LookAt(Player.transform);
+        
     }
 }

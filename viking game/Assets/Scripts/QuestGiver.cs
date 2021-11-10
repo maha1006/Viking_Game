@@ -37,6 +37,11 @@ public class QuestGiver : MonoBehaviour
        
     }
 
+    public void disavleTrigger()
+    {
+        gameObject.GetComponent<BoxCollider>().enabled = false;
+    }
+
     public void AcceptQuest()
     {
         questWindow.SetActive(false);

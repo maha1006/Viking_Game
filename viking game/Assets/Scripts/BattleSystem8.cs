@@ -158,7 +158,7 @@ public class BattleSystem8 : MonoBehaviour
         //Destroy(enemyBoat);
         Debug.Log("You Win");
         questgoal.EnemyKilled();
-        goBattle.GoBattle();
+        //goBattle.GoBattle();
         leviathan.enablegravity();
         leviathan.Death();
 
