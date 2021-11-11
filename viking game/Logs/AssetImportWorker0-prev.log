@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1288; Version 2009; 64bit' Language: 'de' Physical Memory: 32689 MB
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'de' Physical Memory: 32689 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/_VD/WiSe_2021_2022/Wahlfaecher/Game_Design/GitHub/Viking_Game/viking game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50803
+49766
 Successfully changed project path to: D:/_VD/WiSe_2021_2022/Wahlfaecher/Game_Design/GitHub/Viking_Game/viking game
 D:/_VD/WiSe_2021_2022/Wahlfaecher/Game_Design/GitHub/Viking_Game/viking game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 114.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 111.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,43 +36,346 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001486 seconds.
+Registered in 0.005799 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 122.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 114.12 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
+- Completed reload, in  1.056 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003508 seconds.
+Registered in 0.027133 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 123.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 115.86 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.423 seconds
+- Completed reload, in  1.544 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.4 MB.
+System memory in use after: 236.5 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5964.
+Total: 2.992700 ms (FindLiveObjects: 0.478800 ms CreateObjectMapping: 0.122600 ms MarkObjects: 2.217800 ms  DeleteObjects: 0.172600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/QuestGiver1.cs
+  artifactKey: Guid(70fc71f1830310c498211ed97b2c567b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuestGiver1.cs using Guid(70fc71f1830310c498211ed97b2c567b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee527d50eb57e089a7be231541d054a') in 0.043281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.700140 seconds.
+  path: Assets/Scripts/QuestGiverWale.cs
+  artifactKey: Guid(70fc71f1830310c498211ed97b2c567b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuestGiverWale.cs using Guid(70fc71f1830310c498211ed97b2c567b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfef7f6bbe7e7c733f5abe3d2c6c405') in 0.001325 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.6 MB.
+System memory in use after: 225.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5966.
+Total: 3.016200 ms (FindLiveObjects: 0.478700 ms CreateObjectMapping: 0.122900 ms MarkObjects: 2.227500 ms  DeleteObjects: 0.186400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.802589 seconds.
+  path: Assets/Scripts/QuestGiverWale.cs
+  artifactKey: Guid(70fc71f1830310c498211ed97b2c567b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuestGiverWale.cs using Guid(70fc71f1830310c498211ed97b2c567b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6debe081a7bba66786f688326ab684dd') in 0.007264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 335.443895 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Cat/Cat.fbx
+  artifactKey: Guid(10c37af58eff3db4986601ce9ca8ee2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Cat/Cat.fbx using Guid(10c37af58eff3db4986601ce9ca8ee2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2c6d7f7e32120eb72e7caee0d37c72') in 0.247691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Female_Wench_01.prefab
+  artifactKey: Guid(5587957d61c949542b2e52dcca8a3bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Female_Wench_01.prefab using Guid(5587957d61c949542b2e52dcca8a3bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102cc4213020c2921298a22defaa8e4d') in 0.330123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Seaman_01.prefab
+  artifactKey: Guid(cd3b4bf6d7e36af41b2bc986a4ab13c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Seaman_01.prefab using Guid(cd3b4bf6d7e36af41b2bc986a4ab13c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5c314e16ac9b0cd86b63785e92fc28') in 0.037338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_01.prefab
+  artifactKey: Guid(fe1cffe6ed7a7ff4798b18c00b0358e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_01.prefab using Guid(fe1cffe6ed7a7ff4798b18c00b0358e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f398cd89ce4349aabaf28324cdfc3ff') in 0.018629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Rabbit/Rabbit_Idle.fbx
+  artifactKey: Guid(63b5250ea377b104a8c56fd4f3aa55bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Rabbit/Rabbit_Idle.fbx using Guid(63b5250ea377b104a8c56fd4f3aa55bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82030df8e8a6c230182daf5bb0ae4075') in 0.044956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_02_White.prefab
+  artifactKey: Guid(ee184764e771a3e4abd5783e82f1e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_02_White.prefab using Guid(ee184764e771a3e4abd5783e82f1e128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7913a6e462457654f0dc570ee30ca6') in 0.087533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Brown.prefab
+  artifactKey: Guid(a4abb96618b31684e9a3c18355167bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Brown.prefab using Guid(a4abb96618b31684e9a3c18355167bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff64154503839250dbe5f379e9d96c93') in 0.041282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Icon/CharacterTemplate.png
+  artifactKey: Guid(4bf53de60edd82845b73148913d56195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Icon/CharacterTemplate.png using Guid(4bf53de60edd82845b73148913d56195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840582ce430dbddcf763c5571e46e77e') in 0.042149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Captain_01.prefab
+  artifactKey: Guid(1cc323c6fbf66b44b87cf8f0d2378b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Captain_01.prefab using Guid(1cc323c6fbf66b44b87cf8f0d2378b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0170e78d0b020d801a0fc0bbf531460e') in 0.015952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_02_White.prefab
+  artifactKey: Guid(4794571d75bb57947a3f110fddd024e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_02_White.prefab using Guid(4794571d75bb57947a3f110fddd024e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed48331faf8bc93fd6f7dd71e424d19') in 0.011026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_02_Black.prefab
+  artifactKey: Guid(60a516d7b8bfd714b917bd2817fad388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_02_Black.prefab using Guid(60a516d7b8bfd714b917bd2817fad388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1190b1ac3e93aec9bdb5b0018d1f594') in 0.041455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Blackbeard_01.prefab
+  artifactKey: Guid(bc4987e2fb189ec4d96488b047577016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Blackbeard_01.prefab using Guid(bc4987e2fb189ec4d96488b047577016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba112388a52c77ac6505d80c69df0021') in 0.021965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Standard Assets/2D/Prefabs/CharacterRobotBoy.prefab
+  artifactKey: Guid(87a2357765801c34292d6718d8b4d770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/2D/Prefabs/CharacterRobotBoy.prefab using Guid(87a2357765801c34292d6718d8b4d770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5d51e07d2ce32d8e2c21089a8387ec') in 0.124456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Black.prefab
+  artifactKey: Guid(c4f65cc2474b3f1438e9c9389c03822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Black.prefab using Guid(c4f65cc2474b3f1438e9c9389c03822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bc72cde2867c569bb2555830362742') in 0.012110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Deckhand_01.prefab
+  artifactKey: Guid(298b6af3224b899419309b7d9e05ace7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_Deckhand_01.prefab using Guid(298b6af3224b899419309b7d9e05ace7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3b2e5d2f6bcd23fb483a7dce152e52') in 0.022525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/PolygonVikings/Textures/Characters_Black.png
+  artifactKey: Guid(e41e117d1e2ea754fb39bb4b2b9bdb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Textures/Characters_Black.png using Guid(e41e117d1e2ea754fb39bb4b2b9bdb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4be75b7b0ebff3b2c9ef8b268f634f2') in 0.014078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Female_Pirate_01.prefab
+  artifactKey: Guid(9f907d6996365d14f98f919ae28e1e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Female_Pirate_01.prefab using Guid(9f907d6996365d14f98f919ae28e1e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395ed1238d618a6e4ce8603d32edd4c7') in 0.022534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Black.prefab
+  artifactKey: Guid(7ddd5b27ab7654c40949fb96e05807cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Black.prefab using Guid(7ddd5b27ab7654c40949fb96e05807cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccd0144f3bf6404651d5382fa4479e6') in 0.011731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Brown.prefab
+  artifactKey: Guid(a22ae188c73ee1b4ab3736503e6a2506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Brown.prefab using Guid(a22ae188c73ee1b4ab3736503e6a2506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd3d4afef980b7cd243cd828eef4eef') in 0.016030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Gentleman_01.prefab
+  artifactKey: Guid(81a28c375b28168439a9968612b54c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Gentleman_01.prefab using Guid(81a28c375b28168439a9968612b54c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e625ff98ac7dffbae7ae83e724489f21') in 0.021106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_First_Mate_01.prefab
+  artifactKey: Guid(a0285b189c83e4240874d46f667867e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Pirate_First_Mate_01.prefab using Guid(a0285b189c83e4240874d46f667867e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aebf4a4c0dc49b750d11b7f16614e01') in 0.021735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_02_Brown.prefab
+  artifactKey: Guid(77583b79f48966b44bc141a814e51207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_02_Brown.prefab using Guid(77583b79f48966b44bc141a814e51207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254fba09ea903b91dd3f6642a6ccb185') in 0.011202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_03.prefab
+  artifactKey: Guid(f725d918129d69848a395da5d3d992a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_03.prefab using Guid(f725d918129d69848a395da5d3d992a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8186853afaa27d47a7a28737573d65be') in 0.027676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Brown.prefab
+  artifactKey: Guid(cb4c55143b7840648a254f9d2288de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_01_Brown.prefab using Guid(cb4c55143b7840648a254f9d2288de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d1e3bb46d07978c870ca2afe363c9b') in 0.012039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_02.prefab
+  artifactKey: Guid(27953ea55848f7a48897c38360d8b331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonPirates/Prefabs/Characters/Character_Skeleton_02.prefab using Guid(27953ea55848f7a48897c38360d8b331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcb141a433dcd839858fb5fe93a00b2') in 0.020137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Chief_01_White.prefab
+  artifactKey: Guid(83905b55894130240b8d1a2922bf2198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Chief_01_White.prefab using Guid(83905b55894130240b8d1a2922bf2198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68544ba908a89bf436c2fd3b35c0820') in 0.013447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cactus-big.prefab
+  artifactKey: Guid(8951f907d878f44288d2ea37b5a0f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Prefabs/Nature/cactus-big.prefab using Guid(8951f907d878f44288d2ea37b5a0f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc97689f67c97f48f35fcd5797077452') in 0.047205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Horse/Horse_Rig.fbx
+  artifactKey: Guid(13dc339e98cd43441afa6d390c08c477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Horse/Horse_Rig.fbx using Guid(13dc339e98cd43441afa6d390c08c477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c2f298968819612f977c5609dd26e5') in 0.023963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/polyperfect/Low Poly Animated Animals/- Meshes/Nature/cactus-big.fbx
+  artifactKey: Guid(38fe9b39d6e2d48e1b63a5393482e73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Animated Animals/- Meshes/Nature/cactus-big.fbx using Guid(38fe9b39d6e2d48e1b63a5393482e73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59436f7fb74cdb3e49a498044ed11ac') in 0.007262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat
+  artifactKey: Guid(848918a99d11f25f110026ca44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat using Guid(848918a99d11f25f110026ca44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df00c80a8ab9a9f74d1390846459383') in 0.041202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Chief_01_Black.prefab
+  artifactKey: Guid(5e2584a852ef63142b40e217afbf01bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Chief_01_Black.prefab using Guid(5e2584a852ef63142b40e217afbf01bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88da094cd5e1c51cb4acb63bac98cdcd') in 0.011109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Chief_01_Brown.prefab
+  artifactKey: Guid(12ca67ad4d842c44398557f35a3cd3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Chief_01_Brown.prefab using Guid(12ca67ad4d842c44398557f35a3cd3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff7ce50c056883f743e19d54f6d2837') in 0.011538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Black.prefab
+  artifactKey: Guid(1a114115d90d1424e81192fb8e9d1707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_02_Black.prefab using Guid(1a114115d90d1424e81192fb8e9d1707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f632f7069160afff13db0b9e03cf509') in 0.015692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_01_White.prefab
+  artifactKey: Guid(4077c14a264a5f14b8d66749500af8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Grunt_01_White.prefab using Guid(4077c14a264a5f14b8d66749500af8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fe39c9c4c397db61a7c7ac550423d6') in 0.010614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_01_White.prefab
+  artifactKey: Guid(4d2dad51c4104a64c92ad2c036c8f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Prefabs/Characters/Character_Warrior_01_White.prefab using Guid(4d2dad51c4104a64c92ad2c036c8f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d5e470a67973666b239147a1ecbe55') in 0.021755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/PolygonVikings/Textures/Characters_White.png
+  artifactKey: Guid(22527c76e5415df4c84b3127f6b42084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Textures/Characters_White.png using Guid(22527c76e5415df4c84b3127f6b42084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fb525cbb28de639ad0978cb791d34d') in 0.005410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/PolygonVikings/Textures/Characters_Brown.png
+  artifactKey: Guid(eeae1c0535cac704599b53f4b22ed279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonVikings/Textures/Characters_Brown.png using Guid(eeae1c0535cac704599b53f4b22ed279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c681ddfc30bedd9881600f3d99ab2b93') in 0.020998 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5485 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.1 MB.
-System memory in use after: 236.2 MB.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5961.
-Total: 3.766200 ms (FindLiveObjects: 0.518100 ms CreateObjectMapping: 0.482400 ms MarkObjects: 2.548000 ms  DeleteObjects: 0.217100 ms)
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5319 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.1 MB.
+System memory in use after: 249.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6117.
+Total: 3.653900 ms (FindLiveObjects: 0.525000 ms CreateObjectMapping: 0.291700 ms MarkObjects: 2.642100 ms  DeleteObjects: 0.194300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002982 seconds.
+Registered in 0.003404 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
@@ -89,27 +392,54 @@ UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library
 (Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.825 seconds
+- Completed reload, in  0.850 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5312 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.3 MB.
-System memory in use after: 225.4 MB.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.1 MB.
+System memory in use after: 249.2 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5963.
-Total: 3.693300 ms (FindLiveObjects: 0.522100 ms CreateObjectMapping: 0.323900 ms MarkObjects: 2.654300 ms  DeleteObjects: 0.192000 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6120.
+Total: 3.721800 ms (FindLiveObjects: 0.529100 ms CreateObjectMapping: 0.303400 ms MarkObjects: 2.680900 ms  DeleteObjects: 0.207700 ms)
 
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/DashUpgrade.cs
-  artifactKey: Guid(66ecf3f361c237a46b04a92b1f2d9bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DashUpgrade.cs using Guid(66ecf3f361c237a46b04a92b1f2d9bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1090f1a74122e5781b093b8c100606') in 0.029159 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003356 seconds.
+Registered in 0.002927 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.1 MB.
+System memory in use after: 249.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6123.
+Total: 3.230600 ms (FindLiveObjects: 0.496100 ms CreateObjectMapping: 0.139500 ms MarkObjects: 2.401000 ms  DeleteObjects: 0.193200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003134 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
@@ -126,25 +456,57 @@ UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library
 (Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
 
 Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.1 MB.
+System memory in use after: 249.2 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6126.
+Total: 3.170400 ms (FindLiveObjects: 0.508600 ms CreateObjectMapping: 0.163800 ms MarkObjects: 2.291700 ms  DeleteObjects: 0.205700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
 - Completed reload, in  0.843 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5312 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.4 MB.
-System memory in use after: 225.5 MB.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.1 MB.
+System memory in use after: 249.2 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5966.
-Total: 4.353400 ms (FindLiveObjects: 0.758900 ms CreateObjectMapping: 0.130900 ms MarkObjects: 3.240500 ms  DeleteObjects: 0.222000 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6129.
+Total: 4.230900 ms (FindLiveObjects: 0.521500 ms CreateObjectMapping: 0.143700 ms MarkObjects: 3.315100 ms  DeleteObjects: 0.249700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003552 seconds.
+Registered in 0.003128 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 BoatDemoRenderer is missing RendererFeatures
 This could be due to missing scripts or compile error.
@@ -158,25 +520,25 @@ UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library
 (Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
+- Completed reload, in  0.850 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5312 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.7 MB.
-System memory in use after: 225.8 MB.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.1 MB.
+System memory in use after: 249.3 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5969.
-Total: 4.161800 ms (FindLiveObjects: 0.576800 ms CreateObjectMapping: 0.318400 ms MarkObjects: 3.031900 ms  DeleteObjects: 0.233200 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6132.
+Total: 3.881100 ms (FindLiveObjects: 0.514100 ms CreateObjectMapping: 0.314400 ms MarkObjects: 2.835800 ms  DeleteObjects: 0.216200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003290 seconds.
+Registered in 0.003018 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 BoatDemoRenderer is missing RendererFeatures
 This could be due to missing scripts or compile error.
@@ -190,16 +552,240 @@ UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library
 (Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
+- Completed reload, in  0.835 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5312 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.7 MB.
-System memory in use after: 225.8 MB.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.1 MB.
+System memory in use after: 249.3 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5972.
-Total: 3.772100 ms (FindLiveObjects: 0.477000 ms CreateObjectMapping: 0.283700 ms MarkObjects: 2.788700 ms  DeleteObjects: 0.221700 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6135.
+Total: 3.471000 ms (FindLiveObjects: 0.520300 ms CreateObjectMapping: 0.148300 ms MarkObjects: 2.552600 ms  DeleteObjects: 0.249000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.2 MB.
+System memory in use after: 249.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6138.
+Total: 3.494400 ms (FindLiveObjects: 0.506200 ms CreateObjectMapping: 0.164700 ms MarkObjects: 2.596400 ms  DeleteObjects: 0.226300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.2 MB.
+System memory in use after: 249.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6141.
+Total: 3.287800 ms (FindLiveObjects: 0.502800 ms CreateObjectMapping: 0.156300 ms MarkObjects: 2.417700 ms  DeleteObjects: 0.210300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003346 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.2 MB.
+System memory in use after: 249.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6144.
+Total: 3.955700 ms (FindLiveObjects: 0.517400 ms CreateObjectMapping: 0.357500 ms MarkObjects: 2.853200 ms  DeleteObjects: 0.226800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003413 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.2 MB.
+System memory in use after: 249.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6147.
+Total: 3.467400 ms (FindLiveObjects: 0.556000 ms CreateObjectMapping: 0.162700 ms MarkObjects: 2.513500 ms  DeleteObjects: 0.234500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.2 MB.
+System memory in use after: 249.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6150.
+Total: 3.826500 ms (FindLiveObjects: 0.663100 ms CreateObjectMapping: 0.161400 ms MarkObjects: 2.725100 ms  DeleteObjects: 0.276000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.2 MB.
+System memory in use after: 249.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6153.
+Total: 3.721300 ms (FindLiveObjects: 0.606400 ms CreateObjectMapping: 0.284800 ms MarkObjects: 2.615700 ms  DeleteObjects: 0.213900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+BoatDemoRenderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:135)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs:59)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@11.0.0/Runtime/ScriptableRendererData.cs Line: 135)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5315 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 249.3 MB.
+System memory in use after: 249.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 6156.
+Total: 4.174900 ms (FindLiveObjects: 0.730500 ms CreateObjectMapping: 0.175900 ms MarkObjects: 3.037000 ms  DeleteObjects: 0.230400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

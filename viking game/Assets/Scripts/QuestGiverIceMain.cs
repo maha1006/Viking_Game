@@ -57,6 +57,9 @@ public class QuestGiverIceMain : MonoBehaviour
         qc.AddQuestMarker(qm_leviathan);
         player.GoItem();
     }
+    
+    
+
     public void DeleteMarkerKraken()
     {
         qc.DeleteQuestMarker(qm_kraken);

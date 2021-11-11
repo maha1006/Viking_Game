@@ -13,6 +13,7 @@ public class ActivateFlame : MonoBehaviour
 
     public GameObject WindowNext0Flames;
     public GameObject WindowNext1Flame;
+    public GameObject WindowNext1FlameExtra;
     public GameObject WindowNext2Flames;
     
     public bool WaleflameActive;
@@ -80,6 +81,7 @@ public class ActivateFlame : MonoBehaviour
     {
         WindowNext0Flames.SetActive(false);
         WindowNext1Flame.SetActive(false);
+        WindowNext1FlameExtra.SetActive(false);
         WindowNext2Flames.SetActive(false);
     }
 
@@ -96,6 +98,11 @@ public class ActivateFlame : MonoBehaviour
     public void OpenWindowNext1Flame()
     {
         WindowNext1Flame.SetActive(true);
+    }
+    
+    public void OpenWindowNext1FlameExtra()
+    {
+        WindowNext1FlameExtra.SetActive(true);
     }
     
     public void OpenWindowNext2Flames()
@@ -115,7 +122,7 @@ public class ActivateFlame : MonoBehaviour
             }
             else if (KrakenflameActive)
             {
-                OpenWindowNext1Flame();
+                OpenWindowNext1FlameExtra();
                 print("1");
             }
         }

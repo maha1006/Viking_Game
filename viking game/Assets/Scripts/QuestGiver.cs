@@ -51,6 +51,16 @@ public class QuestGiver : MonoBehaviour
         qc.AddQuestMarker(qm);
         player.GoItem();
     }
+    
+    public void AcceptSmithQuest()
+    {
+        questWindow.SetActive(false);
+        quest.isActive = true;
+        gameObject.GetComponent<BoxCollider>().enabled = false;
+        player.quest = quest;
+        player.GoItem();
+    }
+
     public void DeleteMarker()
     {
         qc.DeleteQuestMarker(qm);
