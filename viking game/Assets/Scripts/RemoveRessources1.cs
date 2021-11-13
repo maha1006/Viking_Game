@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class RemoveRessources1 : MonoBehaviour
 {
+    public int RemoveAmount;
+
+    public void RemoveRessourceAmount()
+    {
+        ScoringSystem.theScore -= RemoveAmount;
+    }
+
+
     public void RemoveRessources()
     {
         ScoringSystem.theScore -= 3;

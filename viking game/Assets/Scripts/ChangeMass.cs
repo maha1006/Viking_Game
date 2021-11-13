@@ -17,4 +17,9 @@ public class ChangeMass : MonoBehaviour
     {
         controllerSphere.mass = 13;
     }
+    
+    public void MassChange2()
+    {
+        controllerSphere.mass = 55;
+    }
 }

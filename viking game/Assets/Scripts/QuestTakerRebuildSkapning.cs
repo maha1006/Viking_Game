@@ -17,6 +17,7 @@ public class QuestTakerRebuildSkapning : MonoBehaviour
     public Text descriptionText;
 
     public QuestGiverSmith questGiverSmith;
+    public QuestGiverWerft questGiverWerft;
 
    
 

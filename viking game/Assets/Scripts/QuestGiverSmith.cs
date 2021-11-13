@@ -17,8 +17,8 @@ public class QuestGiverSmith : MonoBehaviour
     public questmarker QuestMarkerSmith;
     public questmarker QuestMarkerWerft;
 
-   
-    
+    public QuestGiverWerft questGiverWerft;
+
 
     public bool Upgrade1;
     public bool Upgrade2;
@@ -28,8 +28,9 @@ public class QuestGiverSmith : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (quest.isActive)
+            if (questGiverWerft.quest.isActive)
             {
+
                 unavailableWindow.SetActive(true);
             }
 
@@ -38,9 +39,11 @@ public class QuestGiverSmith : MonoBehaviour
                 OpenQuestWindow();
             }
             
+            
         }
             
     }
+
 
     void OnTriggerExit(Collider other)
     {
@@ -56,8 +59,9 @@ public class QuestGiverSmith : MonoBehaviour
     public void CloseQuestWindow()
     {
         questWindow.SetActive(false);
+        unavailableWindow.SetActive(false);
         //questWindowRebuild.SetActive(false);
-       
+
     }
 
     public void SpawnDockMen()

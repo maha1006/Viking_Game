@@ -55,6 +55,15 @@ public class QuestGiver2 : MonoBehaviour
         player.quest = quest;
         player.GoItem();
     }
+
+    public void Update()
+    {
+        if (questWindow.gameObject.activeInHierarchy == true)
+        {
+            boatController.StopPlayer();
+
+        }
+    }
 }
 
 

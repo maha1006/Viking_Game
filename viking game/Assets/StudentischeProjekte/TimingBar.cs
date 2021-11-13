@@ -15,5 +15,6 @@ public class TimingBar : MonoBehaviour
 
     void Update()
     {
+       // LookAt.position = Trigger.position;
     }
 }

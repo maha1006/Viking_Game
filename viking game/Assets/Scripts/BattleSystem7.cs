@@ -32,21 +32,21 @@ public class BattleSystem7 : MonoBehaviour
 
 
 
-    [SerializeField] float timerMultiplicator = 3f;
+    public float timerMultiplicator = 3f;
 
     float weaponSpeed;
-    [SerializeField] float smoothMotion = 1f;
+    public float smoothMotion = 1f;
 
 
     [SerializeField] Transform bow;
     float bowPosition;
-    [SerializeField] float bowSize = 0.1f;
-    [SerializeField] float bowPower = 0.5f;
+    public  float bowSize = 0.1f;
+    public float bowPower = 0.5f;
     float bowProgress;
     float bowPullVelocity;
-    [SerializeField] float bowPullPower = 0.01f;
-    [SerializeField] float bowGravityPower = 0.005f;
-    [SerializeField] float bowProgressDegradationPower = 0.1f;
+    public float bowPullPower = 0.01f;
+    public float bowGravityPower = 0.005f;
+    public float bowProgressDegradationPower = 0.1f;
 
     [SerializeField] SpriteRenderer bowSpriteRenderer;
 
@@ -54,7 +54,8 @@ public class BattleSystem7 : MonoBehaviour
 
     bool pause = false;
 
-    [SerializeField] float failTimer = 10f;
+    public float failTimer;
+    public float failTimerRefresh;
 
     public AudioSource audioSource;
 
@@ -125,7 +126,7 @@ public class BattleSystem7 : MonoBehaviour
 
     private void OnEnable()
     {
-        failTimer = 10f;
+        failTimer = failTimerRefresh;
         Debug.Log("PrintOnEnable: script was enabled");
     }
 

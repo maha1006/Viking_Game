@@ -13,6 +13,9 @@ public class QuestGiverRebuildSkapning : MonoBehaviour
     public GameObject Button;
     public GameObject Smithers;
     public GameObject WerftDude;
+    public GameObject UpgradeV0;
+    public GameObject UpgradeV1;
+    public GameObject UpgradeV2;
 
     public questcompass qc;
     public questmarker QuestMarkerSmith;
@@ -81,7 +84,41 @@ public class QuestGiverRebuildSkapning : MonoBehaviour
         gameObject.GetComponent<BoxCollider>().enabled = false;
     }
 
-   
+   public void UpgradeWerft()
+    {
+        Upgrade1 = true;
+    }
+    
+    public void UpgradeSmithy()
+    {
+        Upgrade2 = true;
+    }
+
+    public void UpgradeVersion1()
+    {
+        UpgradeV0.SetActive(false);
+        UpgradeV1.SetActive(true);
+        print("Verion1");
+    }
+    
+    public void UpgradeVersion2()
+    {
+        UpgradeV1.SetActive(false);
+        UpgradeV2.SetActive(true);
+        print("Verion2");
+    }
+
+    public void SkapningUpgrade()
+    {
+        if(UpgradeV1.activeInHierarchy == true)
+        {
+            UpgradeVersion2();
+        }
+        else
+        {
+            UpgradeVersion1();
+        }
+    }
 
     public void AcceptQuest()
     {
