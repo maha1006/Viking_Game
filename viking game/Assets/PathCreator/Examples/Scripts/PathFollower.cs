@@ -39,6 +39,11 @@ namespace PathCreation.Examples
             speed = 5;
             Debug.Log(" start");
         }
+        public void StartTornado()
+        {
+            speed = 10;
+            Debug.Log(" start");
+        }
 
         public void StartShipfast()
         {
