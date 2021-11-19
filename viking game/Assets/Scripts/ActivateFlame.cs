@@ -16,6 +16,7 @@ public class ActivateFlame : MonoBehaviour
     public GameObject WindowNext1FlameExtra;
     public GameObject WindowNext2Flames;
     
+    
     public bool WaleflameActive;
     public bool KrakenflameActive;
     public bool LeviathanflameActive;
@@ -32,21 +33,18 @@ public class ActivateFlame : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            FlameWindow.SetActive(true);
-        }
+        print("yippi");
+        FlameWindow.SetActive(true);
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
+        
             FlameWindow.SetActive(false);
-            CloseFlameWindow();
+            //CloseFlameWindow();
             print("lul");
             
-        }
+        
     }
 
     public void ActivateWaleFlame()

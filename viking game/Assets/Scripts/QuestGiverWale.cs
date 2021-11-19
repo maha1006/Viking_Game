@@ -12,6 +12,8 @@ public class QuestGiverWale : MonoBehaviour
 
     public ActivateFlame activateFlame;
 
+    public GameObject WindowNext3Flames;
+
     //public questcompass qc;
     //public questmarker qm;
 
@@ -26,7 +28,7 @@ public class QuestGiverWale : MonoBehaviour
                 {
                     if (activateFlame.LeviathanflameActive)
                     {
-                        activateFlame.OpenWindowNext2Flames();
+                        WindowNext3Flames.SetActive(true);
                     }
                     else
                     {

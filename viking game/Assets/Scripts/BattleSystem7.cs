@@ -16,8 +16,10 @@ public class BattleSystem7 : MonoBehaviour
 
     public AudioSwap audioSwap;
     public ShipBattleTrigger_7 sbt;
+    public QuestGiverRebuildSkapning questGiverRebuildSkapning;
 
     public GameObject LoseWindow;
+    public GameObject LoseWindow2;
 
     public QuestGiverIceMain questGiverMain;
 
@@ -133,11 +135,21 @@ public class BattleSystem7 : MonoBehaviour
 
     private void Lose()
     {
+        if(questGiverRebuildSkapning.Upgrade2)
+        {
+            LoseWindow2.SetActive(true);
+            sbt.toggleOffImpact();
+            this.gameObject.SetActive(false);
+            Debug.Log("You Lose");
+        }
+        else
+        {
+            LoseWindow.SetActive(true);
+            sbt.toggleOffImpact();
+            this.gameObject.SetActive(false);
+            Debug.Log("You Lose");
+        }
         
-        LoseWindow.SetActive(true);
-        sbt.toggleOffImpact();
-        this.gameObject.SetActive(false);
-        Debug.Log("You Lose");
     }
 
     public void getaway()

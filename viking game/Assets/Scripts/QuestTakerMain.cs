@@ -14,6 +14,7 @@ public class QuestTakerMain : MonoBehaviour
     public GameObject questWindow;
     public GameObject questWindowReached;
     public GameObject questWindow2;
+    public GameObject godsblessing;
     public ActivateFlame activateFlame;
 
     public Text titleText;
@@ -95,6 +96,10 @@ public class QuestTakerMain : MonoBehaviour
         gameObject.SetActive(true);
     }
 
+    public void obtainGodsBlessing()
+    {
+        godsblessing.SetActive(true);
+    }
 
     public void OpenQuestWindow()
     {

@@ -16,8 +16,11 @@ public class BattleSystem8 : MonoBehaviour
 
     public AudioSwap audioSwap;
     public ShipBattleTrigger_8 sbt;
+    public QuestGiverRebuildSkapning questGiverRebuildSkapning;
 
     public GameObject LoseWindow;
+    public GameObject LoseWindow2;
+    public GameObject Collider;
 
     public QuestGiverIceMain questGiverMain;
 
@@ -129,13 +132,24 @@ public class BattleSystem8 : MonoBehaviour
     }
 
 
+
     private void Lose()
     {
-        
-        LoseWindow.SetActive(true);
-        sbt.toggleOffImpact();
-        this.gameObject.SetActive(false);
-        Debug.Log("You Lose");
+        if (questGiverRebuildSkapning.Upgrade2)
+        {
+            LoseWindow2.SetActive(true);
+            sbt.toggleOffImpact();
+            this.gameObject.SetActive(false);
+            Debug.Log("You Lose");
+        }
+        else
+        {
+            LoseWindow.SetActive(true);
+            sbt.toggleOffImpact();
+            this.gameObject.SetActive(false);
+            Debug.Log("You Lose");
+        }
+
     }
 
     public void getaway()
@@ -156,6 +170,7 @@ public class BattleSystem8 : MonoBehaviour
         boatController.StartPlayer();
         //destructible.DestroyBoat();
         sbt.toggleOffImpact();
+        Collider.SetActive(false);
         //Destroy(enemyBoat);
         Debug.Log("You Win");
         questgoal.EnemyKilled();
