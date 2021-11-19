@@ -12,6 +12,7 @@ public class QuestGiverSmith : MonoBehaviour
     public GameObject unavailableWindow;
     public GameObject Smithers;
     public GameObject WerftDude;
+    public GameObject weaponupgrade;
 
     public questcompass qc;
     public questmarker QuestMarkerSmith;
@@ -77,6 +78,10 @@ public class QuestGiverSmith : MonoBehaviour
         gameObject.GetComponent<BoxCollider>().enabled = false;
     }
 
+    public void UpgradeWeaponSkin()
+    {
+        weaponupgrade.SetActive(true);
+    }
    
 
     public void AcceptQuest()

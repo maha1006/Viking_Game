@@ -10,6 +10,9 @@ public class QuestDash : MonoBehaviour
 
     public GameObject questWindow;
     public GameObject questWindowUnavailable;
+    public GameObject DashSailSkin;
+    public GameObject DefaultSail;
+    public GameObject UpgradedSail;
     public QuestGiverRebuildSkapning questGiverRebuildSkapning;
 
 
@@ -54,6 +57,14 @@ public class QuestDash : MonoBehaviour
     public void disavleTrigger()
     {
         gameObject.GetComponent<BoxCollider>().enabled = false;
+    }
+
+    public void UpgradeDashSkin()
+    {
+        DashSailSkin.SetActive(true);
+        DefaultSail.SetActive(false);
+        UpgradedSail.SetActive(false);
+
     }
 
     public void AcceptQuest()

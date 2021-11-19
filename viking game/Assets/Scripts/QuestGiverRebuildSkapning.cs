@@ -16,6 +16,10 @@ public class QuestGiverRebuildSkapning : MonoBehaviour
     public GameObject UpgradeV0;
     public GameObject UpgradeV1;
     public GameObject UpgradeV2;
+    public GameObject WerftUpgrade;
+    public GameObject SmithUpgrade;
+    public GameObject Citizen1;
+    public GameObject Citizen2;
 
     public questcompass qc;
     public questmarker QuestMarkerSmith;
@@ -68,6 +72,29 @@ public class QuestGiverRebuildSkapning : MonoBehaviour
        
     }
 
+
+    public void UpgradeCitizens()
+    {
+        
+            if (Upgrade1)
+            {
+                if (Upgrade2)
+                {
+                    Citizen1.SetActive(true);
+                }
+                else if (Upgrade1)
+                {
+                    Citizen2.SetActive(true);
+                }
+            }
+
+            else
+            {
+                  Citizen2.SetActive(true);
+            }
+        
+    }
+
     public void SpawnDockMen()
     {
         WerftDude.SetActive(true);
@@ -87,11 +114,14 @@ public class QuestGiverRebuildSkapning : MonoBehaviour
    public void UpgradeWerft()
     {
         Upgrade1 = true;
+        WerftUpgrade.SetActive(true);
     }
     
     public void UpgradeSmithy()
     {
         Upgrade2 = true;
+        SmithUpgrade.SetActive(true);
+
     }
 
     public void UpgradeVersion1()

@@ -19,13 +19,48 @@ public class QuestGiverWale : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
+        {
+            if (activateFlame.WaleflameActive)
+            {
+                if (activateFlame.KrakenflameActive)
+                {
+                    if (activateFlame.LeviathanflameActive)
+                    {
+                        activateFlame.OpenWindowNext2Flames();
+                    }
+                    else
+                    {
+                        OpenQuestWindow();
+                    }
+                }
+                else
+                {
+                    OpenQuestWindow();
+                    Debug.Log(" not reached");
+                }
+            }
+            else
+            {
+                OpenQuestWindow();
+                Debug.Log(" not reached");
+            }
+        }
+        else
+        {
             OpenQuestWindow();
+            Debug.Log(" _reached");
+        }
+
+        
     }
 
     void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
+        {
             CloseQuestWindow();
+            activateFlame.WindowNext2Flames.SetActive(false);
+        }
     }
 
 

@@ -14,6 +14,8 @@ public class QuestTakerMain : MonoBehaviour
     public GameObject questWindow;
     public GameObject questWindowReached;
     public GameObject questWindow2;
+    public ActivateFlame activateFlame;
+
     public Text titleText;
     public Text descriptionText;
 
@@ -25,14 +27,25 @@ public class QuestTakerMain : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
-        { 
-            if (questGiverMain.quest.isActive)
         {
-            Debug.Log(" active");
-            if (quest.isActive)
-            { 
-                OpenQuestWindowReached();
-                Debug.Log(" reached");
+            if (activateFlame.WaleflameActive)
+            {
+                if (activateFlame.KrakenflameActive)
+                {
+                    if (activateFlame.LeviathanflameActive)
+                    {
+                        OpenQuestWindowReached();
+                    }
+                    else
+                    {
+                        OpenQuestWindow();
+                    }
+                }
+                else
+                {
+                    OpenQuestWindow();
+                    Debug.Log(" not reached");
+                }
             }
             else
             {
@@ -40,13 +53,12 @@ public class QuestTakerMain : MonoBehaviour
                 Debug.Log(" not reached");
             }
         }
-
         else
-        { 
-            OpenQuestWindowReached();
-        Debug.Log(" _reached");
+        {
+            OpenQuestWindow();
+            Debug.Log(" _reached");
         }
-        }
+        
 
     }
 
@@ -69,7 +81,7 @@ public class QuestTakerMain : MonoBehaviour
 
         else
         {
-            CloseQuestWindowReached();
+            CloseQuestWindow();
             Debug.Log(" _reached");
         }
     }
