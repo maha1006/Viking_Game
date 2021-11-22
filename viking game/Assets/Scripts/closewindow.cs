@@ -11,7 +11,7 @@ public class closewindow : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Window.SetActive(false);
+            Window.SetActive(true);
         }
     }
     
@@ -19,7 +19,7 @@ public class closewindow : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Window.SetActive(true);
+            Window.SetActive(false);
         }
     }
 
