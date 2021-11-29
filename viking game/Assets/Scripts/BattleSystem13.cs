@@ -18,6 +18,7 @@ public class BattleSystem13 : MonoBehaviour
     public ShipBattleTrigger_13 sbt;
     public LootDrop lootDrop;
     //public QuestGiverRebuildSkapning questGiverRebuildSkapning;
+    public AudioControllScript audioControll;
 
     public GameObject LoseWindow;
 
@@ -144,6 +145,7 @@ public class BattleSystem13 : MonoBehaviour
 
     public void getaway()
     {
+        audioControll.BattleLose();
         audioSwap.ReturnToDefault();
         sbt.toggleOffImpact();
         this.gameObject.SetActive(false);
@@ -152,6 +154,8 @@ public class BattleSystem13 : MonoBehaviour
 
     public void Win()
     {
+        audioControll.Death();
+        audioControll.BattleLose();
         //questGiverMain.DeleteMarkerKraken();
         //collider.SetActive(false);
         audioSource.Play();

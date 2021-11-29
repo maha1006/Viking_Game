@@ -17,6 +17,7 @@ public class BattleSystem7 : MonoBehaviour
     public AudioSwap audioSwap;
     public ShipBattleTrigger_7 sbt;
     public QuestGiverRebuildSkapning questGiverRebuildSkapning;
+    public AudioControllScript audioControll;
 
     public GameObject LoseWindow;
     public GameObject LoseWindow2;
@@ -137,31 +138,36 @@ public class BattleSystem7 : MonoBehaviour
     {
         if(questGiverRebuildSkapning.Upgrade2)
         {
-            LoseWindow2.SetActive(true);
+            LoseWindow.SetActive(true);
             sbt.toggleOffImpact();
             this.gameObject.SetActive(false);
             Debug.Log("You Lose");
         }
         else
         {
-            LoseWindow.SetActive(true);
+            LoseWindow2.SetActive(true);
             sbt.toggleOffImpact();
             this.gameObject.SetActive(false);
             Debug.Log("You Lose");
+
         }
         
     }
 
     public void getaway()
     {
+        audioControll.BattleLose();
         audioSwap.ReturnToDefault();
         sbt.toggleOffImpact();
         this.gameObject.SetActive(false);
         boatController.StartPlayer();
+        
     }
 
     public void Win()
     {
+        audioControll.Death();
+        audioControll.BattleLose();
         questGiverMain.DeleteMarkerKraken();
         collider.SetActive(false);
         audioSource.Play();
