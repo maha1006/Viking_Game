@@ -167,7 +167,7 @@ public class BattleSystem12 : MonoBehaviour
         sbt.toggleOffImpact();
         //Destroy(enemyBoat);
         Debug.Log("You Win");
-        questgoal.EnemyKilled();
+        //questgoal.EnemyKilled();
         //goBattle.GoBattle();
         Kraken.enablegravity();
         Kraken.Death();
