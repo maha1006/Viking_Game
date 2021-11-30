@@ -33,16 +33,16 @@ public class ActivateFlame : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        print("yippi");
-        FlameWindow.SetActive(true);
+        //print("yippi");
+        //FlameWindow.SetActive(true);
     }
 
     void OnTriggerExit(Collider other)
     {
         
-            FlameWindow.SetActive(false);
+            //FlameWindow.SetActive(false);
             //CloseFlameWindow();
-            print("lul");
+            //print("lul");
             
         
     }
