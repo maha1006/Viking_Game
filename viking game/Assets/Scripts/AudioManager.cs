@@ -5,11 +5,14 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public AudioClip defaultAmbience;
+    public AudioClip defaultAmbienceIce;
     private AudioSource track01, track02;
     private bool isPlayingTrack01;
     public static AudioManager instance;
     public float audioVolumeDefault;
     public float audioVolumeShanty;
+
+    public UpgradeBoatBrecher upgradeBoatBrecher;
 
 
     private void Awake()
@@ -21,6 +24,8 @@ public class AudioManager : MonoBehaviour
     {
         track01 = gameObject.AddComponent<AudioSource>();
         track02 = gameObject.AddComponent<AudioSource>();
+        track01.loop = true;
+        track02.loop = true;
         isPlayingTrack01 = true;
         SwapTrack(defaultAmbience);
         track01.volume = audioVolumeDefault;
@@ -37,7 +42,14 @@ public class AudioManager : MonoBehaviour
 
     public void ReturnToDefault()
     {
-        SwapTrack(defaultAmbience);
+        if (upgradeBoatBrecher.UpgradeActive)
+        {
+            SwapTrack(defaultAmbienceIce);
+        }
+        else
+        {
+            SwapTrack(defaultAmbience);
+        }
     }
 
     private IEnumerator FadeTrack(AudioClip newClip)

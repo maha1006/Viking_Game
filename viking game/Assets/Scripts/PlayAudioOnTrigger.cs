@@ -14,4 +14,15 @@ public class PlayAudioOnTrigger : MonoBehaviour
             source.Play();
         }
     }
+
+    public void PlayAudioWait()
+    {
+        StartCoroutine(PlayWait());
+    }
+
+    IEnumerator PlayWait()
+    {
+        yield return new WaitForSeconds(2);
+        source.Play();
+    }
 }
