@@ -23,7 +23,8 @@ public class UpgradeWeaponry : MonoBehaviour
         Leviathan.timerMultiplicator = 1.3f;
         Leviathan.smoothMotion = 1.5f;
         Leviathan.bowPower = 0.17f;
-        Leviathan.bowGravityPower = 0.007f;
+        Leviathan.bowPullPower = 0.02f;
+        Leviathan.bowGravityPower = 0.01f;
         Leviathan.bowProgressDegradationPower = 0.4f;
         Leviathan.failTimer = 5f;
         Leviathan.failTimerRefresh = 5f;

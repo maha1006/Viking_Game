@@ -20,7 +20,7 @@ public class ChangeMass : MonoBehaviour
     
     public void MassChange2()
     {
-        controllerSphere.mass = 55;
+        controllerSphere.mass = 500;
     }
 
     void OnCollisionEnter(Collision c)
